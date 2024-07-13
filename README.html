@@ -172,7 +172,7 @@ pre code {
 <div id="introducción" class="section level1">
 <h1>Introducción</h1>
 <p>Este proyecto contiene los archivos de datos, el código y las figuras generadas para el artículo titulado xxxxxxxxxxxx xxxxxxxx xxxxx y que ha sido remitido a la revista XXXXXX XXXXX para su revisión por pares. Contiene la misma información que la que está contenida en el archivo <a href="README.pdf">README.pdf</a>.</p>
-<p>Este proyecto se encuentra alojado en la <em>Open Science Framework</em> (OSF) en la web <a href="https://osf.io/4cbsz/" class="uri">https://osf.io/4cbsz/</a> y en GitHub en la web <a href="https://github.com/dr46/sidoNet" class="uri">https://github.com/dr46/sidoNet</a>. <strong>Advertencia:</strong> nótese que los hipervínculos que contiene este documento y el archivo <a href="README.pdf">README.pdf</a> están referidos a la versión del proyecto disponible en GitHub. Por tanto, para navegar por el conjunto de archivos contenidos en este proyecto se recomienda utilizar la versión web del proyecto disponible en GitHub.</p>
+<p>Este proyecto se encuentra alojado en la <em>Open Science Framework</em> (OSF) en la web <a href="https://osf.io/4cbsz/" class="uri">https://osf.io/4cbsz/</a> y en GitHub en la web <a href="https://github.com/dr46/sidoNet" class="uri">https://github.com/dr46/sidoNet</a>. <strong>Advertencia:</strong> nótese que los hipervínculos que contiene este documento y el archivo <a href="README.pdf">README.pdf</a> están referidos a la versión del proyecto disponible en GitHub. Por tanto, para navegar por el conjunto de archivos contenidos en este proyecto se recomienda utilizar la versión web del proyecto disponible en GitHub. <em>Se hace notar</em> también que las tildes españolas pueden no verse correctamente en la web de la OSF. Sin embargo, las tildes son legibles perfectamente en las páginas de GitHub.</p>
 </div>
 <div id="carpetas-o-directorios-del-proyecto" class="section level1">
 <h1>Carpetas o directorios del proyecto</h1>
@@ -188,13 +188,51 @@ pre code {
 <h1>Archivos</h1>
 <div id="archivos-de-datos" class="section level2">
 <h2>Archivos de datos</h2>
+<ul>
+<li><a href="dat/cuerpo.csv">cuerpo.csv</a>: esta tabla contiene una única columna en la que se indica a qué cuerpo laboral pertenecía la población (<em>N</em> = 20766) de estudio en el momento en que se estimó el tamaño muestral necesario para llevar a cabo la investigación.</li>
+</ul>
 </div>
 <div id="archivos-de-código" class="section level2">
 <h2>Archivos de código</h2>
 <ul>
-<li>sidoNet.R: es el archivo de código maestro del proyecto. Desde este archivo se van ejecutando el resto de los archivos de código del proyecto.</li>
+<li><p><a href="sidoNet.R">sidoNet.R</a>: es el archivo de código maestro del proyecto. Desde este archivo se van ejecutando el resto de los archivos de código del proyecto.</p></li>
+<li><p><a href="stx/01_muestra.R">01_muestra.R</a>: este archivo realiza estimaciones del tamaño nuestral teniendo en cuenta los posibles conglomerados de docentes latentes y teniendo en cuenta el tamaño de los estratos poblacionales estudiados. Genera las tablas <a href="tab/muestra.conglomerados.csv">muestra.conglomerados.csv</a> y <a href="tab/muestra.estratificada.csv">muestra.estratificada.csv</a>.</p></li>
 </ul>
 </div>
+<div id="tablas" class="section level2">
+<h2>Tablas</h2>
+<ul>
+<li><p><a href="tab/exclusion.xlsx">exclusion.xlsx</a>: esta tabla contiene cinco columnas destinadas a clarificar el proceso de toma de decisiones para incluir (o no) los perfiles docentes correspondientes en el estudio. El significado de las columnas de la tabla es el siguiente:</p>
+<ul>
+<li>ex: indica si el perfil docente se excluye del estudio.</li>
+<li>mex: indica el motivo de exclusión del perfil docente.</li>
+<li>tpe: indica el tamaño poblacional del estrato (véase el archivo <a href="dat/cuerpo.csv">cuerpo.csv</a> y su descripción correspondiente).</li>
+<li>cue: cuerpo docente.<br />
+</li>
+<li>meap: muestra estimada para el estrato considerando un muestreo estratificado con afijación proporcional al cuerpo docente (León y Montero, 2003).</li>
+</ul></li>
+<li><p><a href="tab/muestra.conglomerados.csv">muestra.conglomerados.csv</a>: esta tabla contiene información sobre la estimación del tamaño muestral basada en el análisis previo de conglomerados latentes posibles. En todos los casos se considera una potencia (<span class="math inline">\(1-\beta\)</span>) del 80%, una variabilidad entre grupos reducida (1) y una variabilidad entre-grupos elevada (6) para obtener estimaciones de tamaños muestrales lo más conservadoras posible (<span class="math inline">\(\alpha = 0.05\)</span>, ver archivo <a href="stx/01_muestra.R">01_muestra.R</a>). Contiene tres columnas y el significado de cada una de ellas es el siguiente:</p>
+<ul>
+<li>conglomerados.latentes: indica el número posible de conglomerados (<span class="math inline">\(k\)</span>) latentes de personal docente en la muestra.</li>
+<li>tamaño.conglomerado: indica el tamaño muestral (<span class="math inline">\(n_k\)</span>) estimado por conglomerado latente.</li>
+<li>muestra.total.estimada: indica el tamaño muestral estimado para el estudio considerando el tamaño muestral del conglomerado latente y el número de conglomerados considerados (<span class="math inline">\(n_k \times k\)</span>).</li>
+</ul></li>
+<li><p><a href="tab/muestra.estratificada.csv">muestra.estratificada.csv</a>: esta tabla contiene cinco columnas que informan sobre el tamaño muestral estimado teniendo en cuenta un muestreo estratificado con afijación proporcional para los cuerpos docentes considerados en el estudio. El significado de cada una de las columnas es el siguiente:</p>
+<ul>
+<li>cuer: cuerpo docente considerado.</li>
+<li>Freq: número de personas en la población que pertenecen al cuerpo docente considerado.</li>
+<li>as: estimación del tamaño muestral para el cuerpo docente considerado considerando el criterio de afijación proporcional simple.</li>
+<li>pp: indica la proporción que suponen el número de personas incluida en el estrato considerado.</li>
+<li>me: muestra estimada para el estrato considerado teniendo en cuenta un muestreo con afijación proporcional por estratos.</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="referencias" class="section level1">
+<h1>Referencias</h1>
+<ul>
+<li>León, O. G., y Montero, I. (2003). <em>Métodos de investigación en psicología y educación</em>. McGraw Hill.</li>
+</ul>
 </div>
 
 
