@@ -127,7 +127,7 @@ Este proyecto contiene un conjunto de carpetas en las que se organizan los archi
 
 - [02_demo.R](stx/02_demo.R): este archivo ejecuta el análisis de las características sociodemográficas de la muestra del estudio. Este archivo genera las tablas [t.frec.csv](tab/t.frec.csv) y [edin.csv](tab/edin.csv) que son simultáneamente proyectadas en la consola de R. Este archivo también produce las figuras [edad.pdf](fig/edad.pdf) y [imf.pdf](fig/imf.pdf).
 
-- [fiabil.R](stx/fiabil.R): este archivo estima ...........
+- [03_fiabil.R](stx/03_fiabil.R): este archivo estima ...........
 
 
 ## Tablas
