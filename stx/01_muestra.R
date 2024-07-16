@@ -10,7 +10,7 @@ c5 <- power.anova.test(groups = 5, power = .8, sig.level = 0.05, between.var = 1
 
 nn <- c(c2$n, c3$n, c4$n, c5$n)
 muestra.conglomerados <- data.frame(conglomerados.latentes = 2:5, 
-           tamaño.conglomerado = nn, 
+           tamanyo.conglomerado = nn, 
            muestra.total.estimada = nn*2:5)
 
 write.csv(muestra.conglomerados, "tab/muestra.conglomerados.csv")
@@ -45,3 +45,4 @@ muestra.estratificada <- cbind(ex.cuer, as, pp, me)
 write.csv(muestra.estratificada, "tab/muestra.estratificada.csv")
 
 rm(list =ls())
+

@@ -189,7 +189,111 @@ pre code {
 <div id="archivos-de-datos" class="section level2">
 <h2>Archivos de datos</h2>
 <ul>
-<li><a href="dat/cuerpo.csv">cuerpo.csv</a>: esta tabla contiene una única columna en la que se indica a qué cuerpo laboral pertenecía la población (<em>N</em> = 20766) de estudio en el momento en que se estimó el tamaño muestral necesario para llevar a cabo la investigación.</li>
+<li><p><a href="dat/cuerpo.csv">cuerpo.csv</a>: esta tabla contiene una única columna en la que se indica a qué cuerpo laboral pertenecía la población (<em>N</em> = 20766) de estudio en el momento en que se estimó el tamaño muestral necesario para llevar a cabo la investigación.</p></li>
+<li><p><a href="dat/demo.csv">demo.csv</a>: esta tabla contiene información sociodemográfica de la muestra de participantes. Las variables que incluye, así como los posibles valores que pueden asumir, son las siguientes:</p>
+<ul>
+<li>id: código de identificación del participante.</li>
+<li>sex: indica si el participante es mujer (0) u hombre (1).</li>
+<li>ec: indica el estado civil del participante. Sus posibles categorías son:
+<ul>
+<li>Casado/casada.</li>
+<li>Convivencia en pareja.</li>
+<li>Divorciado/divorciada.</li>
+<li>Pareja estable.</li>
+<li>Soltero/soltera.</li>
+<li>Viudo/viuda.</li>
+</ul></li>
+<li>nh: indica el número de hijos del participante.</li>
+<li>ne: indica el nivel de estudios del participante. Los valores posibles que asume esta variable son los siguientes.
+<ul>
+<li>Diplomatura.</li>
+<li>Doctorado.</li>
+<li>Formación profesional.</li>
+<li>Grado.</li>
+<li>Licenciatura.</li>
+</ul></li>
+<li>esp: especialidad del nivel de estudios. Esta variable asume los siguientes valores con sus correspondientes significados:
+<ul>
+<li>1: Magisterio.</li>
+<li>2: Filosofía y Letras.</li>
+<li>3: Psicología y logopedia.</li>
+<li>4: Filología Hispánica.</li>
+<li>5: Psicología.</li>
+<li>6: Geografía e Historia.</li>
+<li>7: Educación Infantil.</li>
+<li>8: Inglés.</li>
+<li>9: Matemáticas y ciencias.</li>
+<li>10: Traducción e interpretación.</li>
+<li>11: Física.</li>
+<li>12: Educación Física.</li>
+<li>13: Química.</li>
+<li>14: Bellas Artes.</li>
+<li>15: Francés.</li>
+<li>16: Administración y finanzas.</li>
+<li>17: Ingeniería.</li>
+<li>18: Biología.</li>
+<li>19: Pedagogía.</li>
+<li>20: Música.</li>
+</ul></li>
+<li>mp: indica la respuesta a la pregunta <em>¿Ha cursado el título de Máster del Profesorado?</em> cuyas posibles respuestas son:
+<ul>
+<li>0: No.</li>
+<li>1: Sí.</li>
+</ul></li>
+<li>rol: indica el rol que desempeña el participante en su centro de trabajo y asume los siguientes posibles valores.
+<ul>
+<li>Dirección.</li>
+<li>Educación Infantil.</li>
+<li>Educación Primaria.</li>
+<li>Educación Secundaria.</li>
+<li>Jefatura de Estudios.</li>
+<li>Orientación.</li>
+<li>Otro.</li>
+<li>Secretaría.</li>
+</ul></li>
+<li>imf: indica los ingresos netos mensuales en el núcleo familiar.</li>
+<li>cue: cuerpo docente al que pertenece el participante. Las categoría de respuesta presentes en esta variable son las siguientes:
+<ul>
+<li>Cuerpo de Catedráticos de Enseñanza Secundaria.</li>
+<li>Cuerpo de Maestros.</li>
+<li>Cuerpo de Profesores de Enseñanza Secundaria.</li>
+<li>Cuerpo de Profesores Técnicos de Formación.</li>
+<li>Otro.</li>
+<li>Profesores de Religión (Primaria).</li>
+<li>Profesores de Religión (Secundaria).</li>
+<li>Profesores Especialistas.</li>
+</ul></li>
+</ul></li>
+<li><p><a href="dat/d21.csv">d21.csv</a>: esta tabla contiene las respuestas a la escala abreviada de depresión, ansiedad y estés (DASS-21) de <a href="https://doi.org/10.1016/0005-7967(94)00075-U">Lovibond y Lovibond (1995)</a>. Este archivo tiene cuatro conjuntos de variables. El significado de las variables es el siguiente:</p>
+<ul>
+<li>id: es el identificador de cada uno de los casos del estudio.</li>
+<li>de e1 a e7: se refieren a los ítems de estrés del DASS-21.</li>
+<li>de a1 a a7: se refieren a los ítems de ansiedad del DASS-21.</li>
+<li>de d1 a d7: se refieren a los ítems de depresión del DASS-21.</li>
+</ul>
+<p>El significado de cada una de las respuestas a estos ítems es el siguiente:</p>
+<ul>
+<li>0: no aplicable a mi.</li>
+<li>1: un poco aplicable a mí o durante parte del tiempo.</li>
+<li>2: bastante aplicable a mí, o durante una buena parte del tiempo.</li>
+<li>3: muy aplicable a mí, o la mayor parte del tiempo.</li>
+</ul></li>
+<li><p><a href="dat/cesqt.csv">cesqt.csv</a>: esta tabla contiene las respuestas a la escala para la evaluación del síndrome de quemarse por el trabajo (CESQT-PE) de <a href="https://www.medigraphic.com/cgi-bin/new/resumenI.cgi?IDARTICULO=21721">Gil-Monte et al. (2009)</a>. Esta matriz de datos contiene 21 columnas que se agrupan en cinco bloques. El significado de cada una de las columnas es el siguiente:</p>
+<ul>
+<li>id: es el identificador de cada uno de los casos del estudio.</li>
+<li>de il1 a il5: se refieren a los ítems de la dimensión de ilusión por el trabajo del CESQT-PE.</li>
+<li>de in1 a in6: se refieren a los ítems de la dimensión de indolencia del CESQT-PE.</li>
+<li>de cu1 a cu5: se refieren a los ítems de la dimensión de culpa del CESQT-PE.</li>
+<li>de de1 a de4: se refieren a los ítems de desgaste psíquico del CESQT-PE.</li>
+</ul>
+<p>Las opciones de respuesta para cada una de estas variables oscilan entre 0 y 4 y su significado es el siguiente:</p>
+<ul>
+<li>0: nunca.</li>
+<li>1: raramente: algunas veces al año.</li>
+<li>2: a veces: algunas veces al mes.</li>
+<li>3: frecuentemente: algunas veces por semana.</li>
+<li>4: muy frecuentemente: todos los días.</li>
+</ul></li>
 </ul>
 </div>
 <div id="archivos-de-código" class="section level2">
@@ -197,6 +301,8 @@ pre code {
 <ul>
 <li><p><a href="sidoNet.R">sidoNet.R</a>: es el archivo de código maestro del proyecto. Desde este archivo se van ejecutando el resto de los archivos de código del proyecto.</p></li>
 <li><p><a href="stx/01_muestra.R">01_muestra.R</a>: este archivo realiza estimaciones del tamaño nuestral teniendo en cuenta los posibles conglomerados de docentes latentes y teniendo en cuenta el tamaño de los estratos poblacionales estudiados. Genera las tablas <a href="tab/muestra.conglomerados.csv">muestra.conglomerados.csv</a> y <a href="tab/muestra.estratificada.csv">muestra.estratificada.csv</a>.</p></li>
+<li><p><a href="stx/02_demo.R">02_demo.R</a>: este archivo ejecuta el análisis de las características sociodemográficas de la muestra del estudio. Este archivo genera las tablas <a href="tab/t.frec.csv">t.frec.csv</a> y <a href="tab/edin.csv">edin.csv</a> que son simultáneamente proyectadas en la consola de R. Este archivo también produce las figuras <a href="fig/edad.pdf">edad.pdf</a> y <a href="fig/imf.pdf">imf.pdf</a>.</p></li>
+<li><p><a href="stx/fiabil.R">fiabil.R</a>: este archivo estima ………..</p></li>
 </ul>
 </div>
 <div id="tablas" class="section level2">
@@ -214,7 +320,7 @@ pre code {
 <li><p><a href="tab/muestra.conglomerados.csv">muestra.conglomerados.csv</a>: esta tabla contiene información sobre la estimación del tamaño muestral basada en el análisis previo de conglomerados latentes posibles. En todos los casos se considera una potencia (<span class="math inline">\(1-\beta\)</span>) del 80%, una variabilidad entre grupos reducida (1) y una variabilidad entre-grupos elevada (6) para obtener estimaciones de tamaños muestrales lo más conservadoras posible (<span class="math inline">\(\alpha = 0.05\)</span>, ver archivo <a href="stx/01_muestra.R">01_muestra.R</a>). Contiene tres columnas y el significado de cada una de ellas es el siguiente:</p>
 <ul>
 <li>conglomerados.latentes: indica el número posible de conglomerados (<span class="math inline">\(k\)</span>) latentes de personal docente en la muestra.</li>
-<li>tamaño.conglomerado: indica el tamaño muestral (<span class="math inline">\(n_k\)</span>) estimado por conglomerado latente.</li>
+<li>tamanyo.conglomerado: indica el tamaño muestral (<span class="math inline">\(n_k\)</span>) estimado por conglomerado latente.</li>
 <li>muestra.total.estimada: indica el tamaño muestral estimado para el estudio considerando el tamaño muestral del conglomerado latente y el número de conglomerados considerados (<span class="math inline">\(n_k \times k\)</span>).</li>
 </ul></li>
 <li><p><a href="tab/muestra.estratificada.csv">muestra.estratificada.csv</a>: esta tabla contiene cinco columnas que informan sobre el tamaño muestral estimado teniendo en cuenta un muestreo estratificado con afijación proporcional para los cuerpos docentes considerados en el estudio. El significado de cada una de las columnas es el siguiente:</p>
@@ -225,13 +331,37 @@ pre code {
 <li>pp: indica la proporción que suponen el número de personas incluida en el estrato considerado.</li>
 <li>me: muestra estimada para el estrato considerado teniendo en cuenta un muestreo con afijación proporcional por estratos.</li>
 </ul></li>
+<li><p><a href="tab/t.frec.csv">t.frec.csv</a>: esta tabla contiene las frecuencias absolutas y relativas (como porcentajes) para las variables relativas al sexo, al estado civil, al número de hijos al nivel de estudios y al rol que asumen los participantes en su centro educativo. La tabla tiene tres columnas cuyos significados son:</p>
+<ul>
+<li>fa: frecuencia absoluta.</li>
+<li>fr: porcentaje.</li>
+</ul></li>
+<li><p><a href="tab/edin.csv">edin.csv</a>: esta tabla contiene estadísticos descriptivos para la edad y para los ingresos mensuales familiares (imf) del participante. Las filas de la tabla contienen la siguiente información:</p>
+<ul>
+<li>0%: valor mínimo de la variable.</li>
+<li>25%: percentil 25 de la variable.</li>
+<li>50%: percentil 50 de la variable.</li>
+<li>75%: percentil 75 de la variable.</li>
+<li>10%: valor máximo de la variable.</li>
+<li>M: media de la variable.</li>
+<li>DT: desviación típica de la variable.</li>
+</ul></li>
+</ul>
+</div>
+<div id="figuras" class="section level2">
+<h2>Figuras</h2>
+<ul>
+<li><p><a href="fig/edad.pdf">edad.pdf</a>: es el histograma de la edad.</p></li>
+<li><p><a href="fig/imf.pdf">imf.pdf</a>: es el histograma de la los ingresos medios familiares de los participantes.</p></li>
 </ul>
 </div>
 </div>
 <div id="referencias" class="section level1">
 <h1>Referencias</h1>
 <ul>
-<li>León, O. G., y Montero, I. (2003). <em>Métodos de investigación en psicología y educación</em>. McGraw Hill.</li>
+<li><p>Gil-Monte, P. R., Unda Rojas, S., y Sandoval Ocaña, J. I. (2009). Validez factorial del “Cuestionario para la Evaluación del Síndrome de Quemarse por el Trabajo”” (CESQT) en una muestra de maestros mexicanos. <em>Salud Mental, 32</em>(3), 205-214.</p></li>
+<li><p>León, O. G., y Montero, I. (2003). <em>Métodos de investigación en psicología y educación</em>. McGraw Hill.</p></li>
+<li><p>Lovibond, P. F., y Lovibond, S. H. (1995). The structure of negative emotional states: Comparison of the Depression Anxiety Stress Scales (DASS) with the Beck Depression and Anxiety Inventories. <em>Behaviour Research and Therapy, 33</em>(3), 335-343. <a href="https://doi.org/10.1016/0005-7967(94)00075-U" class="uri">https://doi.org/10.1016/0005-7967(94)00075-U</a></p></li>
 </ul>
 </div>
 

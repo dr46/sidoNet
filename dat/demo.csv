@@ -1,0 +1,258 @@
+id;sex;edad;ec;nh;ne;esp;mp;rol;imf;cue
+1;0;35;Casado/casada;0;Diplomatura;1;0;Otro;3400;Cuerpo de Maestros
+2;0;58;Casado/casada;0;Licenciatura;2;0;Orientación;5000;Cuerpo de Profesores de Enseñanza Secundaria
+3;0;40;Viudo/viuda;2;Diplomatura;1;0;Educación Primaria;2700;Cuerpo de Maestros
+4;0;37;Casado/casada;3;Diplomatura;1;0;Secretaría;;Cuerpo de Maestros
+5;0;37;Convivencia en pareja;0;Master;1;1;Otro;1400;Cuerpo de Maestros
+6;0;37;Soltero/soltera;0;Diplomatura;1;0;Educación Primaria;;Cuerpo de Maestros
+7;0;53;Casado/casada;2;Licenciatura;3;0;Orientación;4000;Cuerpo de Profesores de Enseñanza Secundaria
+8;0;42;Soltero/soltera;0;Diplomatura;1;0;Otro;1500;Cuerpo de Maestros
+9;0;33;Casado/casada;0;Diplomatura;1;0;Educación Primaria;3600;Cuerpo de Maestros
+10;0;35;Casado/casada;1;Licenciatura;4;1;Educación Secundaria;2500;Cuerpo de Profesores de Enseñanza Secundaria
+11;0;27;Casado/casada;0;Grado;5;0;Jefatura de Estudios;2500;Profesores Especialistas
+12;0;48;Casado/casada;2;Licenciatura;2;0;Educación Secundaria;4000;Cuerpo de Profesores de Enseñanza Secundaria
+13;1;52;Casado/casada;1;Licenciatura;4;1;Jefatura de Estudios;;Cuerpo de Profesores de Enseñanza Secundaria
+14;0;38;Casado/casada;1;Licenciatura;4;0;Educación Secundaria;3000;Cuerpo de Profesores de Enseñanza Secundaria
+15;0;37;Convivencia en pareja;1;Licenciatura;4;1;Educación Secundaria;3500;Cuerpo de Profesores de Enseñanza Secundaria
+16;0;51;Casado/casada;2;Licenciatura;4;0;Educación Secundaria;6000;Cuerpo de Profesores de Enseñanza Secundaria
+17;0;33;Convivencia en pareja;0;Master;1;0;Otro;2500;Cuerpo de Maestros
+18;1;34;Soltero/soltera;0;Diplomatura;1;0;Educación Primaria;1700;Cuerpo de Maestros
+19;0;38;Pareja estable;0;Diplomatura;1;0;Educación Primaria;1780;Cuerpo de Maestros
+20;0;49;Casado/casada;3;Diplomatura;1;0;Jefatura de Estudios;5000;Cuerpo de Maestros
+21;0;58;Casado/casada;2;Diplomatura;1;0;Dirección;6000;Cuerpo de Maestros
+22;0;33;Casado/casada;0;Diplomatura;1;0;Educación Infantil;2800;Cuerpo de Maestros
+23;0;32;Convivencia en pareja;0;Diplomatura;1;0;Educación Primaria;3000;Cuerpo de Maestros
+24;0;43;Soltero/soltera;0;Diplomatura;1;1;Educación Secundaria;;Cuerpo de Maestros
+25;0;33;Casado/casada;1;Grado;1;0;Educación Primaria;;Cuerpo de Maestros
+26;0;40;Casado/casada;2;Licenciatura;6;1;Educación Secundaria;;Cuerpo de Profesores de Enseñanza Secundaria
+27;1;34;Convivencia en pareja;0;Diplomatura;1;0;Educación Primaria;3600;Cuerpo de Maestros
+28;0;44;Casado/casada;2;Diplomatura;1;0;Educación Primaria;3000;Cuerpo de Maestros
+29;1;39;Convivencia en pareja;0;Licenciatura;7;0;Otro;620;Cuerpo de Profesores Técnicos de Formación
+30;0;34;Casado/casada;2;Diplomatura;7;0;Educación Infantil;1500;Cuerpo de Maestros
+31;0;28;Soltero/soltera;0;Grado;8;0;Educación Primaria;;Cuerpo de Maestros
+32;0;29;Pareja estable;0;Master;1;0;Educación Primaria;;Profesores Especialistas
+33;1;37;Casado/casada;1;Licenciatura;6;1;Educación Secundaria;;Cuerpo de Profesores de Enseñanza Secundaria
+34;0;47;Casado/casada;1;Diplomatura;1;0;Educación Primaria;;Cuerpo de Maestros
+35;0;30;Soltero/soltera;0;Grado;1;0;Educación Primaria;;Cuerpo de Maestros
+36;0;24;Pareja estable;0;Grado;1;0;Educación Primaria;2000;Cuerpo de Maestros
+37;1;49;Divorciado/divorciada;2;Diplomatura;1;0;Educación Primaria;1900;Cuerpo de Maestros
+38;0;33;Casado/casada;2;Grado;1;0;Educación Primaria;;Cuerpo de Maestros
+39;1;35;Pareja estable;0;Master;6;1;Educación Secundaria;2000;Cuerpo de Profesores de Enseñanza Secundaria
+40;0;25;Soltero/soltera;0;Master;1;0;Educación Primaria;1000;Cuerpo de Maestros
+41;0;35;Soltero/soltera;0;Diplomatura;1;0;Educación Primaria;1800;Cuerpo de Maestros
+42;0;33;Convivencia en pareja;0;Diplomatura;1;0;Educación Primaria;1700;Cuerpo de Maestros
+43;1;33;Pareja estable;0;Grado;1;0;Educación Primaria;1200;Cuerpo de Maestros
+44;0;25;Soltero/soltera;0;Grado;1;0;Educación Infantil;1100;Cuerpo de Maestros
+45;0;38;Casado/casada;2;Diplomatura;1;0;Educación Primaria;3000;Cuerpo de Maestros
+46;1;54;Casado/casada;2;Diplomatura;1;0;Educación Infantil;2300;Cuerpo de Maestros
+47;0;56;Casado/casada;3;Diplomatura;9;0;Educación Infantil;5600;Cuerpo de Maestros
+48;1;55;Casado/casada;2;Licenciatura;1;0;Educación Infantil;4000;Cuerpo de Maestros
+49;0;35;Pareja estable;0;Master;1;1;Educación Primaria;;Cuerpo de Maestros
+50;0;54;Casado/casada;2;Diplomatura;1;1;Educación Infantil;2400;Cuerpo de Maestros
+51;0;31;Soltero/soltera;0;Licenciatura;1;0;Educación Infantil;2800;Cuerpo de Maestros
+52;0;45;Convivencia en pareja;2;Licenciatura;8;0;Educación Primaria;2000;Cuerpo de Maestros
+53;0;36;Casado/casada;2;Diplomatura;1;0;Educación Infantil;;Cuerpo de Maestros
+54;0;38;Soltero/soltera;0;Master;1;0;Educación Infantil;1800;Cuerpo de Maestros
+55;0;28;Soltero/soltera;0;Licenciatura;1;0;Educación Primaria;6000;Cuerpo de Maestros
+56;0;27;Soltero/soltera;0;Master;10;1;Educación Secundaria;;Cuerpo de Profesores de Enseñanza Secundaria
+57;0;55;Casado/casada;2;Licenciatura;4;1;Educación Secundaria;7000;Cuerpo de Profesores de Enseñanza Secundaria
+58;0;52;Casado/casada;3;Licenciatura;1;0;Educación Secundaria;4500;Cuerpo de Maestros
+59;0;30;Soltero/soltera;0;Master;4;1;Educación Secundaria;2500;Cuerpo de Profesores de Enseñanza Secundaria
+60;0;34;Pareja estable;0;Licenciatura;11;1;Educación Secundaria;2700;Cuerpo de Profesores de Enseñanza Secundaria
+61;1;31;Soltero/soltera;0;Master;6;1;Educación Secundaria;3000;Cuerpo de Profesores de Enseñanza Secundaria
+62;0;56;Casado/casada;2;Licenciatura;1;0;Educación Primaria;;Cuerpo de Maestros
+63;0;35;Soltero/soltera;0;Diplomatura;1;0;Educación Primaria;1800;Cuerpo de Maestros
+64;0;30;Convivencia en pareja;0;Grado;1;0;Educación Primaria;;Cuerpo de Maestros
+65;0;35;Casado/casada;2;Doctorado;12;0;Educación Secundaria;3000;Cuerpo de Profesores de Enseñanza Secundaria
+66;1;64;Casado/casada;4;Licenciatura;11;1;Educación Secundaria;3000;Cuerpo de Profesores de Enseñanza Secundaria
+67;1;59;Viudo/viuda;2;Master;13;1;Educación Secundaria;2495;Cuerpo de Profesores de Enseñanza Secundaria
+68;1;59;Casado/casada;2;Licenciatura;11;0;Educación Secundaria;4000;Cuerpo de Profesores de Enseñanza Secundaria
+69;0;58;Divorciado/divorciada;1;Licenciatura;2;1;Educación Secundaria;2000;Cuerpo de Profesores de Enseñanza Secundaria
+70;0;52;Casado/casada;2;Licenciatura;4;0;Educación Secundaria;;Cuerpo de Catedráticos de Enseñanza Secundaria
+71;1;50;Casado/casada;2;Licenciatura;14;0;Educación Secundaria;30000;Cuerpo de Profesores de Enseñanza Secundaria
+72;0;55;Casado/casada;1;Licenciatura;15;1;Educación Secundaria;;Cuerpo de Catedráticos de Enseñanza Secundaria
+73;1;44;Casado/casada;1;Licenciatura;14;1;Educación Secundaria;2000;Cuerpo de Profesores de Enseñanza Secundaria
+74;0;50;Divorciado/divorciada;1;Licenciatura;15;0;Educación Secundaria;;Cuerpo de Profesores de Enseñanza Secundaria
+75;0;45;Soltero/soltera;0;Licenciatura;2;1;Educación Secundaria;1300;Cuerpo de Profesores de Enseñanza Secundaria
+76;0;49;Casado/casada;1;Licenciatura;8;0;Educación Primaria;;Cuerpo de Maestros
+77;0;51;Casado/casada;2;Licenciatura;4;1;Educación Secundaria;5000;Cuerpo de Catedráticos de Enseñanza Secundaria
+78;1;60;Casado/casada;2;Formación profesional;16;0;Otro;4500;Cuerpo de Profesores Técnicos de Formación
+79;0;45;Divorciado/divorciada;2;Licenciatura;4;1;Educación Secundaria;24000;Cuerpo de Profesores de Enseñanza Secundaria
+80;0;53;Casado/casada;2;Licenciatura;6;1;Educación Secundaria;;Cuerpo de Profesores de Enseñanza Secundaria
+81;0;36;Pareja estable;0;Grado;17;1;Educación Secundaria;;Cuerpo de Profesores de Enseñanza Secundaria
+82;0;42;Pareja estable;1;Master;4;1;Educación Secundaria;2000;Cuerpo de Profesores de Enseñanza Secundaria
+83;1;38;Pareja estable;1;Master;9;1;Educación Secundaria;3500;Profesores Especialistas
+84;0;44;Casado/casada;3;Licenciatura;18;0;Educación Secundaria;3000;Cuerpo de Profesores de Enseñanza Secundaria
+85;0;27;Pareja estable;0;Master;1;0;Educación Primaria;1000;Cuerpo de Maestros
+86;0;59;Pareja estable;2;Licenciatura;2;0;Educación Secundaria;4000;Cuerpo de Profesores de Enseñanza Secundaria
+87;1;50;Casado/casada;2;Licenciatura;9;0;Educación Secundaria;4000;Cuerpo de Catedráticos de Enseñanza Secundaria
+88;0;55;Casado/casada;2;Licenciatura;2;1;Educación Secundaria;3500;Cuerpo de Profesores de Enseñanza Secundaria
+89;0;43;Pareja estable;0;Licenciatura;4;1;Otro;;Cuerpo de Profesores de Enseñanza Secundaria
+90;0;53;Divorciado/divorciada;3;Licenciatura;5;0;Otro;2100;Cuerpo de Profesores Técnicos de Formación
+91;1;58;Casado/casada;3;Doctorado;4;1;Educación Secundaria;5000;Cuerpo de Catedráticos de Enseñanza Secundaria
+92;1;39;Soltero/soltera;0;Licenciatura;12;0;Educación Secundaria;1850;Cuerpo de Profesores de Enseñanza Secundaria
+93;0;35;Casado/casada;2;Diplomatura;1;0;Educación Infantil;;Cuerpo de Maestros
+94;0;54;Casado/casada;2;Licenciatura;6;1;Educación Secundaria;4000;Profesores de Religión (Secundaria)
+95;1;47;Casado/casada;2;Licenciatura;4;0;Educación Secundaria;2200;Cuerpo de Profesores de Enseñanza Secundaria
+96;0;39;Casado/casada;2;Licenciatura;1;0;Educación Primaria;2600;Cuerpo de Maestros
+97;0;56;Casado/casada;2;Diplomatura;1;0;Educación Infantil;1700;Cuerpo de Maestros
+98;0;39;Convivencia en pareja;1;Diplomatura;1;0;Educación Primaria;4300;Cuerpo de Maestros
+99;0;47;Casado/casada;2;Diplomatura;1;0;Educación Primaria;4000;Cuerpo de Maestros
+100;0;43;Soltero/soltera;1;Diplomatura;1;0;Educación Primaria;;Cuerpo de Maestros
+101;1;55;Divorciado/divorciada;2;Master;2;0;Educación Secundaria;2200;Cuerpo de Profesores de Enseñanza Secundaria
+102;0;27;Pareja estable;0;Grado;1;0;Educación Primaria;300;Cuerpo de Maestros
+103;0;53;Divorciado/divorciada;0;Licenciatura;2;0;Educación Secundaria;;Cuerpo de Profesores de Enseñanza Secundaria
+104;1;60;Casado/casada;3;Diplomatura;1;0;Jefatura de Estudios;2160;Cuerpo de Maestros
+105;1;60;Casado/casada;3;Formación profesional;17;1;Educación Secundaria;3700;Cuerpo de Profesores Técnicos de Formación
+106;0;51;Casado/casada;2;Licenciatura;1;0;Educación Primaria;;Cuerpo de Maestros
+107;0;37;Casado/casada;2;Diplomatura;1;0;Dirección;3500;Cuerpo de Maestros
+108;0;47;Casado/casada;2;Diplomatura;1;0;Educación Primaria;4000;Cuerpo de Maestros
+109;0;42;Casado/casada;2;Diplomatura;1;0;Jefatura de Estudios;2900;Cuerpo de Maestros
+110;0;36;Casado/casada;1;Licenciatura;18;1;Educación Secundaria;1000;Cuerpo de Profesores de Enseñanza Secundaria
+111;0;49;Soltero/soltera;0;Diplomatura;1;0;Educación Infantil;1800;Cuerpo de Maestros
+112;0;34;Casado/casada;2;Diplomatura;1;0;Educación Primaria;1700;Cuerpo de Maestros
+113;1;48;Casado/casada;2;Licenciatura;9;0;Secretaría;3500;Cuerpo de Profesores de Enseñanza Secundaria
+114;0;47;Soltero/soltera;0;Doctorado;14;1;Otro;1500;Otro
+115;0;57;Casado/casada;2;Licenciatura;18;0;Educación Secundaria;2300;Cuerpo de Profesores de Enseñanza Secundaria
+116;1;42;Soltero/soltera;0;Licenciatura;14;0;Educación Secundaria;2100;Cuerpo de Profesores de Enseñanza Secundaria
+117;0;48;Convivencia en pareja;1;Licenciatura;4;1;Otro;;Cuerpo de Profesores de Enseñanza Secundaria
+118;1;55;Casado/casada;2;Master;1;0;Educación Secundaria;4500;Cuerpo de Maestros
+119;0;36;Casado/casada;1;Licenciatura;4;1;Educación Secundaria;2500;Cuerpo de Profesores de Enseñanza Secundaria
+120;1;42;Casado/casada;2;Licenciatura;4;0;Educación Secundaria;2800;Cuerpo de Profesores de Enseñanza Secundaria
+121;0;30;Soltero/soltera;0;Master;8;1;Educación Secundaria;;Cuerpo de Profesores de Enseñanza Secundaria
+122;0;31;Soltero/soltera;0;Diplomatura;1;0;Educación Primaria;1400;Cuerpo de Maestros
+123;1;38;Casado/casada;2;Master;1;0;Educación Primaria;4000;Cuerpo de Maestros
+124;1;27;Soltero/soltera;0;Master;1;1;Educación Primaria;1300;Cuerpo de Maestros
+125;1;33;Convivencia en pareja;2;Diplomatura;1;0;Educación Primaria;;Cuerpo de Maestros
+126;0;28;Casado/casada;1;Grado;1;0;Educación Primaria;2800;Profesores Especialistas
+127;0;28;Casado/casada;1;Master;1;0;Otro;2900;Cuerpo de Maestros
+128;1;38;Casado/casada;2;Diplomatura;1;0;Dirección;;Cuerpo de Maestros
+129;1;54;Divorciado/divorciada;1;Diplomatura;1;0;Dirección;2400;Cuerpo de Maestros
+130;0;31;Convivencia en pareja;0;Diplomatura;1;0;Educación Primaria;800;Profesores de Religión (Primaria)
+131;1;36;Pareja estable;1;Licenciatura;12;1;Secretaría;2500;Cuerpo de Profesores de Enseñanza Secundaria
+132;1;59;Casado/casada;3;Diplomatura;1;0;Dirección;4000;Cuerpo de Maestros
+133;0;41;Casado/casada;2;Licenciatura;1;0;Dirección;2300;Cuerpo de Maestros
+134;1;42;Soltero/soltera;0;Diplomatura;1;0;Educación Primaria;2000;Cuerpo de Maestros
+135;1;39;Convivencia en pareja;2;Licenciatura;1;0;Secretaría;4200;Cuerpo de Maestros
+136;1;41;Convivencia en pareja;1;Grado;1;0;Educación Primaria;;Cuerpo de Maestros
+137;0;45;Casado/casada;7;Diplomatura;1;0;Educación Primaria;4000;Cuerpo de Maestros
+138;0;30;Soltero/soltera;0;Master;1;1;Educación Primaria;23000;Cuerpo de Maestros
+139;1;46;Casado/casada;3;Diplomatura;1;0;Dirección;4500;Cuerpo de Maestros
+140;1;37;Casado/casada;2;Diplomatura;1;0;Dirección;3500;Cuerpo de Maestros
+141;0;54;Divorciado/divorciada;2;Diplomatura;1;0;Dirección;2000;Cuerpo de Maestros
+142;0;31;Pareja estable;0;Master;1;0;Educación Infantil;1600;Cuerpo de Maestros
+143;1;41;Divorciado/divorciada;2;Licenciatura;19;0;Secretaría;2000;Cuerpo de Maestros
+144;0;43;Casado/casada;2;Master;1;1;Educación Primaria;3800;Cuerpo de Maestros
+145;0;54;Casado/casada;2;Diplomatura;1;0;Jefatura de Estudios;4580;Cuerpo de Maestros
+146;0;25;Convivencia en pareja;0;Doctorado;1;0;Educación Primaria;1800;Cuerpo de Maestros
+147;1;42;Casado/casada;2;Diplomatura;1;0;Secretaría;4000;Cuerpo de Maestros
+148;1;41;Casado/casada;0;Diplomatura;1;0;Dirección;;Cuerpo de Maestros
+149;0;35;Casado/casada;0;Licenciatura;20;1;Jefatura de Estudios;;Cuerpo de Profesores de Enseñanza Secundaria
+150;0;59;Casado/casada;3;Licenciatura;19;1;Educación Primaria;4500;Cuerpo de Maestros
+151;0;42;Casado/casada;2;Licenciatura;1;0;Educación Primaria;4000;Cuerpo de Maestros
+152;0;27;Soltero/soltera;0;Master;1;0;Educación Primaria;;Cuerpo de Maestros
+153;0;35;Soltero/soltera;0;Licenciatura;1;0;Secretaría;1800;Cuerpo de Maestros
+154;0;46;Casado/casada;2;Licenciatura;8;0;Educación Secundaria;4000;Cuerpo de Profesores de Enseñanza Secundaria
+155;0;38;Casado/casada;2;Licenciatura;8;0;Educación Primaria;4000;Cuerpo de Maestros
+156;1;32;Casado/casada;0;Master;17;1;Secretaría;;Cuerpo de Profesores de Enseñanza Secundaria
+157;0;29;Convivencia en pareja;0;Diplomatura;1;0;Dirección;2900;Cuerpo de Maestros
+158;0;56;Casado/casada;2;Diplomatura;1;0;Educación Infantil;;Cuerpo de Maestros
+159;1;61;Casado/casada;2;Diplomatura;1;0;Jefatura de Estudios;3000;Cuerpo de Maestros
+160;0;52;Casado/casada;3;Diplomatura;1;0;Secretaría;;Cuerpo de Maestros
+161;0;45;Casado/casada;4;Master;17;1;Educación Secundaria;;Cuerpo de Profesores de Enseñanza Secundaria
+162;0;61;Casado/casada;3;Diplomatura;1;0;Educación Infantil;2600;Profesores de Religión (Primaria)
+163;0;30;Pareja estable;0;Grado;1;0;Educación Primaria;1500;Cuerpo de Maestros
+164;0;35;Convivencia en pareja;0;Grado;1;0;Educación Infantil;3000;Cuerpo de Maestros
+165;0;27;Convivencia en pareja;0;Grado;1;0;Educación Primaria;2100;Cuerpo de Maestros
+166;0;48;Divorciado/divorciada;2;Grado;1;0;Educación Infantil;1600;Cuerpo de Maestros
+167;0;54;Soltero/soltera;0;Licenciatura;19;1;Dirección;;Cuerpo de Profesores de Enseñanza Secundaria
+168;0;57;Casado/casada;2;Diplomatura;1;0;Educación Primaria;3500;Cuerpo de Maestros
+169;0;31;Casado/casada;0;Master;1;0;Educación Primaria;50000;Cuerpo de Maestros
+170;1;25;Soltero/soltera;0;Grado;1;0;Educación Primaria;1800;Cuerpo de Maestros
+171;0;36;Casado/casada;1;Diplomatura;1;0;Educación Primaria;3200;Cuerpo de Maestros
+172;0;40;Soltero/soltera;2;Diplomatura;1;0;Educación Primaria;2700;Cuerpo de Maestros
+173;0;42;Casado/casada;1;Licenciatura;8;1;Educación Secundaria;2300;Cuerpo de Profesores de Enseñanza Secundaria
+174;0;34;Casado/casada;1;Master;16;1;Educación Secundaria;;Cuerpo de Profesores de Enseñanza Secundaria
+175;0;57;Soltero/soltera;0;Licenciatura;19;0;Dirección;2500;Cuerpo de Maestros
+176;1;34;Soltero/soltera;0;Master;1;0;Educación Primaria;900;Cuerpo de Maestros
+177;0;40;Casado/casada;1;Licenciatura;15;0;Educación Secundaria;;Cuerpo de Profesores de Enseñanza Secundaria
+178;0;44;Casado/casada;3;Licenciatura;18;0;Educación Secundaria;3000;Cuerpo de Profesores de Enseñanza Secundaria
+179;1;52;Casado/casada;1;Licenciatura;9;0;Secretaría;4300;Cuerpo de Profesores de Enseñanza Secundaria
+180;0;28;Soltero/soltera;0;Master;1;1;Educación Infantil;;Cuerpo de Maestros
+181;0;37;Casado/casada;2;Master;1;1;Dirección;;Cuerpo de Maestros
+182;1;42;Convivencia en pareja;0;Licenciatura;1;0;Secretaría;;Cuerpo de Maestros
+183;1;41;Casado/casada;2;Licenciatura;1;0;Secretaría;60000;Cuerpo de Maestros
+184;0;50;Divorciado/divorciada;2;Licenciatura;1;0;Educación Primaria;3000;Cuerpo de Maestros
+185;1;37;Convivencia en pareja;0;Licenciatura;12;1;Educación Secundaria;3400;Cuerpo de Profesores de Enseñanza Secundaria
+186;0;49;Divorciado/divorciada;3;Licenciatura;19;0;Dirección;4000;Cuerpo de Maestros
+187;0;27;Soltero/soltera;0;Master;1;0;Educación Infantil;2800;Cuerpo de Maestros
+188;0;30;Casado/casada;2;Diplomatura;15;0;Educación Primaria;3600;Cuerpo de Maestros
+189;0;36;Convivencia en pareja;0;Diplomatura;8;0;Dirección;7000;Cuerpo de Maestros
+190;1;54;Casado/casada;2;Diplomatura;1;0;Educación Primaria;;Cuerpo de Maestros
+191;1;41;Casado/casada;2;Diplomatura;1;0;Jefatura de Estudios;50000;Cuerpo de Maestros
+192;0;54;Casado/casada;4;Grado;1;0;Educación Primaria;3600;Cuerpo de Maestros
+193;0;42;Casado/casada;2;Diplomatura;1;0;Educación Infantil;;Cuerpo de Maestros
+194;1;32;Casado/casada;0;Master;1;1;Otro;20000;Otro
+195;0;44;Casado/casada;2;Diplomatura;1;0;Educación Primaria;3500;Cuerpo de Maestros
+196;1;38;Soltero/soltera;0;Diplomatura;1;0;Dirección;1800;Cuerpo de Maestros
+197;1;52;Casado/casada;2;Licenciatura;18;0;Educación Secundaria;3400;Cuerpo de Profesores de Enseñanza Secundaria
+198;1;47;Casado/casada;3;Licenciatura;12;0;Educación Primaria;3600;Cuerpo de Maestros
+199;1;49;Casado/casada;2;Diplomatura;1;0;Educación Primaria;3000;Cuerpo de Maestros
+200;0;46;Casado/casada;3;Licenciatura;16;1;Dirección;;Cuerpo de Profesores de Enseñanza Secundaria
+201;0;55;Casado/casada;3;Diplomatura;1;0;Educación Primaria;;Cuerpo de Maestros
+202;0;41;Convivencia en pareja;0;Diplomatura;1;0;Educación Infantil;2500;Cuerpo de Maestros
+203;0;35;Casado/casada;0;Licenciatura;1;0;Educación Primaria;;Cuerpo de Maestros
+204;0;47;Casado/casada;1;Grado;1;0;Educación Primaria;3000;Cuerpo de Maestros
+205;1;59;Casado/casada;1;Doctorado;6;0;Dirección;;Cuerpo de Maestros
+206;0;39;Pareja estable;2;Master;1;0;Educación Primaria;2400;Cuerpo de Maestros
+207;0;47;Soltero/soltera;0;Licenciatura;11;1;Educación Secundaria;2000;Cuerpo de Profesores de Enseñanza Secundaria
+208;0;42;Casado/casada;2;Master;13;1;Educación Secundaria;3800;Cuerpo de Profesores de Enseñanza Secundaria
+209;0;39;Casado/casada;2;Licenciatura;12;0;Educación Primaria;4000;Cuerpo de Maestros
+210;0;54;Casado/casada;3;Diplomatura;1;0;Dirección;4500;Cuerpo de Maestros
+211;0;44;Divorciado/divorciada;0;Master;1;1;Secretaría;2500;Cuerpo de Maestros
+212;0;26;Soltero/soltera;0;Master;8;1;Educación Secundaria;700;Cuerpo de Profesores de Enseñanza Secundaria
+213;0;40;Casado/casada;1;Diplomatura;1;0;Educación Primaria;1800;Cuerpo de Maestros
+214;0;53;Casado/casada;2;Diplomatura;1;0;Otro;5000;Cuerpo de Maestros
+215;1;48;Casado/casada;2;Diplomatura;1;0;Secretaría;4000;Cuerpo de Maestros
+216;1;41;Casado/casada;2;Licenciatura;12;0;Educación Secundaria;;Cuerpo de Profesores de Enseñanza Secundaria
+217;1;58;Casado/casada;2;Licenciatura;1;0;Secretaría;2300;Cuerpo de Maestros
+218;0;51;Casado/casada;2;Diplomatura;1;0;Jefatura de Estudios;;Cuerpo de Maestros
+219;1;39;Casado/casada;2;Licenciatura;20;0;Educación Primaria;3500;Cuerpo de Maestros
+220;0;52;Casado/casada;3;Licenciatura;19;0;Dirección;5000;Cuerpo de Profesores de Enseñanza Secundaria
+221;0;41;Casado/casada;2;Diplomatura;1;0;Secretaría;3000;Cuerpo de Maestros
+222;0;38;Convivencia en pareja;0;Diplomatura;1;0;Dirección;;Cuerpo de Maestros
+223;0;31;Casado/casada;2;Diplomatura;1;0;Educación Primaria;3000;Cuerpo de Maestros
+224;1;48;Divorciado/divorciada;1;Diplomatura;1;0;Educación Primaria;2300;Cuerpo de Maestros
+225;0;54;Casado/casada;2;Diplomatura;1;0;Dirección;;Cuerpo de Maestros
+226;0;36;Soltero/soltera;0;Licenciatura;1;0;Secretaría;1700;Cuerpo de Maestros
+227;0;33;Casado/casada;2;Diplomatura;1;0;Educación Infantil;;Cuerpo de Maestros
+228;0;43;Casado/casada;3;Grado;1;0;Secretaría;3600;Cuerpo de Maestros
+229;0;32;Casado/casada;0;Diplomatura;1;0;Educación Primaria;;Cuerpo de Maestros
+230;1;61;Casado/casada;2;Licenciatura;1;0;Dirección;4500;Cuerpo de Maestros
+231;0;39;Soltero/soltera;0;Diplomatura;1;0;Otro;1700;Cuerpo de Maestros
+232;0;59;Soltero/soltera;0;Licenciatura;1;0;Educación Primaria;2000;Cuerpo de Maestros
+233;0;47;Casado/casada;2;Licenciatura;8;0;Educación Secundaria;;Cuerpo de Profesores de Enseñanza Secundaria
+234;0;57;Casado/casada;2;Diplomatura;1;0;Educación Primaria;4000;Cuerpo de Maestros
+235;0;39;Soltero/soltera;0;Master;1;0;Otro;1700;Cuerpo de Maestros
+236;1;34;Pareja estable;0;Master;9;1;Educación Secundaria;1400;Cuerpo de Profesores de Enseñanza Secundaria
+237;0;41;Casado/casada;2;Licenciatura;4;1;Educación Secundaria;4000;Cuerpo de Profesores de Enseñanza Secundaria
+238;1;29;Soltero/soltera;0;Master;1;1;Educación Secundaria;;Cuerpo de Profesores de Enseñanza Secundaria
+239;0;29;Pareja estable;0;Licenciatura;1;0;Educación Primaria;;Cuerpo de Maestros
+240;0;57;Casado/casada;2;Diplomatura;1;0;Educación Primaria;4000;Cuerpo de Maestros
+241;0;41;Casado/casada;2;Licenciatura;19;0;Educación Primaria;;Cuerpo de Maestros
+242;0;43;Casado/casada;1;Diplomatura;1;0;Educación Primaria;;Cuerpo de Maestros
+243;0;36;Casado/casada;2;Diplomatura;1;0;Educación Infantil;2600;Cuerpo de Maestros
+244;0;41;Casado/casada;3;Diplomatura;1;0;Jefatura de Estudios;45000;Cuerpo de Maestros
+245;0;40;Casado/casada;2;Diplomatura;1;0;Otro;;Cuerpo de Maestros
+246;1;43;Casado/casada;2;Licenciatura;6;0;Educación Secundaria;4000;Cuerpo de Profesores de Enseñanza Secundaria
+247;0;55;Soltero/soltera;0;Licenciatura;19;0;Educación Primaria;;Cuerpo de Maestros
+248;0;40;Casado/casada;2;Diplomatura;15;0;Educación Primaria;;Cuerpo de Maestros
+249;0;42;Casado/casada;2;Licenciatura;1;0;Otro;;Cuerpo de Maestros
+250;1;55;Casado/casada;1;Licenciatura;2;0;Dirección;4000;Otro
+251;0;60;Casado/casada;2;Diplomatura;1;0;Educación Primaria;4000;Cuerpo de Maestros
+252;0;57;Casado/casada;3;Licenciatura;19;0;Educación Primaria;2200;Cuerpo de Maestros
+253;1;38;Soltero/soltera;0;Licenciatura;19;0;Orientación;1400;Cuerpo de Profesores de Enseñanza Secundaria
+254;0;61;Soltero/soltera;0;Diplomatura;1;0;Educación Primaria;2230;Cuerpo de Maestros
+255;0;39;Casado/casada;2;Diplomatura;1;0;Educación Primaria;4000;Cuerpo de Maestros
+256;0;44;Casado/casada;3;Licenciatura;5;1;Educación Secundaria;3000;Profesores de Religión (Secundaria)
+257;0;38;Casado/casada;3;Diplomatura;1;1;Educación Primaria;2000;Cuerpo de Maestros
