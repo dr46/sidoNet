@@ -127,7 +127,7 @@ Este proyecto contiene un conjunto de carpetas en las que se organizan los archi
 
 - [02_demo.R](stx/02_demo.R): este archivo ejecuta el análisis de las características sociodemográficas de la muestra del estudio. Este archivo genera las tablas [t.frec.csv](tab/t.frec.csv) y [edin.csv](tab/edin.csv) que son simultáneamente proyectadas en la consola de R. Este archivo también produce las figuras [edad.pdf](fig/edad.pdf) y [imf.pdf](fig/imf.pdf).
 
-- [03_fiabil.R](stx/03_fiabil.R): este archivo estima ...........
+- [03_fiabil.R](stx/03_fiabil.R): este archivo estima los coeficientes de fiabilidad ($\omega$ de McDonald y $\alpha$ de Cronbach) y sus intervalos de confianza utilizando técnicas de remuestreo aleatorio (1000 muestras en todos los casos) de los datos muestrales. Este archivo genera la tabla [fiabil.csv](tab/fiabil.csv) que se almacena en la carpeta *tab*. **Atención:** ejecutar el archivo de código [03_fiabil.R](stx/03_fiabil.R) puede consumir una gran cantidad de recursos y de tiempo. El tiempo empleado para ejecutar las computaciones dependerá de lo recursos del ordenador en que se ejecute el comando correspondiente. Es por ello por lo que la línea de código que desencadena los análisis de fiabilidad ha sido comentada en el archivo maestro del proyecto ([sidoNet.R](sidoNet.R)). En su lugar, se ha optado por introducir la línea de código que permite recuperar los resultados ([fiabil.csv](tab/fiabil.csv)) que produce dicho archivo y que están almacenados en la carpeta *tab*.
 
 
 ## Tablas
@@ -166,6 +166,27 @@ Este proyecto contiene un conjunto de carpetas en las que se organizan los archi
   - 10%: valor máximo de la variable.
   - M: media de la variable.
   - DT: desviación típica de la variable.
+  
+- [fiabil.csv](tab/fiabil.csv): esta tabla contiene las estimaciones de fiabilidad para las escalas DASS-21 y CESQT así como para sus correspondientes subescalas. El significado de las columnas que contiene esta tabla es el siguiente:
+  - om: estimación puntual del coeficiente de consistencia interna $\omega$ de McDonald.
+  - et.om: estimación del error típico asociado al coeficiente de consistencia interna $\omega$ de McDonald.
+  - li.om: estimación del límite inferior del intervalo de confianza al 95% para el coeficiente de consistencia interna $\omega$ de McDonald.
+  - ls.om: estimación del límite superior del intervalo de confianza al 95% para el coeficiente de consistencia interna $\omega$ de McDonald.
+  - al: estimación puntual del coeficiente de consistencia interna $\alpha$ de Cronbach.
+  - et.al: estimación del error típico asociado al coeficiente de consistencia intern $\alpha$ de Cronbach.
+  - li.al: estimación del límite inferior del intervalo de confianza al 95% para el coeficiente de consistencia interna $\alpha$ de Cronbach.
+  - ls.al: estimación del límite superior del intervalo de confianza al 95% para el coeficiente de consistencia interna $\alpha$ de Cronbach.
+  
+  Por su parte, el significado de las filas es el siguiente:
+  - dass.21: escala DASS-21.
+  - dass.21.e: subescala de estrés de la escala DASS-21.
+  - dass.21.a: subescala de ansiedad de la escala DASS-21.
+  - dass.21.d: subescala de depresión de la escala DASS-21.
+  - cesqt: escala CESQT.
+  - cesqt.il: subescala de ilusión por el trabajo de la escala CESQT.
+  - cesqt.in: subescala de indolencia de la escala CESQT.
+  - cesqt.cu: subescala de culpa de la escala CESQT.
+  - cesqt.de: subescala de desgaste psicológico de la escala CESQT.
   
 
 ## Figuras

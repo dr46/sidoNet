@@ -302,7 +302,7 @@ pre code {
 <li><p><a href="sidoNet.R">sidoNet.R</a>: es el archivo de código maestro del proyecto. Desde este archivo se van ejecutando el resto de los archivos de código del proyecto.</p></li>
 <li><p><a href="stx/01_muestra.R">01_muestra.R</a>: este archivo realiza estimaciones del tamaño nuestral teniendo en cuenta los posibles conglomerados de docentes latentes y teniendo en cuenta el tamaño de los estratos poblacionales estudiados. Genera las tablas <a href="tab/muestra.conglomerados.csv">muestra.conglomerados.csv</a> y <a href="tab/muestra.estratificada.csv">muestra.estratificada.csv</a>.</p></li>
 <li><p><a href="stx/02_demo.R">02_demo.R</a>: este archivo ejecuta el análisis de las características sociodemográficas de la muestra del estudio. Este archivo genera las tablas <a href="tab/t.frec.csv">t.frec.csv</a> y <a href="tab/edin.csv">edin.csv</a> que son simultáneamente proyectadas en la consola de R. Este archivo también produce las figuras <a href="fig/edad.pdf">edad.pdf</a> y <a href="fig/imf.pdf">imf.pdf</a>.</p></li>
-<li><p><a href="stx/fiabil.R">fiabil.R</a>: este archivo estima ………..</p></li>
+<li><p><a href="stx/03_fiabil.R">03_fiabil.R</a>: este archivo estima los coeficientes de fiabilidad (<span class="math inline">\(\omega\)</span> de McDonald y <span class="math inline">\(\alpha\)</span> de Cronbach) y sus intervalos de confianza utilizando técnicas de remuestreo aleatorio (1000 muestras en todos los casos) de los datos muestrales. Este archivo genera la tabla <a href="tab/fiabil.csv">fiabil.csv</a> que se almacena en la carpeta <em>tab</em>. <strong>Atención:</strong> ejecutar el archivo de código <a href="stx/03_fiabil.R">03_fiabil.R</a> puede consumir una gran cantidad de recursos y de tiempo. El tiempo empleado para ejecutar las computaciones dependerá de lo recursos del ordenador en que se ejecute el comando correspondiente. Es por ello por lo que la línea de código que desencadena los análisis de fiabilidad ha sido comentada en el archivo maestro del proyecto (<a href="sidoNet.R">sidoNet.R</a>). En su lugar, se ha optado por introducir la línea de código que permite recuperar los resultados (<a href="tab/fiabil.csv">fiabil.csv</a>) que produce dicho archivo y que están almacenados en la carpeta <em>tab</em>.</p></li>
 </ul>
 </div>
 <div id="tablas" class="section level2">
@@ -345,6 +345,29 @@ pre code {
 <li>10%: valor máximo de la variable.</li>
 <li>M: media de la variable.</li>
 <li>DT: desviación típica de la variable.</li>
+</ul></li>
+<li><p><a href="tab/fiabil.csv">fiabil.csv</a>: esta tabla contiene las estimaciones de fiabilidad para las escalas DASS-21 y CESQT así como para sus correspondientes subescalas. El significado de las columnas que contiene esta tabla es el siguiente:</p>
+<ul>
+<li>om: estimación puntual del coeficiente de consistencia interna <span class="math inline">\(\omega\)</span> de McDonald.</li>
+<li>et.om: estimación del error típico asociado al coeficiente de consistencia interna <span class="math inline">\(\omega\)</span> de McDonald.</li>
+<li>li.om: estimación del límite inferior del intervalo de confianza al 95% para el coeficiente de consistencia interna <span class="math inline">\(\omega\)</span> de McDonald.</li>
+<li>ls.om: estimación del límite superior del intervalo de confianza al 95% para el coeficiente de consistencia interna <span class="math inline">\(\omega\)</span> de McDonald.</li>
+<li>al: estimación puntual del coeficiente de consistencia interna <span class="math inline">\(\alpha\)</span> de Cronbach.</li>
+<li>et.al: estimación del error típico asociado al coeficiente de consistencia intern <span class="math inline">\(\alpha\)</span> de Cronbach.</li>
+<li>li.al: estimación del límite inferior del intervalo de confianza al 95% para el coeficiente de consistencia interna <span class="math inline">\(\alpha\)</span> de Cronbach.</li>
+<li>ls.al: estimación del límite superior del intervalo de confianza al 95% para el coeficiente de consistencia interna <span class="math inline">\(\alpha\)</span> de Cronbach.</li>
+</ul>
+<p>Por su parte, el significado de las filas es el siguiente:</p>
+<ul>
+<li>dass.21: escala DASS-21.</li>
+<li>dass.21.e: subescala de estrés de la escala DASS-21.</li>
+<li>dass.21.a: subescala de ansiedad de la escala DASS-21.</li>
+<li>dass.21.d: subescala de depresión de la escala DASS-21.</li>
+<li>cesqt: escala CESQT.</li>
+<li>cesqt.il: subescala de ilusión por el trabajo de la escala CESQT.</li>
+<li>cesqt.in: subescala de indolencia de la escala CESQT.</li>
+<li>cesqt.cu: subescala de culpa de la escala CESQT.</li>
+<li>cesqt.de: subescala de desgaste psicológico de la escala CESQT.</li>
 </ul></li>
 </ul>
 </div>
