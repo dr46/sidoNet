@@ -81,23 +81,7 @@ f.o.cesqt.de <- ci.reliability(cesqt[,c(9,13,18,19)], type = "omega", interval.t
 set.seed(66)
 f.a.cesqt.de <- ci.reliability(cesqt[,c(9,13,18,19)], type = "alpha", interval.type = "perc", B = 1000)
 
-
-# Función para extraer los parámetros estimados de los cálculos de fiabilidad
-fval <- function(o,a){
-  
-  om <- o$est
-  et.om <- o$se
-  li.om <- o$ci.lower
-  ls.om <- o$ci.upper
-  
-  al <- a$est
-  et.al <- a$se
-  li.al <- a$ci.lower
-  ls.al <- a$ci.upper
-  
-  est <- round(c(om, et.om, li.om, ls.om, al, et.al, li.al, ls.al), 4)
-  print(est)
-}
+source("fun/01_fval.R")
 
 mt <- matrix(nrow = 9, ncol = 8)
 colnames(mt) <- c("om", "et.om", "li.om", "ls.om", "al", "et.al", "li.al", "ls.al")

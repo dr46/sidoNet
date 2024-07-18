@@ -8,7 +8,6 @@ source("stx/01_muestra.R")
 # Descripción sociodemográfica de la muestra
 source("stx/02_demo.R", encoding = "UTF-8")
 
-
 # Estimación de la fiabilidad de las escalas
 # ¡¡¡ATENCIÓN!!!  --- Ejecutar el archivo de código "03_fiabil.R" puede consumir
 # una gran cantidad de recursos y de tiempo. El tiempo empleado para ejecutar 
@@ -18,3 +17,11 @@ source("stx/02_demo.R", encoding = "UTF-8")
 # dicho archivo y que están almacenados en la carpeta "tab" (archivo "fiabiil.csv").
 ### source("stx/03_fiabil.R")
 read.csv2("tab/fiabil.csv")
+
+# Análisis cluster
+source("stx/04_cluster.R", encoding = "UTF-8")
+
+# Análisis de los conglomerados
+suppressWarnings(source("stx/05_escon.R", encoding = "UTF-8"))
+read.csv("tab/comp.csv", sep = ";", dec = ",")
+read.csv("tab/tj.csv", sep = ";", dec = ",")

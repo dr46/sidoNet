@@ -1,0 +1,258 @@
+"","id","sex","edad","ec","nh","ne","esp","mp","rol","imf","cue","co","ilu","ind","cul","des","do","est","ans","dep","dass"
+"1",1,0,35,"Casado/casada",0,"Diplomatura",1,0,"Otro",3400,"Cuerpo de Maestros",2,21,9,7,4,24,8,0,1,9
+"2",2,0,58,"Casado/casada",0,"Licenciatura",2,0,"Orientación",5000,"Cuerpo de Profesores de Enseñanza Secundaria",1,28,0,2,2,4,0,0,0,0
+"3",3,0,40,"Viudo/viuda",2,"Diplomatura",1,0,"Educación Primaria",2700,"Cuerpo de Maestros",2,10,12,5,16,43,17,12,7,36
+"4",4,0,37,"Casado/casada",3,"Diplomatura",1,0,"Secretaría",NA,"Cuerpo de Maestros",1,28,2,0,3,5,1,0,2,3
+"5",5,0,37,"Convivencia en pareja",0,"Master",1,1,"Otro",1400,"Cuerpo de Maestros",1,18,5,3,8,21,5,2,1,8
+"6",6,0,37,"Soltero/soltera",0,"Diplomatura",1,0,"Educación Primaria",NA,"Cuerpo de Maestros",2,20,11,8,5,27,6,6,3,15
+"7",7,0,53,"Casado/casada",2,"Licenciatura",3,0,"Orientación",4000,"Cuerpo de Profesores de Enseñanza Secundaria",1,28,5,4,4,13,1,2,0,3
+"8",8,0,42,"Soltero/soltera",0,"Diplomatura",1,0,"Otro",1500,"Cuerpo de Maestros",1,24,3,2,8,14,7,1,4,12
+"9",9,0,33,"Casado/casada",0,"Diplomatura",1,0,"Educación Primaria",3600,"Cuerpo de Maestros",1,28,3,0,6,9,1,2,0,3
+"10",10,0,35,"Casado/casada",1,"Licenciatura",4,1,"Educación Secundaria",2500,"Cuerpo de Profesores de Enseñanza Secundaria",2,13,11,6,12,36,10,10,9,29
+"11",11,0,27,"Casado/casada",0,"Grado",5,0,"Jefatura de Estudios",2500,"Profesores Especialistas",2,12,10,9,7,34,4,3,4,11
+"12",12,0,48,"Casado/casada",2,"Licenciatura",2,0,"Educación Secundaria",4000,"Cuerpo de Profesores de Enseñanza Secundaria",2,6,11,7,13,44,9,2,3,14
+"13",13,1,52,"Casado/casada",1,"Licenciatura",4,1,"Jefatura de Estudios",NA,"Cuerpo de Profesores de Enseñanza Secundaria",1,28,8,5,6,19,5,2,0,7
+"14",14,0,38,"Casado/casada",1,"Licenciatura",4,0,"Educación Secundaria",3000,"Cuerpo de Profesores de Enseñanza Secundaria",2,19,14,6,12,35,11,8,8,27
+"15",15,0,37,"Convivencia en pareja",1,"Licenciatura",4,1,"Educación Secundaria",3500,"Cuerpo de Profesores de Enseñanza Secundaria",1,28,1,1,7,9,1,1,1,3
+"16",16,0,51,"Casado/casada",2,"Licenciatura",4,0,"Educación Secundaria",6000,"Cuerpo de Profesores de Enseñanza Secundaria",2,20,10,5,10,28,5,1,2,8
+"17",17,0,33,"Convivencia en pareja",0,"Master",1,0,"Otro",2500,"Cuerpo de Maestros",2,18,8,6,13,32,10,2,2,14
+"18",18,1,34,"Soltero/soltera",0,"Diplomatura",1,0,"Educación Primaria",1700,"Cuerpo de Maestros",2,9,12,6,12,41,9,6,11,26
+"19",19,0,38,"Pareja estable",0,"Diplomatura",1,0,"Educación Primaria",1780,"Cuerpo de Maestros",2,12,7,5,13,34,8,4,5,17
+"20",20,0,49,"Casado/casada",3,"Diplomatura",1,0,"Jefatura de Estudios",5000,"Cuerpo de Maestros",2,22,12,5,6,26,0,0,0,0
+"21",21,0,58,"Casado/casada",2,"Diplomatura",1,0,"Dirección",6000,"Cuerpo de Maestros",2,28,14,6,7,27,5,2,0,7
+"22",22,0,33,"Casado/casada",0,"Diplomatura",1,0,"Educación Infantil",2800,"Cuerpo de Maestros",1,22,4,0,3,10,10,4,2,16
+"23",23,0,32,"Convivencia en pareja",0,"Diplomatura",1,0,"Educación Primaria",3000,"Cuerpo de Maestros",2,17,9,5,7,27,10,1,2,13
+"24",24,0,43,"Soltero/soltera",0,"Diplomatura",1,1,"Educación Secundaria",NA,"Cuerpo de Maestros",1,20,6,2,7,18,6,5,5,16
+"25",25,0,33,"Casado/casada",1,"Grado",1,0,"Educación Primaria",NA,"Cuerpo de Maestros",1,28,3,4,6,13,1,0,2,3
+"26",26,0,40,"Casado/casada",2,"Licenciatura",6,1,"Educación Secundaria",NA,"Cuerpo de Profesores de Enseñanza Secundaria",2,22,9,9,9,30,9,3,4,16
+"27",27,1,34,"Convivencia en pareja",0,"Diplomatura",1,0,"Educación Primaria",3600,"Cuerpo de Maestros",2,12,6,9,7,30,5,3,3,11
+"28",28,0,44,"Casado/casada",2,"Diplomatura",1,0,"Educación Primaria",3000,"Cuerpo de Maestros",2,10,11,7,12,40,12,1,3,16
+"29",29,1,39,"Convivencia en pareja",0,"Licenciatura",7,0,"Otro",620,"Cuerpo de Profesores Técnicos de Formación",2,21,6,4,9,23,7,2,3,12
+"30",30,0,34,"Casado/casada",2,"Diplomatura",7,0,"Educación Infantil",1500,"Cuerpo de Maestros",2,18,3,7,16,29,20,20,14,54
+"31",31,0,28,"Soltero/soltera",0,"Grado",8,0,"Educación Primaria",NA,"Cuerpo de Maestros",1,28,4,7,8,19,11,4,5,20
+"32",32,0,29,"Pareja estable",0,"Master",1,0,"Educación Primaria",NA,"Profesores Especialistas",1,23,9,3,3,17,4,0,0,4
+"33",33,1,37,"Casado/casada",1,"Licenciatura",6,1,"Educación Secundaria",NA,"Cuerpo de Profesores de Enseñanza Secundaria",1,28,3,5,6,14,4,0,0,4
+"34",34,0,47,"Casado/casada",1,"Diplomatura",1,0,"Educación Primaria",NA,"Cuerpo de Maestros",1,19,9,3,6,22,6,5,1,12
+"35",35,0,30,"Soltero/soltera",0,"Grado",1,0,"Educación Primaria",NA,"Cuerpo de Maestros",2,28,13,6,7,26,11,8,2,21
+"36",36,0,24,"Pareja estable",0,"Grado",1,0,"Educación Primaria",2000,"Cuerpo de Maestros",1,28,8,4,5,17,7,0,2,9
+"37",37,1,49,"Divorciado/divorciada",2,"Diplomatura",1,0,"Educación Primaria",1900,"Cuerpo de Maestros",1,22,5,3,4,15,4,1,3,8
+"38",38,0,33,"Casado/casada",2,"Grado",1,0,"Educación Primaria",NA,"Cuerpo de Maestros",1,28,7,7,7,21,4,1,1,6
+"39",39,1,35,"Pareja estable",0,"Master",6,1,"Educación Secundaria",2000,"Cuerpo de Profesores de Enseñanza Secundaria",1,27,3,1,2,7,2,0,0,2
+"40",40,0,25,"Soltero/soltera",0,"Master",1,0,"Educación Primaria",1000,"Cuerpo de Maestros",1,19,5,6,7,22,4,2,2,8
+"41",41,0,35,"Soltero/soltera",0,"Diplomatura",1,0,"Educación Primaria",1800,"Cuerpo de Maestros",2,18,10,5,10,30,11,14,5,30
+"42",42,0,33,"Convivencia en pareja",0,"Diplomatura",1,0,"Educación Primaria",1700,"Cuerpo de Maestros",1,14,5,0,6,18,4,2,2,8
+"43",43,1,33,"Pareja estable",0,"Grado",1,0,"Educación Primaria",1200,"Cuerpo de Maestros",1,19,8,5,4,21,5,6,1,12
+"44",44,0,25,"Soltero/soltera",0,"Grado",1,0,"Educación Infantil",1100,"Cuerpo de Maestros",1,27,4,6,6,17,4,0,0,4
+"45",45,0,38,"Casado/casada",2,"Diplomatura",1,0,"Educación Primaria",3000,"Cuerpo de Maestros",2,18,5,4,8,22,6,0,0,6
+"46",46,1,54,"Casado/casada",2,"Diplomatura",1,0,"Educación Infantil",2300,"Cuerpo de Maestros",1,26,2,1,0,5,3,1,0,4
+"47",47,0,56,"Casado/casada",3,"Diplomatura",9,0,"Educación Infantil",5600,"Cuerpo de Maestros",2,7,18,2,13,45,21,19,16,56
+"48",48,1,55,"Casado/casada",2,"Licenciatura",1,0,"Educación Infantil",4000,"Cuerpo de Maestros",1,27,6,7,6,20,3,3,1,7
+"49",49,0,35,"Pareja estable",0,"Master",1,1,"Educación Primaria",NA,"Cuerpo de Maestros",1,27,8,6,8,23,5,2,1,8
+"50",50,0,54,"Casado/casada",2,"Diplomatura",1,1,"Educación Infantil",2400,"Cuerpo de Maestros",2,20,6,8,7,26,10,9,9,28
+"51",51,0,31,"Soltero/soltera",0,"Licenciatura",1,0,"Educación Infantil",2800,"Cuerpo de Maestros",1,27,2,0,8,11,6,2,2,10
+"52",52,0,45,"Convivencia en pareja",2,"Licenciatura",8,0,"Educación Primaria",2000,"Cuerpo de Maestros",2,6,15,11,15,54,17,13,16,46
+"53",53,0,36,"Casado/casada",2,"Diplomatura",1,0,"Educación Infantil",NA,"Cuerpo de Maestros",1,26,5,2,10,19,9,3,0,12
+"54",54,0,38,"Soltero/soltera",0,"Master",1,0,"Educación Infantil",1800,"Cuerpo de Maestros",1,28,5,4,6,15,4,2,1,7
+"55",55,0,28,"Soltero/soltera",0,"Licenciatura",1,0,"Educación Primaria",6000,"Cuerpo de Maestros",1,28,5,5,7,17,9,5,2,16
+"56",56,0,27,"Soltero/soltera",0,"Master",10,1,"Educación Secundaria",NA,"Cuerpo de Profesores de Enseñanza Secundaria",1,20,6,1,8,20,3,2,2,7
+"57",57,0,55,"Casado/casada",2,"Licenciatura",4,1,"Educación Secundaria",7000,"Cuerpo de Profesores de Enseñanza Secundaria",2,12,10,2,11,31,1,0,0,1
+"58",58,0,52,"Casado/casada",3,"Licenciatura",1,0,"Educación Secundaria",4500,"Cuerpo de Maestros",2,18,12,8,9,34,4,0,1,5
+"59",59,0,30,"Soltero/soltera",0,"Master",4,1,"Educación Secundaria",2500,"Cuerpo de Profesores de Enseñanza Secundaria",2,20,7,6,8,24,4,4,2,10
+"60",60,0,34,"Pareja estable",0,"Licenciatura",11,1,"Educación Secundaria",2700,"Cuerpo de Profesores de Enseñanza Secundaria",1,27,7,6,7,21,4,1,3,8
+"61",61,1,31,"Soltero/soltera",0,"Master",6,1,"Educación Secundaria",3000,"Cuerpo de Profesores de Enseñanza Secundaria",1,21,9,3,8,22,5,1,1,7
+"62",62,0,56,"Casado/casada",2,"Licenciatura",1,0,"Educación Primaria",NA,"Cuerpo de Maestros",1,18,4,3,8,20,4,1,3,8
+"63",63,0,35,"Soltero/soltera",0,"Diplomatura",1,0,"Educación Primaria",1800,"Cuerpo de Maestros",2,18,11,7,8,31,5,1,5,11
+"64",64,0,30,"Convivencia en pareja",0,"Grado",1,0,"Educación Primaria",NA,"Cuerpo de Maestros",2,10,7,5,4,26,2,0,0,2
+"65",65,0,35,"Casado/casada",2,"Doctorado",12,0,"Educación Secundaria",3000,"Cuerpo de Profesores de Enseñanza Secundaria",1,26,3,1,5,11,1,0,0,1
+"66",66,1,64,"Casado/casada",4,"Licenciatura",11,1,"Educación Secundaria",3000,"Cuerpo de Profesores de Enseñanza Secundaria",2,18,11,7,4,27,0,0,0,0
+"67",67,1,59,"Viudo/viuda",2,"Master",13,1,"Educación Secundaria",2495,"Cuerpo de Profesores de Enseñanza Secundaria",2,13,11,5,5,29,2,0,2,4
+"68",68,1,59,"Casado/casada",2,"Licenciatura",11,0,"Educación Secundaria",4000,"Cuerpo de Profesores de Enseñanza Secundaria",2,7,6,1,8,27,8,1,2,11
+"69",69,0,58,"Divorciado/divorciada",1,"Licenciatura",2,1,"Educación Secundaria",2000,"Cuerpo de Profesores de Enseñanza Secundaria",1,18,5,0,4,14,6,4,3,13
+"70",70,0,52,"Casado/casada",2,"Licenciatura",4,0,"Educación Secundaria",NA,"Cuerpo de Catedráticos de Enseñanza Secundaria",1,17,2,3,4,15,0,0,3,3
+"71",71,1,50,"Casado/casada",2,"Licenciatura",14,0,"Educación Secundaria",30000,"Cuerpo de Profesores de Enseñanza Secundaria",1,18,7,4,6,22,4,1,0,5
+"72",72,0,55,"Casado/casada",1,"Licenciatura",15,1,"Educación Secundaria",NA,"Cuerpo de Catedráticos de Enseñanza Secundaria",1,18,2,2,5,14,0,0,0,0
+"73",73,1,44,"Casado/casada",1,"Licenciatura",14,1,"Educación Secundaria",2000,"Cuerpo de Profesores de Enseñanza Secundaria",2,9,15,5,9,40,6,4,1,11
+"74",74,0,50,"Divorciado/divorciada",1,"Licenciatura",15,0,"Educación Secundaria",NA,"Cuerpo de Profesores de Enseñanza Secundaria",1,18,6,4,4,19,2,1,0,3
+"75",75,0,45,"Soltero/soltera",0,"Licenciatura",2,1,"Educación Secundaria",1300,"Cuerpo de Profesores de Enseñanza Secundaria",2,12,8,7,15,37,4,4,4,12
+"76",76,0,49,"Casado/casada",1,"Licenciatura",8,0,"Educación Primaria",NA,"Cuerpo de Maestros",2,23,9,6,11,28,4,0,0,4
+"77",77,0,51,"Casado/casada",2,"Licenciatura",4,1,"Educación Secundaria",5000,"Cuerpo de Catedráticos de Enseñanza Secundaria",1,20,2,0,9,14,2,2,2,6
+"78",78,1,60,"Casado/casada",2,"Formación profesional",16,0,"Otro",4500,"Cuerpo de Profesores Técnicos de Formación",2,18,7,5,9,26,2,0,1,3
+"79",79,0,45,"Divorciado/divorciada",2,"Licenciatura",4,1,"Educación Secundaria",24000,"Cuerpo de Profesores de Enseñanza Secundaria",2,17,15,11,13,45,7,7,6,20
+"80",80,0,53,"Casado/casada",2,"Licenciatura",6,1,"Educación Secundaria",NA,"Cuerpo de Profesores de Enseñanza Secundaria",2,9,6,3,5,25,7,3,4,14
+"81",81,0,36,"Pareja estable",0,"Grado",17,1,"Educación Secundaria",NA,"Cuerpo de Profesores de Enseñanza Secundaria",2,15,12,10,9,37,11,12,7,30
+"82",82,0,42,"Pareja estable",1,"Master",4,1,"Educación Secundaria",2000,"Cuerpo de Profesores de Enseñanza Secundaria",2,23,5,7,10,24,7,3,6,16
+"83",83,1,38,"Pareja estable",1,"Master",9,1,"Educación Secundaria",3500,"Profesores Especialistas",1,28,4,2,5,11,4,0,0,4
+"84",84,0,44,"Casado/casada",3,"Licenciatura",18,0,"Educación Secundaria",3000,"Cuerpo de Profesores de Enseñanza Secundaria",2,18,5,1,11,22,2,3,4,9
+"85",85,0,27,"Pareja estable",0,"Master",1,0,"Educación Primaria",1000,"Cuerpo de Maestros",1,28,6,8,8,22,4,3,0,7
+"86",86,0,59,"Pareja estable",2,"Licenciatura",2,0,"Educación Secundaria",4000,"Cuerpo de Profesores de Enseñanza Secundaria",2,17,8,8,7,29,6,3,2,11
+"87",87,1,50,"Casado/casada",2,"Licenciatura",9,0,"Educación Secundaria",4000,"Cuerpo de Catedráticos de Enseñanza Secundaria",1,21,5,6,5,20,1,2,3,6
+"88",88,0,55,"Casado/casada",2,"Licenciatura",2,1,"Educación Secundaria",3500,"Cuerpo de Profesores de Enseñanza Secundaria",1,28,1,4,3,8,0,0,0,0
+"89",89,0,43,"Pareja estable",0,"Licenciatura",4,1,"Otro",NA,"Cuerpo de Profesores de Enseñanza Secundaria",2,5,11,14,16,55,19,8,4,31
+"90",90,0,53,"Divorciado/divorciada",3,"Licenciatura",5,0,"Otro",2100,"Cuerpo de Profesores Técnicos de Formación",2,18,10,6,4,25,5,0,0,5
+"91",91,1,58,"Casado/casada",3,"Doctorado",4,1,"Educación Secundaria",5000,"Cuerpo de Catedráticos de Enseñanza Secundaria",2,19,5,3,12,24,5,2,2,9
+"92",92,1,39,"Soltero/soltera",0,"Licenciatura",12,0,"Educación Secundaria",1850,"Cuerpo de Profesores de Enseñanza Secundaria",2,12,14,8,12,42,9,3,8,20
+"93",93,0,35,"Casado/casada",2,"Diplomatura",1,0,"Educación Infantil",NA,"Cuerpo de Maestros",2,28,8,9,10,27,9,2,1,12
+"94",94,0,54,"Casado/casada",2,"Licenciatura",6,1,"Educación Secundaria",4000,"Profesores de Religión (Secundaria)",1,18,5,5,7,22,7,1,3,11
+"95",95,1,47,"Casado/casada",2,"Licenciatura",4,0,"Educación Secundaria",2200,"Cuerpo de Profesores de Enseñanza Secundaria",1,27,5,3,8,17,0,0,0,0
+"96",96,0,39,"Casado/casada",2,"Licenciatura",1,0,"Educación Primaria",2600,"Cuerpo de Maestros",2,23,7,11,12,32,14,4,1,19
+"97",97,0,56,"Casado/casada",2,"Diplomatura",1,0,"Educación Infantil",1700,"Cuerpo de Maestros",2,15,4,7,7,24,6,1,3,10
+"98",98,0,39,"Convivencia en pareja",1,"Diplomatura",1,0,"Educación Primaria",4300,"Cuerpo de Maestros",2,21,13,7,16,40,14,10,5,29
+"99",99,0,47,"Casado/casada",2,"Diplomatura",1,0,"Educación Primaria",4000,"Cuerpo de Maestros",2,19,6,7,10,27,5,3,1,9
+"100",100,0,43,"Soltero/soltera",1,"Diplomatura",1,0,"Educación Primaria",NA,"Cuerpo de Maestros",2,18,7,5,9,26,4,1,1,6
+"101",101,1,55,"Divorciado/divorciada",2,"Master",2,0,"Educación Secundaria",2200,"Cuerpo de Profesores de Enseñanza Secundaria",2,18,10,5,7,27,0,0,0,0
+"102",102,0,27,"Pareja estable",0,"Grado",1,0,"Educación Primaria",300,"Cuerpo de Maestros",1,22,10,0,4,17,4,0,1,5
+"103",103,0,53,"Divorciado/divorciada",0,"Licenciatura",2,0,"Educación Secundaria",NA,"Cuerpo de Profesores de Enseñanza Secundaria",2,14,3,2,11,23,3,2,0,5
+"104",104,1,60,"Casado/casada",3,"Diplomatura",1,0,"Jefatura de Estudios",2160,"Cuerpo de Maestros",1,24,5,6,4,16,1,1,0,2
+"105",105,1,60,"Casado/casada",3,"Formación profesional",17,1,"Educación Secundaria",3700,"Cuerpo de Profesores Técnicos de Formación",1,28,5,5,6,16,3,1,0,4
+"106",106,0,51,"Casado/casada",2,"Licenciatura",1,0,"Educación Primaria",NA,"Cuerpo de Maestros",1,18,4,3,3,15,0,0,0,0
+"107",107,0,37,"Casado/casada",2,"Diplomatura",1,0,"Dirección",3500,"Cuerpo de Maestros",1,28,3,5,12,20,6,1,2,9
+"108",108,0,47,"Casado/casada",2,"Diplomatura",1,0,"Educación Primaria",4000,"Cuerpo de Maestros",2,19,6,7,10,27,5,3,1,9
+"109",109,0,42,"Casado/casada",2,"Diplomatura",1,0,"Jefatura de Estudios",2900,"Cuerpo de Maestros",2,13,8,0,10,25,7,2,6,15
+"110",110,0,36,"Casado/casada",1,"Licenciatura",18,1,"Educación Secundaria",1000,"Cuerpo de Profesores de Enseñanza Secundaria",1,25,0,1,6,10,8,3,0,11
+"111",111,0,49,"Soltero/soltera",0,"Diplomatura",1,0,"Educación Infantil",1800,"Cuerpo de Maestros",2,18,10,8,8,31,5,1,2,8
+"112",112,0,34,"Casado/casada",2,"Diplomatura",1,0,"Educación Primaria",1700,"Cuerpo de Maestros",1,23,9,0,10,21,12,6,0,18
+"113",113,1,48,"Casado/casada",2,"Licenciatura",9,0,"Secretaría",3500,"Cuerpo de Profesores de Enseñanza Secundaria",2,0,0,0,1,19,1,0,0,1
+"114",114,0,47,"Soltero/soltera",0,"Doctorado",14,1,"Otro",1500,"Otro",2,13,4,5,11,28,8,10,7,25
+"115",115,0,57,"Casado/casada",2,"Licenciatura",18,0,"Educación Secundaria",2300,"Cuerpo de Profesores de Enseñanza Secundaria",2,10,6,5,8,29,6,3,2,11
+"116",116,1,42,"Soltero/soltera",0,"Licenciatura",14,0,"Educación Secundaria",2100,"Cuerpo de Profesores de Enseñanza Secundaria",2,7,14,12,9,47,6,1,8,15
+"117",117,0,48,"Convivencia en pareja",1,"Licenciatura",4,1,"Otro",NA,"Cuerpo de Profesores de Enseñanza Secundaria",2,18,8,8,9,30,0,0,0,0
+"118",118,1,55,"Casado/casada",2,"Master",1,0,"Educación Secundaria",4500,"Cuerpo de Maestros",2,14,8,6,12,33,5,4,1,10
+"119",119,0,36,"Casado/casada",1,"Licenciatura",4,1,"Educación Secundaria",2500,"Cuerpo de Profesores de Enseñanza Secundaria",2,18,8,3,11,27,8,9,5,22
+"120",120,1,42,"Casado/casada",2,"Licenciatura",4,0,"Educación Secundaria",2800,"Cuerpo de Profesores de Enseñanza Secundaria",1,27,5,3,8,17,1,3,1,5
+"121",121,0,30,"Soltero/soltera",0,"Master",8,1,"Educación Secundaria",NA,"Cuerpo de Profesores de Enseñanza Secundaria",2,17,8,4,6,24,3,3,1,7
+"122",122,0,31,"Soltero/soltera",0,"Diplomatura",1,0,"Educación Primaria",1400,"Cuerpo de Maestros",1,27,3,3,7,14,8,3,2,13
+"123",123,1,38,"Casado/casada",2,"Master",1,0,"Educación Primaria",4000,"Cuerpo de Maestros",2,15,11,6,9,34,3,0,2,5
+"124",124,1,27,"Soltero/soltera",0,"Master",1,1,"Educación Primaria",1300,"Cuerpo de Maestros",1,27,4,2,7,14,2,1,0,3
+"125",125,1,33,"Convivencia en pareja",2,"Diplomatura",1,0,"Educación Primaria",NA,"Cuerpo de Maestros",1,21,7,5,3,17,0,0,0,0
+"126",126,0,28,"Casado/casada",1,"Grado",1,0,"Educación Primaria",2800,"Profesores Especialistas",1,18,1,0,5,11,1,0,0,1
+"127",127,0,28,"Casado/casada",1,"Master",1,0,"Otro",2900,"Cuerpo de Maestros",1,28,8,9,0,17,1,0,0,1
+"128",128,1,38,"Casado/casada",2,"Diplomatura",1,0,"Dirección",NA,"Cuerpo de Maestros",1,28,5,2,6,13,5,3,0,8
+"129",129,1,54,"Divorciado/divorciada",1,"Diplomatura",1,0,"Dirección",2400,"Cuerpo de Maestros",1,18,6,1,4,16,0,0,0,0
+"130",130,0,31,"Convivencia en pareja",0,"Diplomatura",1,0,"Educación Primaria",800,"Profesores de Religión (Primaria)",1,18,5,6,7,23,10,6,2,18
+"131",131,1,36,"Pareja estable",1,"Licenciatura",12,1,"Secretaría",2500,"Cuerpo de Profesores de Enseñanza Secundaria",1,27,0,2,6,9,2,3,1,6
+"132",132,1,59,"Casado/casada",3,"Diplomatura",1,0,"Dirección",4000,"Cuerpo de Maestros",1,27,4,5,2,12,3,1,0,4
+"133",133,0,41,"Casado/casada",2,"Licenciatura",1,0,"Dirección",2300,"Cuerpo de Maestros",1,28,8,6,10,24,12,5,2,19
+"134",134,1,42,"Soltero/soltera",0,"Diplomatura",1,0,"Educación Primaria",2000,"Cuerpo de Maestros",2,4,21,5,9,50,3,0,0,3
+"135",135,1,39,"Convivencia en pareja",2,"Licenciatura",1,0,"Secretaría",4200,"Cuerpo de Maestros",2,17,4,12,8,30,6,0,2,8
+"136",136,1,41,"Convivencia en pareja",1,"Grado",1,0,"Educación Primaria",NA,"Cuerpo de Maestros",1,28,4,5,5,14,2,0,0,2
+"137",137,0,45,"Casado/casada",7,"Diplomatura",1,0,"Educación Primaria",4000,"Cuerpo de Maestros",1,26,10,9,3,24,4,1,2,7
+"138",138,0,30,"Soltero/soltera",0,"Master",1,1,"Educación Primaria",23000,"Cuerpo de Maestros",1,28,11,4,6,21,12,7,0,19
+"139",139,1,46,"Casado/casada",3,"Diplomatura",1,0,"Dirección",4500,"Cuerpo de Maestros",2,17,9,5,9,29,1,0,3,4
+"140",140,1,37,"Casado/casada",2,"Diplomatura",1,0,"Dirección",3500,"Cuerpo de Maestros",1,24,1,4,9,15,1,0,1,2
+"141",141,0,54,"Divorciado/divorciada",2,"Diplomatura",1,0,"Dirección",2000,"Cuerpo de Maestros",2,13,10,4,11,33,10,3,7,20
+"142",142,0,31,"Pareja estable",0,"Master",1,0,"Educación Infantil",1600,"Cuerpo de Maestros",1,28,2,7,11,20,8,3,3,14
+"143",143,1,41,"Divorciado/divorciada",2,"Licenciatura",19,0,"Secretaría",2000,"Cuerpo de Maestros",1,24,2,3,3,9,0,2,3,5
+"144",144,0,43,"Casado/casada",2,"Master",1,1,"Educación Primaria",3800,"Cuerpo de Maestros",1,18,4,5,7,21,2,1,0,3
+"145",145,0,54,"Casado/casada",2,"Diplomatura",1,0,"Jefatura de Estudios",4580,"Cuerpo de Maestros",1,27,6,5,3,15,1,1,0,2
+"146",146,0,25,"Convivencia en pareja",0,"Doctorado",1,0,"Educación Primaria",1800,"Cuerpo de Maestros",1,27,0,0,5,6,7,3,1,11
+"147",147,1,42,"Casado/casada",2,"Diplomatura",1,0,"Secretaría",4000,"Cuerpo de Maestros",1,20,4,3,4,14,0,1,0,1
+"148",148,1,41,"Casado/casada",0,"Diplomatura",1,0,"Dirección",NA,"Cuerpo de Maestros",1,28,3,6,5,14,2,1,0,3
+"149",149,0,35,"Casado/casada",0,"Licenciatura",20,1,"Jefatura de Estudios",NA,"Cuerpo de Profesores de Enseñanza Secundaria",1,22,1,6,9,19,5,2,1,8
+"150",150,0,59,"Casado/casada",3,"Licenciatura",19,1,"Educación Primaria",4500,"Cuerpo de Maestros",1,28,4,2,3,9,4,3,0,7
+"151",151,0,42,"Casado/casada",2,"Licenciatura",1,0,"Educación Primaria",4000,"Cuerpo de Maestros",1,28,0,0,2,2,7,5,3,15
+"152",152,0,27,"Soltero/soltera",0,"Master",1,0,"Educación Primaria",NA,"Cuerpo de Maestros",1,28,5,3,9,17,9,2,1,12
+"153",153,0,35,"Soltero/soltera",0,"Licenciatura",1,0,"Secretaría",1800,"Cuerpo de Maestros",1,22,6,5,7,21,2,2,1,5
+"154",154,0,46,"Casado/casada",2,"Licenciatura",8,0,"Educación Secundaria",4000,"Cuerpo de Profesores de Enseñanza Secundaria",2,15,4,4,8,22,8,2,1,11
+"155",155,0,38,"Casado/casada",2,"Licenciatura",8,0,"Educación Primaria",4000,"Cuerpo de Maestros",1,27,0,0,3,4,2,1,0,3
+"156",156,1,32,"Casado/casada",0,"Master",17,1,"Secretaría",NA,"Cuerpo de Profesores de Enseñanza Secundaria",2,6,5,5,7,30,5,2,3,10
+"157",157,0,29,"Convivencia en pareja",0,"Diplomatura",1,0,"Dirección",2900,"Cuerpo de Maestros",2,15,10,4,12,34,12,4,9,25
+"158",158,0,56,"Casado/casada",2,"Diplomatura",1,0,"Educación Infantil",NA,"Cuerpo de Maestros",2,23,7,4,11,24,5,1,0,6
+"159",159,1,61,"Casado/casada",2,"Diplomatura",1,0,"Jefatura de Estudios",3000,"Cuerpo de Maestros",2,15,7,6,11,30,11,5,6,22
+"160",160,0,52,"Casado/casada",3,"Diplomatura",1,0,"Secretaría",NA,"Cuerpo de Maestros",2,18,8,6,7,26,8,2,9,19
+"161",161,0,45,"Casado/casada",4,"Master",17,1,"Educación Secundaria",NA,"Cuerpo de Profesores de Enseñanza Secundaria",1,27,8,6,7,22,6,6,1,13
+"162",162,0,61,"Casado/casada",3,"Diplomatura",1,0,"Educación Infantil",2600,"Profesores de Religión (Primaria)",1,28,3,4,2,9,1,1,1,3
+"163",163,0,30,"Pareja estable",0,"Grado",1,0,"Educación Primaria",1500,"Cuerpo de Maestros",2,22,8,5,10,26,6,0,3,9
+"164",164,0,35,"Convivencia en pareja",0,"Grado",1,0,"Educación Infantil",3000,"Cuerpo de Maestros",1,27,7,3,4,15,4,8,4,16
+"165",165,0,27,"Convivencia en pareja",0,"Grado",1,0,"Educación Primaria",2100,"Cuerpo de Maestros",2,28,11,4,16,31,15,5,3,23
+"166",166,0,48,"Divorciado/divorciada",2,"Grado",1,0,"Educación Infantil",1600,"Cuerpo de Maestros",1,27,3,7,3,14,3,0,0,3
+"167",167,0,54,"Soltero/soltera",0,"Licenciatura",19,1,"Dirección",NA,"Cuerpo de Profesores de Enseñanza Secundaria",1,27,4,14,6,25,0,3,0,3
+"168",168,0,57,"Casado/casada",2,"Diplomatura",1,0,"Educación Primaria",3500,"Cuerpo de Maestros",1,28,3,3,1,7,0,0,0,0
+"169",169,0,31,"Casado/casada",0,"Master",1,0,"Educación Primaria",50000,"Cuerpo de Maestros",2,17,6,4,7,23,1,0,0,1
+"170",170,1,25,"Soltero/soltera",0,"Grado",1,0,"Educación Primaria",1800,"Cuerpo de Maestros",1,28,0,1,5,6,2,0,0,2
+"171",171,0,36,"Casado/casada",1,"Diplomatura",1,0,"Educación Primaria",3200,"Cuerpo de Maestros",1,28,6,5,11,22,6,5,1,12
+"172",172,0,40,"Soltero/soltera",2,"Diplomatura",1,0,"Educación Primaria",2700,"Cuerpo de Maestros",2,14,8,7,7,29,3,0,0,3
+"173",173,0,42,"Casado/casada",1,"Licenciatura",8,1,"Educación Secundaria",2300,"Cuerpo de Profesores de Enseñanza Secundaria",2,18,11,10,8,34,10,5,4,19
+"174",174,0,34,"Casado/casada",1,"Master",16,1,"Educación Secundaria",NA,"Cuerpo de Profesores de Enseñanza Secundaria",1,27,2,1,0,4,0,1,0,1
+"175",175,0,57,"Soltero/soltera",0,"Licenciatura",19,0,"Dirección",2500,"Cuerpo de Maestros",2,28,10,10,12,32,6,4,1,11
+"176",176,1,34,"Soltero/soltera",0,"Master",1,0,"Educación Primaria",900,"Cuerpo de Maestros",1,22,6,9,2,20,8,7,10,25
+"177",177,0,40,"Casado/casada",1,"Licenciatura",15,0,"Educación Secundaria",NA,"Cuerpo de Profesores de Enseñanza Secundaria",2,10,5,8,16,39,12,3,5,20
+"178",178,0,44,"Casado/casada",3,"Licenciatura",18,0,"Educación Secundaria",3000,"Cuerpo de Profesores de Enseñanza Secundaria",2,18,8,6,12,31,1,0,0,1
+"179",179,1,52,"Casado/casada",1,"Licenciatura",9,0,"Secretaría",4300,"Cuerpo de Profesores de Enseñanza Secundaria",2,17,7,3,7,23,2,0,1,3
+"180",180,0,28,"Soltero/soltera",0,"Master",1,1,"Educación Infantil",NA,"Cuerpo de Maestros",1,27,12,5,6,24,5,2,0,7
+"181",181,0,37,"Casado/casada",2,"Master",1,1,"Dirección",NA,"Cuerpo de Maestros",1,28,2,2,7,11,5,4,3,12
+"182",182,1,42,"Convivencia en pareja",0,"Licenciatura",1,0,"Secretaría",NA,"Cuerpo de Maestros",1,23,4,2,3,11,0,0,0,0
+"183",183,1,41,"Casado/casada",2,"Licenciatura",1,0,"Secretaría",60000,"Cuerpo de Maestros",1,21,7,4,4,19,1,0,0,1
+"184",184,0,50,"Divorciado/divorciada",2,"Licenciatura",1,0,"Educación Primaria",3000,"Cuerpo de Maestros",2,17,6,6,5,23,7,7,7,21
+"185",185,1,37,"Convivencia en pareja",0,"Licenciatura",12,1,"Educación Secundaria",3400,"Cuerpo de Profesores de Enseñanza Secundaria",2,18,11,7,4,27,7,6,7,20
+"186",186,0,49,"Divorciado/divorciada",3,"Licenciatura",19,0,"Dirección",4000,"Cuerpo de Maestros",1,27,3,6,2,12,1,0,0,1
+"187",187,0,27,"Soltero/soltera",0,"Master",1,0,"Educación Infantil",2800,"Cuerpo de Maestros",1,28,5,7,2,14,5,5,1,11
+"188",188,0,30,"Casado/casada",2,"Diplomatura",15,0,"Educación Primaria",3600,"Cuerpo de Maestros",2,15,5,9,11,31,10,4,10,24
+"189",189,0,36,"Convivencia en pareja",0,"Diplomatura",8,0,"Dirección",7000,"Cuerpo de Maestros",2,10,14,0,10,34,11,15,11,37
+"190",190,1,54,"Casado/casada",2,"Diplomatura",1,0,"Educación Primaria",NA,"Cuerpo de Maestros",2,14,5,9,5,26,7,2,6,15
+"191",191,1,41,"Casado/casada",2,"Diplomatura",1,0,"Jefatura de Estudios",50000,"Cuerpo de Maestros",1,25,2,3,6,14,7,1,3,11
+"192",192,0,54,"Casado/casada",4,"Grado",1,0,"Educación Primaria",3600,"Cuerpo de Maestros",1,24,3,2,7,13,12,8,9,29
+"193",193,0,42,"Casado/casada",2,"Diplomatura",1,0,"Educación Infantil",NA,"Cuerpo de Maestros",1,26,3,5,4,14,7,3,2,12
+"194",194,1,32,"Casado/casada",0,"Master",1,1,"Otro",20000,"Otro",1,19,4,3,8,19,2,2,0,4
+"195",195,0,44,"Casado/casada",2,"Diplomatura",1,0,"Educación Primaria",3500,"Cuerpo de Maestros",1,28,7,5,8,20,2,1,2,5
+"196",196,1,38,"Soltero/soltera",0,"Diplomatura",1,0,"Dirección",1800,"Cuerpo de Maestros",2,17,8,10,8,32,5,0,6,11
+"197",197,1,52,"Casado/casada",2,"Licenciatura",18,0,"Educación Secundaria",3400,"Cuerpo de Profesores de Enseñanza Secundaria",2,14,11,5,8,31,1,0,1,2
+"198",198,1,47,"Casado/casada",3,"Licenciatura",12,0,"Educación Primaria",3600,"Cuerpo de Maestros",1,28,6,3,5,14,1,0,0,1
+"199",199,1,49,"Casado/casada",2,"Diplomatura",1,0,"Educación Primaria",3000,"Cuerpo de Maestros",2,10,7,5,7,29,10,3,2,15
+"200",200,0,46,"Casado/casada",3,"Licenciatura",16,1,"Dirección",NA,"Cuerpo de Profesores de Enseñanza Secundaria",1,28,1,4,8,13,6,4,1,11
+"201",201,0,55,"Casado/casada",3,"Diplomatura",1,0,"Educación Primaria",NA,"Cuerpo de Maestros",2,19,7,4,8,23,5,0,1,6
+"202",202,0,41,"Convivencia en pareja",0,"Diplomatura",1,0,"Educación Infantil",2500,"Cuerpo de Maestros",1,28,4,0,2,6,3,2,0,5
+"203",203,0,35,"Casado/casada",0,"Licenciatura",1,0,"Educación Primaria",NA,"Cuerpo de Maestros",1,28,5,5,7,17,10,1,0,11
+"204",204,0,47,"Casado/casada",1,"Grado",1,0,"Educación Primaria",3000,"Cuerpo de Maestros",1,28,4,0,6,10,5,3,1,9
+"205",205,1,59,"Casado/casada",1,"Doctorado",6,0,"Dirección",NA,"Cuerpo de Maestros",2,13,9,4,10,31,7,3,2,12
+"206",206,0,39,"Pareja estable",2,"Master",1,0,"Educación Primaria",2400,"Cuerpo de Maestros",2,18,6,5,10,26,6,1,2,9
+"207",207,0,47,"Soltero/soltera",0,"Licenciatura",11,1,"Educación Secundaria",2000,"Cuerpo de Profesores de Enseñanza Secundaria",2,19,7,6,8,25,4,0,1,5
+"208",208,0,42,"Casado/casada",2,"Master",13,1,"Educación Secundaria",3800,"Cuerpo de Profesores de Enseñanza Secundaria",2,20,10,5,5,25,1,1,1,3
+"209",209,0,39,"Casado/casada",2,"Licenciatura",12,0,"Educación Primaria",4000,"Cuerpo de Maestros",1,22,3,0,3,9,3,0,0,3
+"210",210,0,54,"Casado/casada",3,"Diplomatura",1,0,"Dirección",4500,"Cuerpo de Maestros",2,27,11,5,12,29,4,2,1,7
+"211",211,0,44,"Divorciado/divorciada",0,"Master",1,1,"Secretaría",2500,"Cuerpo de Maestros",1,24,4,9,7,21,3,2,0,5
+"212",212,0,26,"Soltero/soltera",0,"Master",8,1,"Educación Secundaria",700,"Cuerpo de Profesores de Enseñanza Secundaria",1,17,1,3,11,21,7,2,0,9
+"213",213,0,40,"Casado/casada",1,"Diplomatura",1,0,"Educación Primaria",1800,"Cuerpo de Maestros",2,21,7,4,8,23,3,3,1,7
+"214",214,0,53,"Casado/casada",2,"Diplomatura",1,0,"Otro",5000,"Cuerpo de Maestros",2,22,11,8,7,29,5,1,2,8
+"215",215,1,48,"Casado/casada",2,"Diplomatura",1,0,"Secretaría",4000,"Cuerpo de Maestros",1,25,5,9,5,22,0,3,0,3
+"216",216,1,41,"Casado/casada",2,"Licenciatura",12,0,"Educación Secundaria",NA,"Cuerpo de Profesores de Enseñanza Secundaria",1,18,5,0,5,15,1,1,1,3
+"217",217,1,58,"Casado/casada",2,"Licenciatura",1,0,"Secretaría",2300,"Cuerpo de Maestros",1,18,7,3,6,21,5,1,0,6
+"218",218,0,51,"Casado/casada",2,"Diplomatura",1,0,"Jefatura de Estudios",NA,"Cuerpo de Maestros",1,27,6,5,6,18,6,1,2,9
+"219",219,1,39,"Casado/casada",2,"Licenciatura",20,0,"Educación Primaria",3500,"Cuerpo de Maestros",1,19,6,2,0,12,0,0,0,0
+"220",220,0,52,"Casado/casada",3,"Licenciatura",19,0,"Dirección",5000,"Cuerpo de Profesores de Enseñanza Secundaria",1,24,4,7,9,21,3,2,5,10
+"221",221,0,41,"Casado/casada",2,"Diplomatura",1,0,"Secretaría",3000,"Cuerpo de Maestros",1,19,7,7,3,21,1,1,0,2
+"222",222,0,38,"Convivencia en pareja",0,"Diplomatura",1,0,"Dirección",NA,"Cuerpo de Maestros",1,22,2,4,6,15,5,1,1,7
+"223",223,0,31,"Casado/casada",2,"Diplomatura",1,0,"Educación Primaria",3000,"Cuerpo de Maestros",1,24,5,6,6,18,10,6,3,19
+"224",224,1,48,"Divorciado/divorciada",1,"Diplomatura",1,0,"Educación Primaria",2300,"Cuerpo de Maestros",1,28,3,0,2,5,3,1,0,4
+"225",225,0,54,"Casado/casada",2,"Diplomatura",1,0,"Dirección",NA,"Cuerpo de Maestros",1,28,6,5,3,14,0,0,2,2
+"226",226,0,36,"Soltero/soltera",0,"Licenciatura",1,0,"Secretaría",1700,"Cuerpo de Maestros",2,18,7,5,10,27,5,2,0,7
+"227",227,0,33,"Casado/casada",2,"Diplomatura",1,0,"Educación Infantil",NA,"Cuerpo de Maestros",2,11,11,2,8,31,0,0,0,0
+"228",228,0,43,"Casado/casada",3,"Grado",1,0,"Secretaría",3600,"Cuerpo de Maestros",2,16,7,5,8,27,5,2,1,8
+"229",229,0,32,"Casado/casada",0,"Diplomatura",1,0,"Educación Primaria",NA,"Cuerpo de Maestros",2,18,9,5,8,27,7,2,0,9
+"230",230,1,61,"Casado/casada",2,"Licenciatura",1,0,"Dirección",4500,"Cuerpo de Maestros",1,18,7,4,0,16,0,0,0,0
+"231",231,0,39,"Soltero/soltera",0,"Diplomatura",1,0,"Otro",1700,"Cuerpo de Maestros",1,22,2,0,3,8,0,0,0,0
+"232",232,0,59,"Soltero/soltera",0,"Licenciatura",1,0,"Educación Primaria",2000,"Cuerpo de Maestros",2,11,7,9,16,42,10,4,1,15
+"233",233,0,47,"Casado/casada",2,"Licenciatura",8,0,"Educación Secundaria",NA,"Cuerpo de Profesores de Enseñanza Secundaria",2,15,10,4,12,32,3,0,0,3
+"234",234,0,57,"Casado/casada",2,"Diplomatura",1,0,"Educación Primaria",4000,"Cuerpo de Maestros",1,24,5,2,9,17,0,0,0,0
+"235",235,0,39,"Soltero/soltera",0,"Master",1,0,"Otro",1700,"Cuerpo de Maestros",1,22,4,4,7,18,1,0,0,1
+"236",236,1,34,"Pareja estable",0,"Master",9,1,"Educación Secundaria",1400,"Cuerpo de Profesores de Enseñanza Secundaria",1,16,2,2,9,20,4,0,0,4
+"237",237,0,41,"Casado/casada",2,"Licenciatura",4,1,"Educación Secundaria",4000,"Cuerpo de Profesores de Enseñanza Secundaria",2,17,13,9,9,35,6,4,2,12
+"238",238,1,29,"Soltero/soltera",0,"Master",1,1,"Educación Secundaria",NA,"Cuerpo de Profesores de Enseñanza Secundaria",1,28,7,6,3,16,7,2,1,10
+"239",239,0,29,"Pareja estable",0,"Licenciatura",1,0,"Educación Primaria",NA,"Cuerpo de Maestros",2,19,7,10,7,28,7,3,1,11
+"240",240,0,57,"Casado/casada",2,"Diplomatura",1,0,"Educación Primaria",4000,"Cuerpo de Maestros",1,17,3,3,3,15,1,0,1,2
+"241",241,0,41,"Casado/casada",2,"Licenciatura",19,0,"Educación Primaria",NA,"Cuerpo de Maestros",1,27,8,5,4,18,0,1,0,1
+"242",242,0,43,"Casado/casada",1,"Diplomatura",1,0,"Educación Primaria",NA,"Cuerpo de Maestros",2,28,13,10,7,30,5,0,1,6
+"243",243,0,36,"Casado/casada",2,"Diplomatura",1,0,"Educación Infantil",2600,"Cuerpo de Maestros",1,28,5,4,3,12,2,0,0,2
+"244",244,0,41,"Casado/casada",3,"Diplomatura",1,0,"Jefatura de Estudios",45000,"Cuerpo de Maestros",2,17,7,6,10,29,4,3,1,8
+"245",245,0,40,"Casado/casada",2,"Diplomatura",1,0,"Otro",NA,"Cuerpo de Maestros",1,23,5,5,7,19,8,3,1,12
+"246",246,1,43,"Casado/casada",2,"Licenciatura",6,0,"Educación Secundaria",4000,"Cuerpo de Profesores de Enseñanza Secundaria",2,18,9,5,8,27,4,5,1,10
+"247",247,0,55,"Soltero/soltera",0,"Licenciatura",19,0,"Educación Primaria",NA,"Cuerpo de Maestros",1,28,8,5,4,17,4,0,2,6
+"248",248,0,40,"Casado/casada",2,"Diplomatura",15,0,"Educación Primaria",NA,"Cuerpo de Maestros",1,23,1,5,8,16,16,11,2,29
+"249",249,0,42,"Casado/casada",2,"Licenciatura",1,0,"Otro",NA,"Cuerpo de Maestros",1,27,4,4,2,11,2,0,0,2
+"250",250,1,55,"Casado/casada",1,"Licenciatura",2,0,"Dirección",4000,"Otro",2,24,14,5,9,29,3,0,3,6
+"251",251,0,60,"Casado/casada",2,"Diplomatura",1,0,"Educación Primaria",4000,"Cuerpo de Maestros",2,12,16,1,12,38,7,4,9,20
+"252",252,0,57,"Casado/casada",3,"Licenciatura",19,0,"Educación Primaria",2200,"Cuerpo de Maestros",2,18,8,5,8,26,8,6,6,20
+"253",253,1,38,"Soltero/soltera",0,"Licenciatura",19,0,"Orientación",1400,"Cuerpo de Profesores de Enseñanza Secundaria",1,19,6,7,6,23,12,3,6,21
+"254",254,0,61,"Soltero/soltera",0,"Diplomatura",1,0,"Educación Primaria",2230,"Cuerpo de Maestros",2,11,11,7,16,43,14,13,18,45
+"255",255,0,39,"Casado/casada",2,"Diplomatura",1,0,"Educación Primaria",4000,"Cuerpo de Maestros",1,28,4,6,11,21,5,4,2,11
+"256",256,0,44,"Casado/casada",3,"Licenciatura",5,1,"Educación Secundaria",3000,"Profesores de Religión (Secundaria)",2,27,7,10,8,26,6,2,1,9
+"257",257,0,38,"Casado/casada",3,"Diplomatura",1,1,"Educación Primaria",2000,"Cuerpo de Maestros",2,28,19,4,12,35,14,6,5,25

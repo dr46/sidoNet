@@ -12,16 +12,17 @@ output:
 
 Este proyecto contiene los archivos de datos, el código y las figuras generadas para el artículo titulado xxxxxxxxxxxx xxxxxxxx xxxxx y que ha sido remitido a la revista XXXXXX XXXXX para su revisión por pares. Contiene la misma información que la que está contenida en el archivo [README.pdf](README.pdf).
 
-Este proyecto se encuentra alojado en la *Open Science Framework* (OSF) en la web https://osf.io/4cbsz/ y en GitHub en la web https://github.com/dr46/sidoNet. **Advertencia:** nótese que los hipervínculos que contiene este documento y el archivo [README.pdf](README.pdf) están referidos a la versión del proyecto disponible en GitHub. Por tanto, para navegar por el conjunto de archivos contenidos en este proyecto se recomienda utilizar la versión web del proyecto disponible en GitHub. *Se hace notar* también que las tildes españolas pueden no verse correctamente en la web de la OSF. Sin embargo, las tildes son legibles perfectamente en las páginas de GitHub.
+Este proyecto se encuentra alojado en la *Open Science Framework* (OSF) en la web https://osf.io/4cbsz/ y en GitHub en la web https://github.com/dr46/sidoNet. **Advertencia:** nótese que los hipervínculos que contiene este documento y el archivo [README.pdf](README.pdf) están referidos a la versión del proyecto disponible en GitHub. Por tanto, para navegar por el conjunto de archivos contenidos en este proyecto se recomienda utilizar la versión web del proyecto disponible en GitHub. **Se hace notar** también que para generar los archivos .csv que contienen tablas se ha usado tanto el punto y coma (habitual en algunas hojas de cálculo configuradas para la lengua española con el objetivo de que la separación de columnas no se confunda con el delimitador decimal) como la coma (más común en entornos en los que se usa el punto como delimitador decimal). Por ello, es posible que algunas tablas se vean en formato de texto plano en GitHub mientras que deberían verse en formato tabulado en la OSF. También se hace notar que tildes del español pueden no verse correctamente en la web de la OSF. Sin embargo, las tildes son legibles perfectamente en las páginas de GitHub.
 
 # Carpetas o directorios del proyecto
 
 Este proyecto contiene un conjunto de carpetas en las que se organizan los archivos. Más concretamente, las carpetas del proyecto y la descripción de la información que contienen es esta:
 
--   dat: esta carpeta contiene archivos de datos.
--   stx: esta carpeta contiene archivos de código.
--   fig: esta carpeta contiene las figuras generadas por el proyecto.
--   tab: esta carpeta contiene tablas de resultados.
+- dat: esta carpeta contiene archivos de datos.
+- stx: esta carpeta contiene archivos de código.
+- fig: esta carpeta contiene las figuras generadas por el proyecto.
+- tab: esta carpeta contiene tablas de resultados.
+- fun: esta carpeta contiene funciones de código R que se invocan en diferentes archivos.
 
 # Archivos
 
@@ -118,6 +119,23 @@ Este proyecto contiene un conjunto de carpetas en las que se organizan los archi
   - 2: a veces: algunas veces al mes.
   - 3: frecuentemente: algunas veces por semana.
   - 4: muy frecuentemente: todos los días.
+  
+- [co.csv](dat/co.csv): esta tabla contiene la pertenencia a los conglomerados para cada participante del estudio. Contiene dos columnas cuyos significados son:
+  - id: es el código de identificación asignado a cada participante del estudio.
+  - co: indica el conglomerado a que pertenece cada uno de los participantes.
+  
+- [sido.csv](dat/sido.csv): esta tabla es una versión actualizada de la base de datos [demo.csv](dat/demo.csv) pero incluyendo la pertenencia a los conglomerados encontrados en el estudio, la puntuación total de la escala DASS-21, la puntuación total de la escala CESQT-PE así como las puntuaciones en las subescalas de susodichos tests. El significado de las columnas añadidas en esta base de datos respectoa a la tabla [demo.csv](dat/demo.csv) es el siguiente.
+  
+  - co: indica el conglomerado al que pertenece el participante.
+  - ilu: puntuación de la subescala de ilusión por el trabajo de la escala CESQT-PE.
+  - ind: puntuación de la subescala de indolencia de la escala CESQT-PE.
+  - cul: puntuación de la subescala de culpa de la escala CESQT-PE.
+  - des: puntuación de la subescala de desgase psíquico de la escala CESQT-PE.
+  - do: puntuación total de desgaste ocupacional al corregir la escala CESQT-PE.
+  - est: puntuación de la subescala de estrés de la escala DASS-21.
+  - ans: puntuación de la subescala de ansiedad de la escala DASS-21.
+  - dep: puntuación de la subescala de depresión de la escala DASS-21.
+  - dass: puntuación total de la escala DASS-21.
 
 ## Archivos de código
 
@@ -127,7 +145,11 @@ Este proyecto contiene un conjunto de carpetas en las que se organizan los archi
 
 - [02_demo.R](stx/02_demo.R): este archivo ejecuta el análisis de las características sociodemográficas de la muestra del estudio. Este archivo genera las tablas [t.frec.csv](tab/t.frec.csv) y [edin.csv](tab/edin.csv) que son simultáneamente proyectadas en la consola de R. Este archivo también produce las figuras [edad.pdf](fig/edad.pdf) y [imf.pdf](fig/imf.pdf).
 
-- [03_fiabil.R](stx/03_fiabil.R): este archivo estima los coeficientes de fiabilidad ($\omega$ de McDonald y $\alpha$ de Cronbach) y sus intervalos de confianza utilizando técnicas de remuestreo aleatorio (1000 muestras en todos los casos) de los datos muestrales. Este archivo genera la tabla [fiabil.csv](tab/fiabil.csv) que se almacena en la carpeta *tab*. **Atención:** ejecutar el archivo de código [03_fiabil.R](stx/03_fiabil.R) puede consumir una gran cantidad de recursos y de tiempo. El tiempo empleado para ejecutar las computaciones dependerá de lo recursos del ordenador en que se ejecute el comando correspondiente. Es por ello por lo que la línea de código que desencadena los análisis de fiabilidad ha sido comentada en el archivo maestro del proyecto ([sidoNet.R](sidoNet.R)). En su lugar, se ha optado por introducir la línea de código que permite recuperar los resultados ([fiabil.csv](tab/fiabil.csv)) que produce dicho archivo y que están almacenados en la carpeta *tab*.
+- [03_fiabil.R](stx/03_fiabil.R): este archivo estima los coeficientes de fiabilidad ($\omega$ de McDonald y $\alpha$ de Cronbach) y sus intervalos de confianza utilizando técnicas de remuestreo aleatorio (1000 muestras en todos los casos) de los datos muestrales. Este archivo genera la tabla [fiabil.csv](tab/fiabil.csv) que se almacena en la carpeta *tab*. **Atención:** ejecutar el archivo de código [03_fiabil.R](stx/03_fiabil.R) puede consumir una gran cantidad de recursos y de tiempo. El tiempo empleado para ejecutar las computaciones dependerá de lo recursos del ordenador en que se ejecute el comando correspondiente. Es por ello por lo que la línea de código que desencadena los análisis de fiabilidad ha sido comentada en el archivo maestro del proyecto ([sidoNet.R](sidoNet.R)). En su lugar, se ha optado por introducir la línea de código que permite recuperar los resultados ([fiabil.csv](tab/fiabil.csv)) que produce dicho archivo y que están almacenados en la carpeta *tab*. **Se hace notar**, también, que para ejecutar este archivo es necesario cargar el paquete "MBESS". Si el paquete no está instalado, se producirán errores y la computación se interrumpirá.
+
+- [04_cluster.R](stx/04_cluster.R): este archivo estima el número de conglomerados que hay en los datos y el vector que asocia a cada participante con cada uno de los conglomerados. Este archivo de código usa el paquete "NbClust". Si el paquete no está instalado, se producirán errores y la computación se interrumpirá. Este archivo también produce los gráficos contenidos en el archivo [clust.pdf](fig/clust.pdf) e imprime el resumen del análisis (en inglés) así como el tamaño de los conglomerados encontrados en la consola de R. Por último, este archivo de código genera la tabla de datos [co.csv](dat/co.csv) que se almacena en la carpeta *dat* y que contiene la pertenencia a cada conglomerado para cada participante.
+
+- [05_escon.R](stx/05_escon.R): este archivo estudia las diferencias que se observan en las variables registradas en el estudio en función de la pertenencia a los clusters observados en los datos. Para que funcione correctamente deben estar instalados los paquetes "effectsize" y "rcompanion" porque son requeridos al ejecutar el archivo de código. Este archivo de código genera la base de datos intermedia [sido.csv](dat/sido.csv) que se almacena en la carpeta *dat*. También produce las tablas [comp.csv](tab/comp.csv) y [tj.csv](tab/tj.csv) que se almacenan en la carpeta *tab*. Y, por último, este archivo de código produce el archivo [puntos.pdf](fig/puntos.pdf) que contiene gráficos para comparar cómo se comportan los clusters identificados en los datos en las escalas y subescalas utilizadas en el estudio.
 
 
 ## Tablas
@@ -182,18 +204,60 @@ Este proyecto contiene un conjunto de carpetas en las que se organizan los archi
   - dass.21.e: subescala de estrés de la escala DASS-21.
   - dass.21.a: subescala de ansiedad de la escala DASS-21.
   - dass.21.d: subescala de depresión de la escala DASS-21.
-  - cesqt: escala CESQT.
-  - cesqt.il: subescala de ilusión por el trabajo de la escala CESQT.
-  - cesqt.in: subescala de indolencia de la escala CESQT.
-  - cesqt.cu: subescala de culpa de la escala CESQT.
-  - cesqt.de: subescala de desgaste psicológico de la escala CESQT.
+  - cesqt: escala CESQT-PA.
+  - cesqt.il: subescala de ilusión por el trabajo de la escala CESQT-PA.
+  - cesqt.in: subescala de indolencia de la escala CESQT-PA.
+  - cesqt.cu: subescala de culpa de la escala CESQT-PA.
+  - cesqt.de: subescala de desgaste psicológico de la escala CESQT-PA.
+
+- [comp.csv](tab/comp.csv): esta tabla compara los conglomerados encontrados en las variables cuantitativas del estudio. El significado de sus columnas es el siguiente:
+  - m.1: media del cluster número 1.
+  - m.2: media del cluster número 2.
+  - dt.1: desviación típica del cluster número 1.
+  - dt.2: desviación típica del cluster número 2.
+  - t: valor de la $t$ de Student para la comparación de medias.
+  - df: grados de libertad para la $t$ de Student.
+  - p: $p$-valor de la $t$ de Student.
+  - d: $d$ de Cohen para la estimación del tamaño del efecto.
+  - r: estimación del tamaño del efecto basado en $r$.
   
+  Por su parte, el significado de las filas es el siguiente:
+  - CESQT-PA: puntuación total de la escala CESQT-PA.
+  - Ilu. Traba.: puntuación de la subescala de ilusión por el trabajo de la escala CESQT-PA.
+  - Indolencia: puntuación de la subescala de indolencia de la escala CESQT-PA.
+  - Culpa: puntuación de la subescala de culpa de la escala CESQT-PA.
+  - Desgas. Psi.: puntuación de la subescala de desgaste psíquico de la escala CESQT-PA.
+  - DASS-21: puntuación total de la escala DASS-21.
+  - Estr.: puntuación de la subescala de estrés de la escala DASS-21.
+  - Ansiedad: puntuación de la subescala de ansiedad de la escala DASS-21.
+  - Depre.: puntuación de la subescala de depresión de la escala DASS-21.
+  - Edad: edad.
+  - Hijos: número de hijos.
+  - Ingresos: ingresos mensuales del núcleo familiar.
+  
+- [tj.csv](tab/tj.csv): esta tabla contiene el análisis de relación que se establece entre las variables cualitativas y los conglomerados observados en los datos. El significado de las columnas es el siguiente:
+  - ji.2: es el estadístico $\chi^2$ de Pearson.
+  - p: es el $p$-valor del contraste de hipótesis para la $\chi^2$ de Pearson.
+  - V: es la $V$ de Cramer.
+
 
 ## Figuras
 
 - [edad.pdf](fig/edad.pdf): es el histograma de la edad.
 
 - [imf.pdf](fig/imf.pdf): es el histograma de la los ingresos medios familiares de los participantes.
+
+- [clust.pdf](fig/clust.pdf): este archivo contiene las figuras utilizadas para determinar el número de clusters en la muestra usando el método de Hubert (primera página del documento) y el índice D (segunda página del documeto).
+
+- [puntos.pdf](fig/puntos.pdf): este archivo contiene gráficos de puntos para los clusters encontrados y para cada una de las escalas y subescalas utiliadas en este estudio.
+
+
+## Funciones
+
+- [01_fval.R](fun/01_fval.R): esta función sirve para extraer estadísticos de los análisis de fiabilidad.
+- [02_compi.R](fun/02_compi.R): esta función sirve para realizar comparaciones descriptivas e inferenciales entre los clusters encontrados en los datos.
+- [03_gc2.R](fun/03_gc2.R): esta función sirve para generar gráficos de puntos para las puntuaciones de las escalas utilizadas en el estudio (CESQT-PA y DASS-21) y sus subescalas en función del cluster al que pertenece el participante.
+- [04_rn.R](fun/04_rn.R): esta función extrae estadísticos del test de $\chi^2$ de Pearson y de la estimación de la $V$ de Cramer.
 
 
 # Referencias
