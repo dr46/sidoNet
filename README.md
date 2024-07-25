@@ -1,9 +1,9 @@
 ---
 title: 'sidoNet: Sindrome de Desgaste Ocupacional Docente modelado con grafos'
 output:
-  html_document: default
-  word_document: default
   pdf_document: default
+  word_document: default
+  html_document: default
 ---
 
 [Ana María Ruiz-Ruano García](https://orcid.org/0000-0002-7260-0588), [Javier Rodríguez Fragoso](https://www.psicofrago.com/), [Francisco José Moya-Faz](https://orcid.org/0000-0002-5832-4900), [Enrique Javier Garcés de los Fayos Ruiz](https://orcid.org/0000-0002-9850-1385), y [Jorge López Puga](https://orcid.org/0000-0003-0693-0092)
@@ -13,6 +13,7 @@ output:
 Este proyecto contiene los archivos de datos, el código y las figuras generadas para el artículo titulado xxxxxxxxxxxx xxxxxxxx xxxxx y que ha sido remitido a la revista XXXXXX XXXXX para su revisión por pares. Contiene la misma información que la que está contenida en el archivo [README.pdf](README.pdf).
 
 Este proyecto se encuentra alojado en la *Open Science Framework* (OSF) en la web https://osf.io/4cbsz/ y en GitHub en la web https://github.com/dr46/sidoNet. **Advertencia:** nótese que los hipervínculos que contiene este documento y el archivo [README.pdf](README.pdf) están referidos a la versión del proyecto disponible en GitHub. Por tanto, para navegar por el conjunto de archivos contenidos en este proyecto se recomienda utilizar la versión web del proyecto disponible en GitHub. **Se hace notar** también que para generar los archivos .csv que contienen tablas se ha usado tanto el punto y coma (habitual en algunas hojas de cálculo configuradas para la lengua española con el objetivo de que la separación de columnas no se confunda con el delimitador decimal) como la coma (más común en entornos en los que se usa el punto como delimitador decimal). Por ello, es posible que algunas tablas se vean en formato de texto plano en GitHub mientras que deberían verse en formato tabulado en la OSF. También se hace notar que tildes del español pueden no verse correctamente en la web de la OSF. Sin embargo, las tildes son legibles perfectamente en las páginas de GitHub.
+
 
 # Carpetas o directorios del proyecto
 
@@ -258,6 +259,19 @@ Este proyecto contiene un conjunto de carpetas en las que se organizan los archi
 - [02_compi.R](fun/02_compi.R): esta función sirve para realizar comparaciones descriptivas e inferenciales entre los clusters encontrados en los datos.
 - [03_gc2.R](fun/03_gc2.R): esta función sirve para generar gráficos de puntos para las puntuaciones de las escalas utilizadas en el estudio (CESQT-PA y DASS-21) y sus subescalas en función del cluster al que pertenece el participante.
 - [04_rn.R](fun/04_rn.R): esta función extrae estadísticos del test de $\chi^2$ de Pearson y de la estimación de la $V$ de Cramer.
+
+
+# Detección de casos atípicos y su tratamiento
+
+Se detectaron casos con valores atípicos que fueron tratados consecuentemente en la variable *imf* (ingresos familiares mensuales, ver tabla [02_demo.R](stx/02_demo.R)). En concreto, estas fueron las modificaciones que se llevaron a cabo:
+
+- El valor de la variable *imf* era 300 para el caso con id 102 pero se trató como caso perdido por presentar un valor considerablemente bajo y por considerarse un error tipográfico.
+
+- El valor de la variable *imf* era 2 para el caso con id 117 pero se trató como caso perdido por presentar un valor considerablemente bajo y por considerarse un error tipográfico.
+
+- El valor de la variable *imf* era 0 para el caso con id 205 pero se trató como caso perdido por presentar un valor considerablemente bajo y por considerarse un error tipográfico.
+
+
 
 
 # Referencias

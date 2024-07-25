@@ -100,7 +100,7 @@ id;sex;edad;ec;nh;ne;esp;mp;rol;imf;cue
 99;0;47;Casado/casada;2;Diplomatura;1;0;Educación Primaria;4000;Cuerpo de Maestros
 100;0;43;Soltero/soltera;1;Diplomatura;1;0;Educación Primaria;;Cuerpo de Maestros
 101;1;55;Divorciado/divorciada;2;Master;2;0;Educación Secundaria;2200;Cuerpo de Profesores de Enseñanza Secundaria
-102;0;27;Pareja estable;0;Grado;1;0;Educación Primaria;300;Cuerpo de Maestros
+102;0;27;Pareja estable;0;Grado;1;0;Educación Primaria;;Cuerpo de Maestros
 103;0;53;Divorciado/divorciada;0;Licenciatura;2;0;Educación Secundaria;;Cuerpo de Profesores de Enseñanza Secundaria
 104;1;60;Casado/casada;3;Diplomatura;1;0;Jefatura de Estudios;2160;Cuerpo de Maestros
 105;1;60;Casado/casada;3;Formación profesional;17;1;Educación Secundaria;3700;Cuerpo de Profesores Técnicos de Formación
