@@ -25,3 +25,13 @@ source("stx/04_cluster.R", encoding = "UTF-8")
 suppressWarnings(source("stx/05_escon.R", encoding = "UTF-8"))
 read.csv("tab/comp.csv", sep = ";", dec = ",")
 read.csv("tab/tj.csv", sep = ";", dec = ",")
+
+# Redes no dirigidas
+suppressWarnings(source("stx/06_rnd.R", encoding = "UTF-8"))
+read.csv("tab/al.1.csv", sep = ";", dec = ",") # Estadísticos locales Ansiedad-Conglomerado 1
+read.csv("tab/al.2.csv", sep = ";", dec = ",") # Estadísticos locales Ansiedad-Conglomerado 2
+read.csv("tab/el.1.csv", sep = ";", dec = ",") # Estadísticos locales Estrés-Conglomerado 1
+read.csv("tab/el.2.csv", sep = ";", dec = ",") # Estadísticos locales Estrés-Conglomerado 2
+read.csv("tab/dl.1.csv", sep = ";", dec = ",") # Estadísticos locales Depresión-Conglomerado 1
+read.csv("tab/dl.2.csv", sep = ";", dec = ",") # Estadísticos locales Depresión-Conglomerado 2
+read.csv("tab/est.g.csv", sep = ";", dec = ",") # Estadísticos globales por redes

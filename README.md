@@ -24,6 +24,7 @@ Este proyecto contiene un conjunto de carpetas en las que se organizan los archi
 - fig: esta carpeta contiene las figuras generadas por el proyecto.
 - tab: esta carpeta contiene tablas de resultados.
 - fun: esta carpeta contiene funciones de código R que se invocan en diferentes archivos.
+- par: esta carpeta contiene archivos que contienen algunos de los parámetros fijos que se utilizarán para estimar los grafos.
 
 # Archivos
 
@@ -146,12 +147,13 @@ Este proyecto contiene un conjunto de carpetas en las que se organizan los archi
 
 - [02_demo.R](stx/02_demo.R): este archivo ejecuta el análisis de las características sociodemográficas de la muestra del estudio. Este archivo genera las tablas [t.frec.csv](tab/t.frec.csv) y [edin.csv](tab/edin.csv) que son simultáneamente proyectadas en la consola de R. Este archivo también produce las figuras [edad.pdf](fig/edad.pdf) y [imf.pdf](fig/imf.pdf).
 
-- [03_fiabil.R](stx/03_fiabil.R): este archivo estima los coeficientes de fiabilidad ($\omega$ de McDonald y $\alpha$ de Cronbach) y sus intervalos de confianza utilizando técnicas de remuestreo aleatorio (1000 muestras en todos los casos) de los datos muestrales. Este archivo genera la tabla [fiabil.csv](tab/fiabil.csv) que se almacena en la carpeta *tab*. **Atención:** ejecutar el archivo de código [03_fiabil.R](stx/03_fiabil.R) puede consumir una gran cantidad de recursos y de tiempo. El tiempo empleado para ejecutar las computaciones dependerá de lo recursos del ordenador en que se ejecute el comando correspondiente. Es por ello por lo que la línea de código que desencadena los análisis de fiabilidad ha sido comentada en el archivo maestro del proyecto ([sidoNet.R](sidoNet.R)). En su lugar, se ha optado por introducir la línea de código que permite recuperar los resultados ([fiabil.csv](tab/fiabil.csv)) que produce dicho archivo y que están almacenados en la carpeta *tab*. **Se hace notar**, también, que para ejecutar este archivo es necesario cargar el paquete "MBESS". Si el paquete no está instalado, se producirán errores y la computación se interrumpirá.
+- [03_fiabil.R](stx/03_fiabil.R): este archivo estima los coeficientes de fiabilidad ($\omega$ de McDonald y $\alpha$ de Cronbach) y sus intervalos de confianza utilizando técnicas de remuestreo aleatorio (1000 muestras en todos los casos) de los datos muestrales. Este archivo genera la tabla [fiabil.csv](tab/fiabil.csv) que se almacena en la carpeta *tab*. **Atención:** ejecutar el archivo de código [03_fiabil.R](stx/03_fiabil.R) puede consumir una gran cantidad de recursos y de tiempo. El tiempo empleado para ejecutar las computaciones dependerá de lo recursos del ordenador en que se ejecute el comando correspondiente. Es por ello por lo que la línea de código que desencadena los análisis de fiabilidad ha sido comentada en el archivo maestro del proyecto ([sidoNet.R](sidoNet.R)). En su lugar, se ha optado por introducir la línea de código que permite recuperar los resultados ([fiabil.csv](tab/fiabil.csv)) que produce dicho archivo y que están almacenados en la carpeta *tab*. **Se hace notar**, también, que para ejecutar este archivo es necesario cargar el paquete "MBESS" ([Kelley, 2021](https://CRAN.R-project.org/package=MBESS)). Si el paquete no está instalado, se producirán errores y la computación se interrumpirá.
 
-- [04_cluster.R](stx/04_cluster.R): este archivo estima el número de conglomerados que hay en los datos y el vector que asocia a cada participante con cada uno de los conglomerados. Este archivo de código usa el paquete "NbClust". Si el paquete no está instalado, se producirán errores y la computación se interrumpirá. Este archivo también produce los gráficos contenidos en el archivo [clust.pdf](fig/clust.pdf) e imprime el resumen del análisis (en inglés) así como el tamaño de los conglomerados encontrados en la consola de R. Por último, este archivo de código genera la tabla de datos [co.csv](dat/co.csv) que se almacena en la carpeta *dat* y que contiene la pertenencia a cada conglomerado para cada participante.
+- [04_cluster.R](stx/04_cluster.R): este archivo estima el número de conglomerados que hay en los datos y el vector que asocia a cada participante con cada uno de los conglomerados. Este archivo de código usa el paquete "NbClust" ([Charrad et al., 2014](https://doi.org/10.18637/jss.v061.i06)). Si el paquete no está instalado, se producirán errores y la computación se interrumpirá. Este archivo también produce los gráficos contenidos en el archivo [clust.pdf](fig/clust.pdf) e imprime el resumen del análisis (en inglés) así como el tamaño de los conglomerados encontrados en la consola de R. Por último, este archivo de código genera la tabla de datos [co.csv](dat/co.csv) que se almacena en la carpeta *dat* y que contiene la pertenencia a cada conglomerado para cada participante.
 
-- [05_escon.R](stx/05_escon.R): este archivo estudia las diferencias que se observan en las variables registradas en el estudio en función de la pertenencia a los clusters observados en los datos. Para que funcione correctamente deben estar instalados los paquetes "effectsize" y "rcompanion" porque son requeridos al ejecutar el archivo de código. Este archivo de código genera la base de datos intermedia [sido.csv](dat/sido.csv) que se almacena en la carpeta *dat*. También produce las tablas [comp.csv](tab/comp.csv) y [tj.csv](tab/tj.csv) que se almacenan en la carpeta *tab*. Y, por último, este archivo de código produce el archivo [puntos.pdf](fig/puntos.pdf) que contiene gráficos para comparar cómo se comportan los clusters identificados en los datos en las escalas y subescalas utilizadas en el estudio.
+- [05_escon.R](stx/05_escon.R): este archivo estudia las diferencias que se observan en las variables registradas en el estudio en función de la pertenencia a los clusters observados en los datos. Para que funcione correctamente deben estar instalados los paquetes "effectsize" ([Ben-Shachar et al., 2020](https://doi.org/10.21105/joss.02815)) y "rcompanion" ([Mangiafico, 2024](https://CRAN.R-project.org/package=rcompanion/)) porque son requeridos al ejecutar el archivo de código. Este archivo de código genera la base de datos intermedia [sido.csv](dat/sido.csv) que se almacena en la carpeta *dat*. También produce las tablas [comp.csv](tab/comp.csv) y [tj.csv](tab/tj.csv) que se almacenan en la carpeta *tab*. Y, por último, este archivo de código produce el archivo [puntos.pdf](fig/puntos.pdf) que contiene gráficos para comparar cómo se comportan los clusters identificados en los datos en las escalas y subescalas utilizadas en el estudio.
 
+- [06_rnd.R](stx/06_rnd.R): este archivo de código genera y analiza las redes de síntomas para cada una de las dimensiones de la escala DASS-21 de [Lovibond y Lovibond (1995)](https://doi.org/10.1016/0005-7967(94)00075-U). Para ejecutar esta línea de código es necesario tener instalados los paquetes "qgraph" ([Epskamp et al, 2012](https://doi.org/10.18637/jss.v048.i04)) y "igraph" ([Kolaczyk y Csárdi, 2014](https://doi.org/10.1007/978-3-030-44129-6)). Ese archivo estima las redes que se representan en las figuras del archivo [rnd.pdf](fig/rnd.pdf). También genera un conjunto de tablas que contienen los estadísticos locales (relativos a cada uno de los nodos de la red) para cada una de las redes estimadas ([al.1](tab/al.1), [al.2](tab/al.2), [el.1](tab/el.1), [el.2](tab/el.2), [dl.1](tab/dl.1), y [dl.2](tab/dl.2)) así como la tabla [est.g.csv](tab/est.g.csv) que contiene estadísticos globales para cada una de las redes.
 
 ## Tablas
 
@@ -241,6 +243,14 @@ Este proyecto contiene un conjunto de carpetas en las que se organizan los archi
   - p: es el $p$-valor del contraste de hipótesis para la $\chi^2$ de Pearson.
   - V: es la $V$ de Cramer.
 
+- [al.1](tab/al.1), [al.2](tab/al.2), [el.1](tab/el.1), [el.2](tab/el.2), [dl.1](tab/dl.1), y [dl.2](tab/dl.2): estas tablas contienen, respectivamente, los estadísticos locales para cada uno de los nodos contenidos en las redes de ansiedad (conglomerados 1 y 2), de estrés (conglomerados 1 y 2), y de depresión (conglomerados 1 y 2). El significado de las filas es el siguiente:
+  - GP: grado ponderado del nodo.
+  - G: grado no ponderado del nodo.
+  - C: índice de cercanía del nodo.
+  - I: índice de intermediación del nodo.
+  - IG: influencia esperada del nodo.
+  - WS: coeficiente de conglomeración de [Watts y Strogatz (1998)](https://doi.org/10.1038/30918).
+
 
 ## Figuras
 
@@ -252,6 +262,8 @@ Este proyecto contiene un conjunto de carpetas en las que se organizan los archi
 
 - [puntos.pdf](fig/puntos.pdf): este archivo contiene gráficos de puntos para los clusters encontrados y para cada una de las escalas y subescalas utiliadas en este estudio.
 
+- [rnd.pdf](fig/rnd.pdf): este archivo contiene los grafos no dirigidos para cada una de las dimensiones del DASS-21 en función de cada uno de los conglomerados extraídos de los datos. El grosor de los enlaces es proporcional a la fuerza de asociación estimada para cada par de variables.
+
 
 ## Funciones
 
@@ -259,6 +271,10 @@ Este proyecto contiene un conjunto de carpetas en las que se organizan los archi
 - [02_compi.R](fun/02_compi.R): esta función sirve para realizar comparaciones descriptivas e inferenciales entre los clusters encontrados en los datos.
 - [03_gc2.R](fun/03_gc2.R): esta función sirve para generar gráficos de puntos para las puntuaciones de las escalas utilizadas en el estudio (CESQT-PA y DASS-21) y sus subescalas en función del cluster al que pertenece el participante.
 - [04_rn.R](fun/04_rn.R): esta función extrae estadísticos del test de $\chi^2$ de Pearson y de la estimación de la $V$ de Cramer.
+
+## Archivos de parámetros
+
+- [par.rnd.R](par/par.rnd.R): este archivo contiene los parámetros fijos de estimación para las redes no dirigidas.
 
 
 # Detección de casos atípicos y su tratamiento
@@ -276,8 +292,18 @@ Se detectaron casos con valores atípicos que fueron tratados consecuentemente e
 
 # Referencias
 
+- Ben-Shachar, M. S., Lüdecke, D., y Makowski, D. (2020). Effectsize: estimation of effect size indices and standardized parameters. *Journal of Open Source Software, 5*(56). Artículo 2815. https://doi.org/10.21105/joss.02815
+
+-  Charrad, M., Ghazzali, N., Boiteau, V., y Niknafs, A. (2014). NbClust: an R package for determining the relevant number of clusters in a data set. *Journal of Statistical Software, 61*(6), 1–36. https://doi.org/10.18637/jss.v061.i06
+
+- Epskamp, S., Cramer, A. O. J., Waldorp, L. J., Schmittmann, V. D., y Borsboom, D. (2012). qgraph: network visualizations of relationships in psychometric data. *Journal of Statistical Software, 48*(4), 1-18. https://doi.org/10.18637/jss.v048.i04
+
 - Gil-Monte, P. R., Unda Rojas, S., y Sandoval Ocaña, J. I. (2009). Validez factorial del "Cuestionario para la Evaluación del Síndrome de Quemarse por el Trabajo"" (CESQT) en una muestra de maestros mexicanos. *Salud Mental, 32*(3), 205-214. 
+
+- Kolaczyk, E. D., y Csárdi, G. (2014). *Statistical analysis of network data with R*. Springer. https://doi.org/10.1007/978-3-030-44129-6
 
 - León, O. G., y Montero, I. (2003). *Métodos de investigación en psicología y educación*. McGraw Hill.
 
 - Lovibond, P. F., y Lovibond, S. H. (1995). The structure of negative emotional states: Comparison of the Depression Anxiety Stress Scales (DASS) with the Beck Depression and Anxiety Inventories. *Behaviour Research and Therapy, 33*(3), 335-343. https://doi.org/10.1016/0005-7967(94)00075-U
+
+- Watts, D., y Strogatz, S. (1998, 4 de Junio). Collective dynamics of ‘small-world’ networks. *Nature 393*(6684), 440–442. https://doi.org/10.1038/30918

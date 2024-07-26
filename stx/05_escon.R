@@ -171,16 +171,8 @@ rownames(tj) <- c("Sexo",
 
 tj <- round(tj, 2)
 
-
 write.table(tj, file = file("tab/tj.csv", encoding ="UTF-8"), 
             sep = ";", dec = "," , row.names = T, col.names = NA)
 
-
-tj
-
-
-
-
-
-
 rm(list = ls())
+.rs.restartR()
