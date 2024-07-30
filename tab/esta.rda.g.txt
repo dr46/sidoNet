@@ -1,0 +1,36 @@
+[1] "------ MODELO: Conglomerado 1 ------"
+
+  Random/Generated Bayesian network
+
+  model:
+   [a1][a2][a3][a4][a5][d1][d2][d3][d4][d5][e2][e4][e5][e6][a6|a2:e5][a7|a5][d6|a2][d7|d3][e1|e5]
+   [e3|e4:e5][e7|e2]
+  nodes:                                 21 
+  arcs:                                  9 
+    undirected arcs:                     0 
+    directed arcs:                       9 
+  average markov blanket size:           1.05 
+  average neighbourhood size:            0.86 
+  average branching factor:              0.43 
+
+  generation algorithm:                  Model Averaging 
+  significance threshold:                0.65 
+
+[1] "------ MODELO: Conglomerado 2 ------"
+
+  Random/Generated Bayesian network
+
+  model:
+   [a1][a3][a4][a5][d1][d3][d5][e1][e2][e6][a2|a5][a7|a5][d2|a4][d4|d5][d7|d3][e5|e1][e7|e2][a6|a2]
+   [d6|d7][e3|e7][e4|a6]
+  nodes:                                 21 
+  arcs:                                  11 
+    undirected arcs:                     0 
+    directed arcs:                       11 
+  average markov blanket size:           1.05 
+  average neighbourhood size:            1.05 
+  average branching factor:              0.52 
+
+  generation algorithm:                  Model Averaging 
+  significance threshold:                0.65 
+

@@ -1,9 +1,9 @@
 ---
 title: 'sidoNet: Sindrome de Desgaste Ocupacional Docente modelado con grafos'
 output:
-  html_document: default
-  word_document: default
   pdf_document: default
+  word_document: default
+  html_document: default
 ---
 
 [Ana María Ruiz-Ruano García](https://orcid.org/0000-0002-7260-0588), [Javier Rodríguez Fragoso](https://www.psicofrago.com/), [Francisco José Moya-Faz](https://orcid.org/0000-0002-5832-4900), [Enrique Javier Garcés de los Fayos Ruiz](https://orcid.org/0000-0002-9850-1385), y [Jorge López Puga](https://orcid.org/0000-0003-0693-0092)
@@ -139,6 +139,8 @@ Este proyecto contiene un conjunto de carpetas en las que se organizan los archi
   - dep: puntuación de la subescala de depresión de la escala DASS-21.
   - dass: puntuación total de la escala DASS-21.
 
+- [an.1](dat/an.1), [an.2](dat/an.2), [de.1](dat/de.1),  [de.2](dat/de.2), [es.1](dat/es.1) y [es.2](dat/es.2): estos archivos de datos contienen los ítems para las dimensiones de ansiedad (an.), de depresión (de.) y de estrés (es.) segmentadas por los clusters (.1 y .2) encontrados en los datos.
+
 ## Archivos de código
 
 -   [sidoNet.R](sidoNet.R): es el archivo de código maestro del proyecto. Desde este archivo se van ejecutando el resto de los archivos de código del proyecto.
@@ -153,7 +155,11 @@ Este proyecto contiene un conjunto de carpetas en las que se organizan los archi
 
 - [05_escon.R](stx/05_escon.R): este archivo estudia las diferencias que se observan en las variables registradas en el estudio en función de la pertenencia a los clusters observados en los datos. Para que funcione correctamente deben estar instalados los paquetes "effectsize" ([Ben-Shachar et al., 2020](https://doi.org/10.21105/joss.02815)) y "rcompanion" ([Mangiafico, 2024](https://CRAN.R-project.org/package=rcompanion/)) porque son requeridos al ejecutar el archivo de código. Este archivo de código genera la base de datos intermedia [sido.csv](dat/sido.csv) que se almacena en la carpeta *dat*. También produce las tablas [comp.csv](tab/comp.csv) y [tj.csv](tab/tj.csv) que se almacenan en la carpeta *tab*. Y, por último, este archivo de código produce el archivo [puntos.pdf](fig/puntos.pdf) que contiene gráficos para comparar cómo se comportan los clusters identificados en los datos en las escalas y subescalas utilizadas en el estudio.
 
-- [06_rnd.R](stx/06_rnd.R): este archivo de código genera y analiza las redes de síntomas para cada una de las dimensiones de la escala DASS-21 de [Lovibond y Lovibond (1995)](https://doi.org/10.1016/0005-7967(94)00075-U). Para ejecutar esta línea de código es necesario tener instalados los paquetes "qgraph" ([Epskamp et al, 2012](https://doi.org/10.18637/jss.v048.i04)) y "igraph" ([Kolaczyk y Csárdi, 2014](https://doi.org/10.1007/978-3-030-44129-6)). Ese archivo estima las redes que se representan en las figuras del archivo [rnd.pdf](fig/rnd.pdf). También genera un conjunto de tablas que contienen los estadísticos locales (relativos a cada uno de los nodos de la red) para cada una de las redes estimadas ([al.1](tab/al.1), [al.2](tab/al.2), [el.1](tab/el.1), [el.2](tab/el.2), [dl.1](tab/dl.1), y [dl.2](tab/dl.2)) así como la tabla [est.g.csv](tab/est.g.csv) que contiene estadísticos globales para cada una de las redes.
+- [06_rnd.R](stx/06_rnd.R): este archivo de código genera y analiza las redes de síntomas para cada una de las dimensiones de la escala DASS-21 de [Lovibond y Lovibond (1995)](https://doi.org/10.1016/0005-7967(94)00075-U). Para ejecutar esta línea de código es necesario tener instalados los paquetes "qgraph" ([Epskamp et al, 2012](https://doi.org/10.18637/jss.v048.i04)) y "igraph" ([Kolaczyk y Csárdi, 2014](https://doi.org/10.1007/978-3-030-44129-6)). Ese archivo estima las redes que se representan en las figuras del archivo [rnd.pdf](fig/rnd.pdf). También genera un conjunto de tablas que contienen los estadísticos locales (relativos a cada uno de los nodos de la red) para cada una de las redes estimadas ([al.1](tab/al.1), [al.2](tab/al.2), [el.1](tab/el.1), [el.2](tab/el.2), [dl.1](tab/dl.1), y [dl.2](tab/dl.2)) así como la tabla [est.g.csv](tab/est.g.csv) que contiene estadísticos globales para cada una de las redes. El script que se ejecuta con esta línea de código también genera las bases de datos [an.1](dat/an.1), [an.2](dat/an.2), [de.1](dat/de.1),  [de.2](dat/de.2), [es.1](dat/es.1) y [es.2](dat/es.2) que contienen las puntuaciones de los ítems de las dimensiones del DASS-21 segmentadas por conglomerado.
+
+- [07_rda.R](stx/07_rda.R): este archivo de código genera y analiza las redes de síntomas dirigidas acíclicas para cada una de las dimensiones de la escala  DASS-21 de [Lovibond y Lovibond (1995)](https://doi.org/10.1016/0005-7967(94)00075-U). Para ejecutar esta línea de código con éxito es necesario tener instalado los paquetes "bnlearn" [Scutari (2010)](https://doi.org/10.18637/jss.v035.i03) y "qgraph" ([Epskamp et al, 2012](https://doi.org/10.18637/jss.v048.i04)). Este archivo genera los grafos dirigidos acíclicos que aparecen en el archivo [rda.pdf](fig/rda.pdf). Además, este archivo produce las tablas de resumen [pesos.rda.txt](tab/pesos.rda.txt) y [esta.rda.txt](tab/esta.rda.txt) para estos gráficos estimados.
+
+- [08_redes.g.R](stx/08_redes.g.R): este archivo de código sirve para estimar y analizar redes no dirigidas y dirigidas acíclicas considerando todos los ítems de la escala DASS-21. Para que este archivo se ejecute correctamente han de estar instalados los paquetes "qgraph" ([Epskamp et al, 2012](https://doi.org/10.18637/jss.v048.i04)), "igraph" ([Kolaczyk y Csárdi, 2014](https://doi.org/10.1007/978-3-030-44129-6)) y "bnlearn" [Scutari (2010)](https://doi.org/10.18637/jss.v035.i03). Los grafos no dirigidos generados por este archivo se almacenan en el archivo [rnd.g.pdf](fig/rnd.g.pdf) y los grafos dirigidos se almacenan en el archivo [rda.g.pdf](fig/rda.g.pdf). Este archivo de código también genera las tablas [l.c1.csv](tab/l.c1.csv), [l.c2.csv](tab/l.c2.csv) y [est.g.full.csv](tab/est.g.full.csv). Este archivo también genera el archivo [esta.rda.g.txt](tab/esta.rda.g.txt) de resultados.
 
 ## Tablas
 
@@ -251,6 +257,33 @@ Este proyecto contiene un conjunto de carpetas en las que se organizan los archi
   - IG: influencia esperada del nodo.
   - WS: coeficiente de conglomeración de [Watts y Strogatz (1998)](https://doi.org/10.1038/30918).
 
+- [est.g.csv](tab/est.g.csv): esta tabla contiene estadísticos globales para las redes no dirigidas estimadas. Esta tabla contiene cinco columnas cuyo significado es el siguiente:
+  - Dim.Das: indica la dimensión de la escala DASS-21 a la que se refieren los estadísticos.
+  - Congl: se refiere al conglomerado observado en los datos.
+  - E: indica el número de enlaces presentes en la red no dirigida.
+  - D: indica la densidad de enlaces en la red no dirigida.
+  - T: es el estadístico de transitvidad o conglomeración global de la red no dirigida.
+
+- [pesos.rda.txt](tab/pesos.rda.txt): este archivo de texto contiene los los pares de variables que aparecen en los grafos dirigidos acíclicos estimados teniendo en cuenta los parámetros contenidos en el archivo [par_rda.R](par/par_rda.R). En cada tabla aparece la fuerza de asociación para la arista dirigida (*strength*).
+
+- [esta.rda.txt](tab/esta.rda.txt): este archivo de texto contiene el resumen de los modelos de rede sdirigidas acíclicas así como algunos estadísticos básicos de las mismas.
+
+- [l.c1.csv](tab/l.c1.csv) y [l.c2.csv](tab/l.c2.csv): estas tablas contienen los estadísticos locales para cada una de las redes generadas para cada conglomerado observado en los datos considerando todos los ítmes de la escala DASS-21. El significado de las filas es el siguiente:
+  - GP: grado ponderado del nodo.
+  - G: grado no ponderado del nodo.
+  - C: índice de cercanía del nodo.
+  - I: índice de intermediación del nodo.
+  - IG: influencia esperada del nodo.
+  - WS: coeficiente de conglomeración de [Watts y Strogatz (1998)](https://doi.org/10.1038/30918).
+  
+- [est.g.full.csv](tab/est.g.full.csv): esta tabla contiene los estadísticos globales para cada uno de los conglomerados observados en los datos. Las columnas de la tabla significan lo siguiente:
+  - cluster: se refiere al conglomerado observado en los datos.
+  - E: indica el número de enlaces presentes en la red no dirigida.
+  - D: indica la densidad de enlaces en la red no dirigida.
+  - T: es el estadístico de transitvidad o conglomeración global de la red no dirigida.
+
+- [esta.rda.g.txt](tab/esta.rda.g.txt): este archivo de texto contiene los estadísticos descriptivos básicos de las redes dirigidas acíclicas creadas para cada uno de los conglomerados observados en los datos utilizando todos los ítems de la escala DASS-21.
+
 
 ## Figuras
 
@@ -264,6 +297,12 @@ Este proyecto contiene un conjunto de carpetas en las que se organizan los archi
 
 - [rnd.pdf](fig/rnd.pdf): este archivo contiene los grafos no dirigidos para cada una de las dimensiones del DASS-21 en función de cada uno de los conglomerados extraídos de los datos. El grosor de los enlaces es proporcional a la fuerza de asociación estimada para cada par de variables.
 
+- [rda.pdf](fig/rda.pdf): este documento contiene los grafos dirigidos acíclicos para cada una de las dimensiones del DASS-21 en función de cada uno de los conglomerados extraídos de los datos.
+
+-[rnd.g.pdf](fig/rnd.g.pdf): este archivo incluye los grafos no dirigidos para cada uno de los conglomerados observados en los datos utilizando todos los ítems de la escala DASS-21.
+
+- [rda.g.pdf](fig/rda.g.pdf): este archivo contiene los grafos dirigidos acíclicos para cada uno de los conglomerados observados en los datos utilizando todos los ítems de la escala DASS-21.
+
 
 ## Funciones
 
@@ -275,6 +314,10 @@ Este proyecto contiene un conjunto de carpetas en las que se organizan los archi
 ## Archivos de parámetros
 
 - [par.rnd.R](par/par.rnd.R): este archivo contiene los parámetros fijos de estimación para las redes no dirigidas.
+
+- [par_rda.R](par/par_rda.R): este archivo contiene los parámetros fijos de estimación para las redes dirigidas acíclicas.
+
+- [par.rtotal.R](par/par.rtotal.R): este archivo contiene los parámetros fijos de estimación para las redes no dirigidas y dirigidas acíclicas que se estiman con todos los ítems de la escala DASS-21.
 
 
 # Detección de casos atípicos y su tratamiento
@@ -305,5 +348,7 @@ Se detectaron casos con valores atípicos que fueron tratados consecuentemente e
 - León, O. G., y Montero, I. (2003). *Métodos de investigación en psicología y educación*. McGraw Hill.
 
 - Lovibond, P. F., y Lovibond, S. H. (1995). The structure of negative emotional states: Comparison of the Depression Anxiety Stress Scales (DASS) with the Beck Depression and Anxiety Inventories. *Behaviour Research and Therapy, 33*(3), 335-343. https://doi.org/10.1016/0005-7967(94)00075-U
+
+- Scutari, M. (2010). Learning bayesian networks with the bnlearn R package. *Journal of Statistical Software, 35*(3), 1–22. https://doi.org/10.18637/jss.v035.i03
 
 - Watts, D., y Strogatz, S. (1998, 4 de Junio). Collective dynamics of ‘small-world’ networks. *Nature 393*(6684), 440–442. https://doi.org/10.1038/30918

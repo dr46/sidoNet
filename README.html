@@ -314,6 +314,7 @@ pre code {
 <li>dep: puntuación de la subescala de depresión de la escala DASS-21.</li>
 <li>dass: puntuación total de la escala DASS-21.</li>
 </ul></li>
+<li><p><a href="dat/an.1">an.1</a>, <a href="dat/an.2">an.2</a>, <a href="dat/de.1">de.1</a>, <a href="dat/de.2">de.2</a>, <a href="dat/es.1">es.1</a> y <a href="dat/es.2">es.2</a>: estos archivos de datos contienen los ítems para las dimensiones de ansiedad (an.), de depresión (de.) y de estrés (es.) segmentadas por los clusters (.1 y .2) encontrados en los datos.</p></li>
 </ul>
 </div>
 <div id="archivos-de-código" class="section level2">
@@ -325,7 +326,9 @@ pre code {
 <li><p><a href="stx/03_fiabil.R">03_fiabil.R</a>: este archivo estima los coeficientes de fiabilidad (<span class="math inline">\(\omega\)</span> de McDonald y <span class="math inline">\(\alpha\)</span> de Cronbach) y sus intervalos de confianza utilizando técnicas de remuestreo aleatorio (1000 muestras en todos los casos) de los datos muestrales. Este archivo genera la tabla <a href="tab/fiabil.csv">fiabil.csv</a> que se almacena en la carpeta <em>tab</em>. <strong>Atención:</strong> ejecutar el archivo de código <a href="stx/03_fiabil.R">03_fiabil.R</a> puede consumir una gran cantidad de recursos y de tiempo. El tiempo empleado para ejecutar las computaciones dependerá de lo recursos del ordenador en que se ejecute el comando correspondiente. Es por ello por lo que la línea de código que desencadena los análisis de fiabilidad ha sido comentada en el archivo maestro del proyecto (<a href="sidoNet.R">sidoNet.R</a>). En su lugar, se ha optado por introducir la línea de código que permite recuperar los resultados (<a href="tab/fiabil.csv">fiabil.csv</a>) que produce dicho archivo y que están almacenados en la carpeta <em>tab</em>. <strong>Se hace notar</strong>, también, que para ejecutar este archivo es necesario cargar el paquete “MBESS” (<a href="https://CRAN.R-project.org/package=MBESS">Kelley, 2021</a>). Si el paquete no está instalado, se producirán errores y la computación se interrumpirá.</p></li>
 <li><p><a href="stx/04_cluster.R">04_cluster.R</a>: este archivo estima el número de conglomerados que hay en los datos y el vector que asocia a cada participante con cada uno de los conglomerados. Este archivo de código usa el paquete “NbClust” (<a href="https://doi.org/10.18637/jss.v061.i06">Charrad et al., 2014</a>). Si el paquete no está instalado, se producirán errores y la computación se interrumpirá. Este archivo también produce los gráficos contenidos en el archivo <a href="fig/clust.pdf">clust.pdf</a> e imprime el resumen del análisis (en inglés) así como el tamaño de los conglomerados encontrados en la consola de R. Por último, este archivo de código genera la tabla de datos <a href="dat/co.csv">co.csv</a> que se almacena en la carpeta <em>dat</em> y que contiene la pertenencia a cada conglomerado para cada participante.</p></li>
 <li><p><a href="stx/05_escon.R">05_escon.R</a>: este archivo estudia las diferencias que se observan en las variables registradas en el estudio en función de la pertenencia a los clusters observados en los datos. Para que funcione correctamente deben estar instalados los paquetes “effectsize” (<a href="https://doi.org/10.21105/joss.02815">Ben-Shachar et al., 2020</a>) y “rcompanion” (<a href="https://CRAN.R-project.org/package=rcompanion/">Mangiafico, 2024</a>) porque son requeridos al ejecutar el archivo de código. Este archivo de código genera la base de datos intermedia <a href="dat/sido.csv">sido.csv</a> que se almacena en la carpeta <em>dat</em>. También produce las tablas <a href="tab/comp.csv">comp.csv</a> y <a href="tab/tj.csv">tj.csv</a> que se almacenan en la carpeta <em>tab</em>. Y, por último, este archivo de código produce el archivo <a href="fig/puntos.pdf">puntos.pdf</a> que contiene gráficos para comparar cómo se comportan los clusters identificados en los datos en las escalas y subescalas utilizadas en el estudio.</p></li>
-<li><p><a href="stx/06_rnd.R">06_rnd.R</a>: este archivo de código genera y analiza las redes de síntomas para cada una de las dimensiones de la escala DASS-21 de <a href="https://doi.org/10.1016/0005-7967(94)00075-U">Lovibond y Lovibond (1995)</a>. Para ejecutar esta línea de código es necesario tener instalados los paquetes “qgraph” (<a href="https://doi.org/10.18637/jss.v048.i04">Epskamp et al, 2012</a>) y “igraph” (<a href="https://doi.org/10.1007/978-3-030-44129-6">Kolaczyk y Csárdi, 2014</a>). Ese archivo estima las redes que se representan en las figuras del archivo <a href="fig/rnd.pdf">rnd.pdf</a>. También genera un conjunto de tablas que contienen los estadísticos locales (relativos a cada uno de los nodos de la red) para cada una de las redes estimadas (<a href="tab/al.1">al.1</a>, <a href="tab/al.2">al.2</a>, <a href="tab/el.1">el.1</a>, <a href="tab/el.2">el.2</a>, <a href="tab/dl.1">dl.1</a>, y <a href="tab/dl.2">dl.2</a>) así como la tabla <a href="tab/est.g.csv">est.g.csv</a> que contiene estadísticos globales para cada una de las redes.</p></li>
+<li><p><a href="stx/06_rnd.R">06_rnd.R</a>: este archivo de código genera y analiza las redes de síntomas para cada una de las dimensiones de la escala DASS-21 de <a href="https://doi.org/10.1016/0005-7967(94)00075-U">Lovibond y Lovibond (1995)</a>. Para ejecutar esta línea de código es necesario tener instalados los paquetes “qgraph” (<a href="https://doi.org/10.18637/jss.v048.i04">Epskamp et al, 2012</a>) y “igraph” (<a href="https://doi.org/10.1007/978-3-030-44129-6">Kolaczyk y Csárdi, 2014</a>). Ese archivo estima las redes que se representan en las figuras del archivo <a href="fig/rnd.pdf">rnd.pdf</a>. También genera un conjunto de tablas que contienen los estadísticos locales (relativos a cada uno de los nodos de la red) para cada una de las redes estimadas (<a href="tab/al.1">al.1</a>, <a href="tab/al.2">al.2</a>, <a href="tab/el.1">el.1</a>, <a href="tab/el.2">el.2</a>, <a href="tab/dl.1">dl.1</a>, y <a href="tab/dl.2">dl.2</a>) así como la tabla <a href="tab/est.g.csv">est.g.csv</a> que contiene estadísticos globales para cada una de las redes. El script que se ejecuta con esta línea de código también genera las bases de datos <a href="dat/an.1">an.1</a>, <a href="dat/an.2">an.2</a>, <a href="dat/de.1">de.1</a>, <a href="dat/de.2">de.2</a>, <a href="dat/es.1">es.1</a> y <a href="dat/es.2">es.2</a> que contienen las puntuaciones de los ítems de las dimensiones del DASS-21 segmentadas por conglomerado.</p></li>
+<li><p><a href="stx/07_rda.R">07_rda.R</a>: este archivo de código genera y analiza las redes de síntomas dirigidas acíclicas para cada una de las dimensiones de la escala DASS-21 de <a href="https://doi.org/10.1016/0005-7967(94)00075-U">Lovibond y Lovibond (1995)</a>. Para ejecutar esta línea de código con éxito es necesario tener instalado los paquetes “bnlearn” <a href="https://doi.org/10.18637/jss.v035.i03">Scutari (2010)</a> y “qgraph” (<a href="https://doi.org/10.18637/jss.v048.i04">Epskamp et al, 2012</a>). Este archivo genera los grafos dirigidos acíclicos que aparecen en el archivo <a href="fig/rda.pdf">rda.pdf</a>. Además, este archivo produce las tablas de resumen <a href="tab/pesos.rda.txt">pesos.rda.txt</a> y <a href="tab/esta.rda.txt">esta.rda.txt</a> para estos gráficos estimados.</p></li>
+<li><p><a href="stx/08_redes.g.R">08_redes.g.R</a>: este archivo de código sirve para estimar y analizar redes no dirigidas y dirigidas acíclicas considerando todos los ítems de la escala DASS-21. Para que este archivo se ejecute correctamente han de estar instalados los paquetes “qgraph” (<a href="https://doi.org/10.18637/jss.v048.i04">Epskamp et al, 2012</a>), “igraph” (<a href="https://doi.org/10.1007/978-3-030-44129-6">Kolaczyk y Csárdi, 2014</a>) y “bnlearn” <a href="https://doi.org/10.18637/jss.v035.i03">Scutari (2010)</a>. Los grafos no dirigidos generados por este archivo se almacenan en el archivo <a href="fig/rnd.g.pdf">rnd.g.pdf</a> y los grafos dirigidos se almacenan en el archivo <a href="fig/rda.g.pdf">rda.g.pdf</a>. Este archivo de código también genera las tablas <a href="tab/l.c1.csv">l.c1.csv</a>, <a href="tab/l.c2.csv">l.c2.csv</a> y <a href="tab/est.g.full.csv">est.g.full.csv</a>. Este archivo también genera el archivo <a href="tab/esta.rda.g.txt">esta.rda.g.txt</a> de resultados.</p></li>
 </ul>
 </div>
 <div id="tablas" class="section level2">
@@ -434,6 +437,33 @@ pre code {
 <li>IG: influencia esperada del nodo.</li>
 <li>WS: coeficiente de conglomeración de <a href="https://doi.org/10.1038/30918">Watts y Strogatz (1998)</a>.</li>
 </ul></li>
+<li><p><a href="tab/est.g.csv">est.g.csv</a>: esta tabla contiene estadísticos globales para las redes no dirigidas estimadas. Esta tabla contiene cinco columnas cuyo significado es el siguiente:</p>
+<ul>
+<li>Dim.Das: indica la dimensión de la escala DASS-21 a la que se refieren los estadísticos.</li>
+<li>Congl: se refiere al conglomerado observado en los datos.</li>
+<li>E: indica el número de enlaces presentes en la red no dirigida.</li>
+<li>D: indica la densidad de enlaces en la red no dirigida.</li>
+<li>T: es el estadístico de transitvidad o conglomeración global de la red no dirigida.</li>
+</ul></li>
+<li><p><a href="tab/pesos.rda.txt">pesos.rda.txt</a>: este archivo de texto contiene los los pares de variables que aparecen en los grafos dirigidos acíclicos estimados teniendo en cuenta los parámetros contenidos en el archivo <a href="par/par_rda.R">par_rda.R</a>. En cada tabla aparece la fuerza de asociación para la arista dirigida (<em>strength</em>).</p></li>
+<li><p><a href="tab/esta.rda.txt">esta.rda.txt</a>: este archivo de texto contiene el resumen de los modelos de rede sdirigidas acíclicas así como algunos estadísticos básicos de las mismas.</p></li>
+<li><p><a href="tab/l.c1.csv">l.c1.csv</a> y <a href="tab/l.c2.csv">l.c2.csv</a>: estas tablas contienen los estadísticos locales para cada una de las redes generadas para cada conglomerado observado en los datos considerando todos los ítmes de la escala DASS-21. El significado de las filas es el siguiente:</p>
+<ul>
+<li>GP: grado ponderado del nodo.</li>
+<li>G: grado no ponderado del nodo.</li>
+<li>C: índice de cercanía del nodo.</li>
+<li>I: índice de intermediación del nodo.</li>
+<li>IG: influencia esperada del nodo.</li>
+<li>WS: coeficiente de conglomeración de <a href="https://doi.org/10.1038/30918">Watts y Strogatz (1998)</a>.</li>
+</ul></li>
+<li><p><a href="tab/est.g.full.csv">est.g.full.csv</a>: esta tabla contiene los estadísticos globales para cada uno de los conglomerados observados en los datos. Las columnas de la tabla significan lo siguiente:</p>
+<ul>
+<li>cluster: se refiere al conglomerado observado en los datos.</li>
+<li>E: indica el número de enlaces presentes en la red no dirigida.</li>
+<li>D: indica la densidad de enlaces en la red no dirigida.</li>
+<li>T: es el estadístico de transitvidad o conglomeración global de la red no dirigida.</li>
+</ul></li>
+<li><p><a href="tab/esta.rda.g.txt">esta.rda.g.txt</a>: este archivo de texto contiene los estadísticos descriptivos básicos de las redes dirigidas acíclicas creadas para cada uno de los conglomerados observados en los datos utilizando todos los ítems de la escala DASS-21.</p></li>
 </ul>
 </div>
 <div id="figuras" class="section level2">
@@ -444,6 +474,11 @@ pre code {
 <li><p><a href="fig/clust.pdf">clust.pdf</a>: este archivo contiene las figuras utilizadas para determinar el número de clusters en la muestra usando el método de Hubert (primera página del documento) y el índice D (segunda página del documeto).</p></li>
 <li><p><a href="fig/puntos.pdf">puntos.pdf</a>: este archivo contiene gráficos de puntos para los clusters encontrados y para cada una de las escalas y subescalas utiliadas en este estudio.</p></li>
 <li><p><a href="fig/rnd.pdf">rnd.pdf</a>: este archivo contiene los grafos no dirigidos para cada una de las dimensiones del DASS-21 en función de cada uno de los conglomerados extraídos de los datos. El grosor de los enlaces es proporcional a la fuerza de asociación estimada para cada par de variables.</p></li>
+<li><p><a href="fig/rda.pdf">rda.pdf</a>: este documento contiene los grafos dirigidos acíclicos para cada una de las dimensiones del DASS-21 en función de cada uno de los conglomerados extraídos de los datos.</p></li>
+</ul>
+<p>-<a href="fig/rnd.g.pdf">rnd.g.pdf</a>: este archivo incluye los grafos no dirigidos para cada uno de los conglomerados observados en los datos utilizando todos los ítems de la escala DASS-21.</p>
+<ul>
+<li><a href="fig/rda.g.pdf">rda.g.pdf</a>: este archivo contiene los grafos dirigidos acíclicos para cada uno de los conglomerados observados en los datos utilizando todos los ítems de la escala DASS-21.</li>
 </ul>
 </div>
 <div id="funciones" class="section level2">
@@ -458,7 +493,9 @@ pre code {
 <div id="archivos-de-parámetros" class="section level2">
 <h2>Archivos de parámetros</h2>
 <ul>
-<li><a href="par/par.rnd.R">par.rnd.R</a>: este archivo contiene los parámetros fijos de estimación para las redes no dirigidas.</li>
+<li><p><a href="par/par.rnd.R">par.rnd.R</a>: este archivo contiene los parámetros fijos de estimación para las redes no dirigidas.</p></li>
+<li><p><a href="par/par_rda.R">par_rda.R</a>: este archivo contiene los parámetros fijos de estimación para las redes dirigidas acíclicas.</p></li>
+<li><p><a href="par/par.rtotal.R">par.rtotal.R</a>: este archivo contiene los parámetros fijos de estimación para las redes no dirigidas y dirigidas acíclicas que se estiman con todos los ítems de la escala DASS-21.</p></li>
 </ul>
 </div>
 </div>
@@ -481,6 +518,7 @@ pre code {
 <li><p>Kolaczyk, E. D., y Csárdi, G. (2014). <em>Statistical analysis of network data with R</em>. Springer. <a href="https://doi.org/10.1007/978-3-030-44129-6" class="uri">https://doi.org/10.1007/978-3-030-44129-6</a></p></li>
 <li><p>León, O. G., y Montero, I. (2003). <em>Métodos de investigación en psicología y educación</em>. McGraw Hill.</p></li>
 <li><p>Lovibond, P. F., y Lovibond, S. H. (1995). The structure of negative emotional states: Comparison of the Depression Anxiety Stress Scales (DASS) with the Beck Depression and Anxiety Inventories. <em>Behaviour Research and Therapy, 33</em>(3), 335-343. <a href="https://doi.org/10.1016/0005-7967(94)00075-U" class="uri">https://doi.org/10.1016/0005-7967(94)00075-U</a></p></li>
+<li><p>Scutari, M. (2010). Learning bayesian networks with the bnlearn R package. <em>Journal of Statistical Software, 35</em>(3), 1–22. <a href="https://doi.org/10.18637/jss.v035.i03" class="uri">https://doi.org/10.18637/jss.v035.i03</a></p></li>
 <li><p>Watts, D., y Strogatz, S. (1998, 4 de Junio). Collective dynamics of ‘small-world’ networks. <em>Nature 393</em>(6684), 440–442. <a href="https://doi.org/10.1038/30918" class="uri">https://doi.org/10.1038/30918</a></p></li>
 </ul>
 </div>

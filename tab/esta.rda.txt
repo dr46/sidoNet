@@ -1,0 +1,102 @@
+[1] "------ MODELO: Ansiedad - conglomerado 1 ------"
+
+  Random/Generated Bayesian network
+
+  model:
+   [a3][a4][a6][a7][a2|a6][a5|a4:a7][a1|a2] 
+  nodes:                                 7 
+  arcs:                                  4 
+    undirected arcs:                     0 
+    directed arcs:                       4 
+  average markov blanket size:           1.43 
+  average neighbourhood size:            1.14 
+  average branching factor:              0.57 
+
+  generation algorithm:                  Model Averaging 
+  significance threshold:                0.65 
+
+[1] "------ MODELO: ansiedad - conglomerado 2 ------"
+
+  Random/Generated Bayesian network
+
+  model:
+   [a1][a6][a7][a3|a7][a4|a7][a5|a4:a7][a2|a5:a6] 
+  nodes:                                 7 
+  arcs:                                  6 
+    undirected arcs:                     0 
+    directed arcs:                       6 
+  average markov blanket size:           2.00 
+  average neighbourhood size:            1.71 
+  average branching factor:              0.86 
+
+  generation algorithm:                  Model Averaging 
+  significance threshold:                0.65 
+
+[1] "------ MODELO: depresión - conglomerado 1 ------"
+
+  Random/Generated Bayesian network
+
+  model:
+   [d1][d2][d4][d5][d7][d3|d7][d6|d7] 
+  nodes:                                 7 
+  arcs:                                  2 
+    undirected arcs:                     0 
+    directed arcs:                       2 
+  average markov blanket size:           0.57 
+  average neighbourhood size:            0.57 
+  average branching factor:              0.29 
+
+  generation algorithm:                  Model Averaging 
+  significance threshold:                0.65 
+
+[1] "------ MODELO: depresión - conglomerado 2 ------"
+
+  Random/Generated Bayesian network
+
+  model:
+   [d4][d6][d2|d6][d5|d4][d7|d6][d1|d5:d6][d3|d7] 
+  nodes:                                 7 
+  arcs:                                  6 
+    undirected arcs:                     0 
+    directed arcs:                       6 
+  average markov blanket size:           2.00 
+  average neighbourhood size:            1.71 
+  average branching factor:              0.86 
+
+  generation algorithm:                  Model Averaging 
+  significance threshold:                0.65 
+
+[1] "------ MODELO: estrés - conglomerado 1 ------"
+
+  Random/Generated Bayesian network
+
+  model:
+   [e4][e5][e6][e7][e1|e5][e2|e7][e3|e4:e5] 
+  nodes:                                 7 
+  arcs:                                  4 
+    undirected arcs:                     0 
+    directed arcs:                       4 
+  average markov blanket size:           1.43 
+  average neighbourhood size:            1.14 
+  average branching factor:              0.57 
+
+  generation algorithm:                  Model Averaging 
+  significance threshold:                0.65 
+
+[1] "------ MODELO: estrés - conglomerado 2 ------"
+
+  Random/Generated Bayesian network
+
+  model:
+   [e5][e6][e7][e1|e5][e2|e7][e3|e7][e4|e3:e6] 
+  nodes:                                 7 
+  arcs:                                  5 
+    undirected arcs:                     0 
+    directed arcs:                       5 
+  average markov blanket size:           1.71 
+  average neighbourhood size:            1.43 
+  average branching factor:              0.71 
+
+  generation algorithm:                  Model Averaging 
+  significance threshold:                0.65 
+

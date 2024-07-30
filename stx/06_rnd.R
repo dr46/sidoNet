@@ -24,6 +24,15 @@ an.2 <- rnd[which(rnd$co == 2), c(4, 6, 9, 11, 17, 21, 22)]
 de.1 <- rnd[which(rnd$co == 1) ,c(5, 7, 12, 15, 18, 19, 23)]
 de.2 <- rnd[which(rnd$co == 2) ,c(5, 7, 12, 15, 18, 19, 23)]
 
+# Salvando base de datos intermedias
+write.csv(an.1, "dat/an.1.csv", row.names = F)
+write.csv(an.2, "dat/an.2.csv", row.names = F)
+write.csv(de.1, "dat/de.1.csv", row.names = F)
+write.csv(de.2, "dat/de.2.csv", row.names = F)
+write.csv(es.1, "dat/es.1.csv", row.names = F)
+write.csv(es.2, "dat/es.2.csv", row.names = F)
+
+
 # Red de ansiedad para el conglomerado 1
 
 g.an.1 <- qgraph(cor(an.1), layout = "spring", 
