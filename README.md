@@ -254,7 +254,7 @@ Este proyecto contiene un conjunto de carpetas en las que se organizan los archi
   - G: grado no ponderado del nodo.
   - C: índice de cercanía del nodo.
   - I: índice de intermediación del nodo.
-  - IG: influencia esperada del nodo.
+  - IE: influencia esperada del nodo.
   - WS: coeficiente de conglomeración de [Watts y Strogatz (1998)](https://doi.org/10.1038/30918).
 
 - [est.g.csv](tab/est.g.csv): esta tabla contiene estadísticos globales para las redes no dirigidas estimadas. Esta tabla contiene cinco columnas cuyo significado es el siguiente:
@@ -273,7 +273,7 @@ Este proyecto contiene un conjunto de carpetas en las que se organizan los archi
   - G: grado no ponderado del nodo.
   - C: índice de cercanía del nodo.
   - I: índice de intermediación del nodo.
-  - IG: influencia esperada del nodo.
+  - IE: influencia esperada del nodo.
   - WS: coeficiente de conglomeración de [Watts y Strogatz (1998)](https://doi.org/10.1038/30918).
   
 - [est.g.full.csv](tab/est.g.full.csv): esta tabla contiene los estadísticos globales para cada uno de los conglomerados observados en los datos. Las columnas de la tabla significan lo siguiente:
