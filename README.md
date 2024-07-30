@@ -1,9 +1,9 @@
 ---
 title: 'sidoNet: Sindrome de Desgaste Ocupacional Docente modelado con grafos'
 output:
-  pdf_document: default
-  word_document: default
   html_document: default
+  word_document: default
+  pdf_document: default
 ---
 
 [Ana María Ruiz-Ruano García](https://orcid.org/0000-0002-7260-0588), [Javier Rodríguez Fragoso](https://www.psicofrago.com/), [Francisco José Moya-Faz](https://orcid.org/0000-0002-5832-4900), [Enrique Javier Garcés de los Fayos Ruiz](https://orcid.org/0000-0002-9850-1385), y [Jorge López Puga](https://orcid.org/0000-0003-0693-0092)
@@ -299,7 +299,7 @@ Este proyecto contiene un conjunto de carpetas en las que se organizan los archi
 
 - [rda.pdf](fig/rda.pdf): este documento contiene los grafos dirigidos acíclicos para cada una de las dimensiones del DASS-21 en función de cada uno de los conglomerados extraídos de los datos.
 
--[rnd.g.pdf](fig/rnd.g.pdf): este archivo incluye los grafos no dirigidos para cada uno de los conglomerados observados en los datos utilizando todos los ítems de la escala DASS-21.
+- [rnd.g.pdf](fig/rnd.g.pdf): este archivo incluye los grafos no dirigidos para cada uno de los conglomerados observados en los datos utilizando todos los ítems de la escala DASS-21.
 
 - [rda.g.pdf](fig/rda.g.pdf): este archivo contiene los grafos dirigidos acíclicos para cada uno de los conglomerados observados en los datos utilizando todos los ítems de la escala DASS-21.
 
