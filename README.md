@@ -345,7 +345,7 @@ Se detectaron casos con valores atípicos que fueron tratados consecuentemente e
 
 - Kolaczyk, E. D., y Csárdi, G. (2014). *Statistical analysis of network data with R*. Springer. https://doi.org/10.1007/978-3-030-44129-6
 
-- León, O. G., y Montero, I. (2003). *Métodos de investigación en psicología y educación*. McGraw Hill.
+- León, O. G., y Montero, I. (2003). *Métodos de investigación en psicología y educación* (3ª ed.). McGraw Hill.
 
 - Lovibond, P. F., y Lovibond, S. H. (1995). The structure of negative emotional states: Comparison of the Depression Anxiety Stress Scales (DASS) with the Beck Depression and Anxiety Inventories. *Behaviour Research and Therapy, 33*(3), 335-343. https://doi.org/10.1016/0005-7967(94)00075-U
 
