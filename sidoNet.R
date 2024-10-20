@@ -61,3 +61,8 @@ read.csv("tab/l.c1.csv", sep = ";", dec = ",") # Estadísticos locales para cong
 read.csv("tab/l.c2.csv", sep = ";", dec = ",") # Estadísticos locales para conglomerado 2
 read.csv("tab/est.g.full.csv", sep = ";", dec = ",") # Estadísticos globales por redes
 # cat(readLines("tab/esta.rda.g.txt", encoding = "UTF-8"), sep = "\n") # Modelos de red
+
+source("stx/09_narrativ.R", echo = T, skip = 12, encoding = "UTF-8")
+
+
+read.csv("dat/sido.csv")
