@@ -1,14 +1,12 @@
 ---
 title: 'sidoNet: Sindrome de Desgaste Ocupacional Docente modelado con grafos'
 output:
-  pdf_document: default
-  word_document: default
   html_document: default
+  word_document: default
+  pdf_document: default
 ---
 
-<!--
-[Ana María Ruiz-Ruano García](https://orcid.org/0000-0002-7260-0588), [Javier Rodríguez Fragoso](https://www.psicofrago.com/), [Francisco José Moya-Faz](https://orcid.org/0000-0002-5832-4900), [Enrique Javier Garcés de los Fayos Ruiz](https://orcid.org/0000-0002-9850-1385), y [Jorge López Puga](https://orcid.org/0000-0003-0693-0092) 
--->
+
 
 # Introducción
 
