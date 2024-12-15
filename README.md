@@ -1,8 +1,8 @@
 ---
 title: 'sidoNet: Sindrome de Desgaste Ocupacional Docente modelado con grafos'
 output:
-  html_document: default
   word_document: default
+  html_document: default
   pdf_document: default
 ---
 
@@ -10,7 +10,7 @@ output:
 
 # Introducción
 
-Este proyecto contiene los archivos de datos, el código y las figuras generadas para el artículo titulado Redes de Síntomas en Docentes que Sufren Síndrome de Desgaste Ocupacional (*Symptoms Networks in Teachers Suffering from Burnout*) y que ha sido remitido a la revista [Psicología Educativa](https://journals.copmadrid.org/psed/) para su revisión por pares. Contiene la misma información que la que está contenida en el archivo [README.pdf](README.pdf).
+Este proyecto contiene los archivos de datos, el código y las figuras generadas para el artículo titulado "Symptoms Networks in Teachers Suffering from Burnout" (*Redes de Síntomas en Docentes que Sufren Síndrome de Desgaste Ocupacional*) y que ha sido remitido a la revista [Psychology, Society & Education](https://journals.uco.es/index.php/psye) para su revisión por pares. Contiene la misma información que la que está contenida en el archivo [README.pdf](README.pdf).
 
 Este proyecto se encuentra alojado en la *Open Science Framework* (OSF) en la web https://osf.io/4cbsz/ y en GitHub en la web https://github.com/dr46/sidoNet. **Advertencia:** nótese que los hipervínculos que contiene este documento y el archivo [README.pdf](README.pdf) están referidos a la versión del proyecto disponible en GitHub. Por tanto, para navegar por el conjunto de archivos contenidos en este proyecto se recomienda utilizar la versión web del proyecto disponible en GitHub. Ha de hacerse notar, también, que las webs principales de GitHub y de la OSF no estarán activas durante el proceso de revisión ciego por pares. Por ello, se ha habilitado un enlace anonimizado en la OSF cuya dirección web es: https://osf.io/4cbsz/?view_only=c05cf7d0f9af4123b16116ae5428d91f. **Se hace notar** también que para generar los archivos .csv que contienen tablas se ha usado tanto el punto y coma (habitual en algunas hojas de cálculo configuradas para la lengua española con el objetivo de que la separación de columnas no se confunda con el delimitador decimal) como la coma (más común en entornos en los que se usa el punto como delimitador decimal). Por ello, es posible que algunas tablas se vean en formato de texto plano en GitHub mientras que deberían verse en formato tabulado en la OSF. También se hace notar que tildes del español pueden no verse correctamente en la web de la OSF. Sin embargo, las tildes son legibles perfectamente en las páginas de GitHub.
 
