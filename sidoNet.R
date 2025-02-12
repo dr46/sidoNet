@@ -19,6 +19,7 @@ read.csv("tab/edin.csv")
 # dicho archivo y que están almacenados en la carpeta "tab" (archivo "fiabiil.csv").
 ### source("stx/03_fiabil.R")
 read.csv2("tab/fiabil.csv")
+load("tab/oh.RData"); print(oh.cesqt$result$omega); print(oh.d21$result$omega)
 
 # Análisis de conglomerados.
 source("stx/04_cluster.R", encoding = "UTF-8")

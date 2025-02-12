@@ -1,8 +1,8 @@
 ---
 title: 'sidoNet: Sindrome de Desgaste Ocupacional Docente modelado con grafos'
 output:
-  word_document: default
   html_document: default
+  word_document: default
   pdf_document: default
 ---
 
@@ -149,7 +149,9 @@ Este proyecto contiene un conjunto de carpetas en las que se organizan los archi
 
 - [02_demo.R](stx/02_demo.R): este archivo ejecuta el análisis de las características sociodemográficas de la muestra del estudio. Este archivo genera las tablas [t.frec.csv](tab/t.frec.csv) y [edin.csv](tab/edin.csv) que son simultáneamente proyectadas en la consola de R. Este archivo también produce las figuras [edad.pdf](fig/edad.pdf) y [imf.pdf](fig/imf.pdf).
 
-- [03_fiabil.R](stx/03_fiabil.R): este archivo estima los coeficientes de fiabilidad ($\omega$ de McDonald y $\alpha$ de Cronbach) y sus intervalos de confianza utilizando técnicas de remuestreo aleatorio (1000 muestras en todos los casos) de los datos muestrales. Este archivo genera la tabla [fiabil.csv](tab/fiabil.csv) que se almacena en la carpeta *tab*. **Atención:** ejecutar el archivo de código [03_fiabil.R](stx/03_fiabil.R) puede consumir una gran cantidad de recursos y de tiempo. El tiempo empleado para ejecutar las computaciones dependerá de lo recursos del ordenador en que se ejecute el comando correspondiente. Es por ello por lo que la línea de código que desencadena los análisis de fiabilidad ha sido comentada en el archivo maestro del proyecto ([sidoNet.R](sidoNet.R)). En su lugar, se ha optado por introducir la línea de código que permite recuperar los resultados ([fiabil.csv](tab/fiabil.csv)) que produce dicho archivo y que están almacenados en la carpeta *tab*. **Se hace notar**, también, que para ejecutar este archivo es necesario cargar el paquete "MBESS" ([Kelley, 2021](https://CRAN.R-project.org/package=MBESS)). Si el paquete no está instalado, se producirán errores y la computación se interrumpirá.
+- [03_fiabil.R](stx/03_fiabil.R): este archivo estima los coeficientes de fiabilidad ($\omega$ de McDonald y $\alpha$ de Cronbach) y sus intervalos de confianza utilizando técnicas de remuestreo aleatorio (1000 muestras en todos los casos) de los datos muestrales. Este archivo genera la tabla [fiabil.csv](tab/fiabil.csv) que se almacena en la carpeta *tab*. 
+**Atención:** ejecutar el archivo de código [03_fiabil.R](stx/03_fiabil.R) puede consumir una gran cantidad de recursos y de tiempo. El tiempo empleado para ejecutar las computaciones dependerá de lo recursos del ordenador en que se ejecute el comando correspondiente. Es por ello por lo que la línea de código que desencadena los análisis de fiabilidad ha sido comentada en el archivo maestro del proyecto ([sidoNet.R](sidoNet.R)). En su lugar, se ha optado por introducir la línea de código que permite recuperar los resultados ([fiabil.csv](tab/fiabil.csv)) que produce dicho archivo y que están almacenados en la carpeta *tab*. **Se hace notar**, también, que para ejecutar este archivo es necesario cargar el paquete "MBESS" ([Kelley, 2021](https://CRAN.R-project.org/package=MBESS)). Si el paquete no está instalado, se producirán errores y la computación se interrumpirá.
+A lo largo del proceso de revisión ciega por pares una de las personas que revisió el artículo sugirió que se calculase el estadístico $\omega$ jerárquico con sus correspondientes intervalos de confianza al 95%. Para calcular estos estadísticos sugeridos se utilizó el paquete "misty" [(Yanagida, 2025)](https://CRAN.R-project.org/package=misty). Como consecuencia de este nuevo análisis de datos se genero el archivo [oh.RData](tab/oh.RData).
 
 - [04_cluster.R](stx/04_cluster.R): este archivo estima el número de conglomerados que hay en los datos y el vector que asocia a cada participante con cada uno de los conglomerados. Este archivo de código usa el paquete "NbClust" ([Charrad et al., 2014](https://doi.org/10.18637/jss.v061.i06)). Si el paquete no está instalado, se producirán errores y la computación se interrumpirá. Este archivo también produce los gráficos contenidos en el archivo [clust.pdf](fig/clust.pdf) e imprime el resumen del análisis (en inglés) así como el tamaño de los conglomerados encontrados en la consola de R. Por último, este archivo de código genera la tabla de datos [co.csv](dat/co.csv) que se almacena en la carpeta *dat* y que contiene la pertenencia a cada conglomerado para cada participante.
 
@@ -220,6 +222,8 @@ Este proyecto contiene un conjunto de carpetas en las que se organizan los archi
   - cesqt.in: subescala de indolencia de la escala CESQT-PA.
   - cesqt.cu: subescala de culpa de la escala CESQT-PA.
   - cesqt.de: subescala de desgaste psicológico de la escala CESQT-PA.
+  
+- [oh.RData](tab/oh.RData): este archivo es una lista de R que contiene dos objetos (uno para los ítems de la escala DASS-21 y otro para los ítems del test CESQT) producidos por la función item.omega() del paquete misty [(Yanagida, 2025)](https://CRAN.R-project.org/package=misty).
 
 - [comp.csv](tab/comp.csv): esta tabla compara los conglomerados encontrados en las variables cuantitativas del estudio. El significado de sus columnas es el siguiente:
   - m.1: media del cluster número 1.

@@ -60,6 +60,7 @@ if (window.hljs) {
 
 
 
+
 <style type="text/css">
 .main-container {
   max-width: 940px;
@@ -81,6 +82,9 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
 pre code {
   padding: 0;
 }
@@ -100,8 +104,8 @@ pre code {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -109,16 +113,9 @@ pre code {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -322,7 +319,7 @@ pre code {
 <li><p><a href="sidoNet.R">sidoNet.R</a>: es el archivo de código maestro del proyecto. Desde este archivo se van ejecutando el resto de los archivos de código del proyecto.</p></li>
 <li><p><a href="stx/01_muestra.R">01_muestra.R</a>: este archivo realiza estimaciones del tamaño nuestral teniendo en cuenta los posibles conglomerados de docentes latentes y teniendo en cuenta el tamaño de los estratos poblacionales estudiados. Genera las tablas <a href="tab/muestra.conglomerados.csv">muestra.conglomerados.csv</a> y <a href="tab/muestra.estratificada.csv">muestra.estratificada.csv</a>.</p></li>
 <li><p><a href="stx/02_demo.R">02_demo.R</a>: este archivo ejecuta el análisis de las características sociodemográficas de la muestra del estudio. Este archivo genera las tablas <a href="tab/t.frec.csv">t.frec.csv</a> y <a href="tab/edin.csv">edin.csv</a> que son simultáneamente proyectadas en la consola de R. Este archivo también produce las figuras <a href="fig/edad.pdf">edad.pdf</a> y <a href="fig/imf.pdf">imf.pdf</a>.</p></li>
-<li><p><a href="stx/03_fiabil.R">03_fiabil.R</a>: este archivo estima los coeficientes de fiabilidad (<span class="math inline">\(\omega\)</span> de McDonald y <span class="math inline">\(\alpha\)</span> de Cronbach) y sus intervalos de confianza utilizando técnicas de remuestreo aleatorio (1000 muestras en todos los casos) de los datos muestrales. Este archivo genera la tabla <a href="tab/fiabil.csv">fiabil.csv</a> que se almacena en la carpeta <em>tab</em>. <strong>Atención:</strong> ejecutar el archivo de código <a href="stx/03_fiabil.R">03_fiabil.R</a> puede consumir una gran cantidad de recursos y de tiempo. El tiempo empleado para ejecutar las computaciones dependerá de lo recursos del ordenador en que se ejecute el comando correspondiente. Es por ello por lo que la línea de código que desencadena los análisis de fiabilidad ha sido comentada en el archivo maestro del proyecto (<a href="sidoNet.R">sidoNet.R</a>). En su lugar, se ha optado por introducir la línea de código que permite recuperar los resultados (<a href="tab/fiabil.csv">fiabil.csv</a>) que produce dicho archivo y que están almacenados en la carpeta <em>tab</em>. <strong>Se hace notar</strong>, también, que para ejecutar este archivo es necesario cargar el paquete “MBESS” (<a href="https://CRAN.R-project.org/package=MBESS">Kelley, 2021</a>). Si el paquete no está instalado, se producirán errores y la computación se interrumpirá.</p></li>
+<li><p><a href="stx/03_fiabil.R">03_fiabil.R</a>: este archivo estima los coeficientes de fiabilidad (<span class="math inline">\(\omega\)</span> de McDonald y <span class="math inline">\(\alpha\)</span> de Cronbach) y sus intervalos de confianza utilizando técnicas de remuestreo aleatorio (1000 muestras en todos los casos) de los datos muestrales. Este archivo genera la tabla <a href="tab/fiabil.csv">fiabil.csv</a> que se almacena en la carpeta <em>tab</em>. <strong>Atención:</strong> ejecutar el archivo de código <a href="stx/03_fiabil.R">03_fiabil.R</a> puede consumir una gran cantidad de recursos y de tiempo. El tiempo empleado para ejecutar las computaciones dependerá de lo recursos del ordenador en que se ejecute el comando correspondiente. Es por ello por lo que la línea de código que desencadena los análisis de fiabilidad ha sido comentada en el archivo maestro del proyecto (<a href="sidoNet.R">sidoNet.R</a>). En su lugar, se ha optado por introducir la línea de código que permite recuperar los resultados (<a href="tab/fiabil.csv">fiabil.csv</a>) que produce dicho archivo y que están almacenados en la carpeta <em>tab</em>. <strong>Se hace notar</strong>, también, que para ejecutar este archivo es necesario cargar el paquete “MBESS” (<a href="https://CRAN.R-project.org/package=MBESS">Kelley, 2021</a>). Si el paquete no está instalado, se producirán errores y la computación se interrumpirá. A lo largo del proceso de revisión ciega por pares una de las personas que revisió el artículo sugirió que se calculase el estadístico <span class="math inline">\(\omega\)</span> jerárquico con sus correspondientes intervalos de confianza al 95%. Para calcular estos estadísticos sugeridos se utilizó el paquete “misty” <a href="https://CRAN.R-project.org/package=misty">(Yanagida, 2025)</a>. Como consecuencia de este nuevo análisis de datos se genero el archivo <a href="tab/oh.RData">oh.RData</a>.</p></li>
 <li><p><a href="stx/04_cluster.R">04_cluster.R</a>: este archivo estima el número de conglomerados que hay en los datos y el vector que asocia a cada participante con cada uno de los conglomerados. Este archivo de código usa el paquete “NbClust” (<a href="https://doi.org/10.18637/jss.v061.i06">Charrad et al., 2014</a>). Si el paquete no está instalado, se producirán errores y la computación se interrumpirá. Este archivo también produce los gráficos contenidos en el archivo <a href="fig/clust.pdf">clust.pdf</a> e imprime el resumen del análisis (en inglés) así como el tamaño de los conglomerados encontrados en la consola de R. Por último, este archivo de código genera la tabla de datos <a href="dat/co.csv">co.csv</a> que se almacena en la carpeta <em>dat</em> y que contiene la pertenencia a cada conglomerado para cada participante.</p></li>
 <li><p><a href="stx/05_escon.R">05_escon.R</a>: este archivo estudia las diferencias que se observan en las variables registradas en el estudio en función de la pertenencia a los clusters observados en los datos. Para que funcione correctamente deben estar instalados los paquetes “effectsize” (<a href="https://doi.org/10.21105/joss.02815">Ben-Shachar et al., 2020</a>) y “rcompanion” (<a href="https://CRAN.R-project.org/package=rcompanion/">Mangiafico, 2024</a>) porque son requeridos al ejecutar el archivo de código. Este archivo de código genera la base de datos intermedia <a href="dat/sido.csv">sido.csv</a> que se almacena en la carpeta <em>dat</em>. También produce las tablas <a href="tab/comp.csv">comp.csv</a> y <a href="tab/tj.csv">tj.csv</a> que se almacenan en la carpeta <em>tab</em>. Y, por último, este archivo de código produce el archivo <a href="fig/puntos.pdf">puntos.pdf</a> que contiene gráficos para comparar cómo se comportan los clusters identificados en los datos en las escalas y subescalas utilizadas en el estudio.</p></li>
 <li><p><a href="stx/06_rnd.R">06_rnd.R</a>: este archivo de código genera y analiza las redes de síntomas para cada una de las dimensiones de la escala DASS-21 de <a href="https://doi.org/10.1016/0005-7967(94)00075-U">Lovibond y Lovibond (1995)</a>. Para ejecutar esta línea de código es necesario tener instalados los paquetes “qgraph” (<a href="https://doi.org/10.18637/jss.v048.i04">Epskamp et al, 2012</a>) y “igraph” (<a href="https://doi.org/10.1007/978-3-030-44129-6">Kolaczyk y Csárdi, 2014</a>). Ese archivo estima las redes que se representan en las figuras del archivo <a href="fig/rnd.pdf">rnd.pdf</a>. También genera un conjunto de tablas que contienen los estadísticos locales (relativos a cada uno de los nodos de la red) para cada una de las redes estimadas (<a href="tab/al.1">al.1</a>, <a href="tab/al.2">al.2</a>, <a href="tab/el.1">el.1</a>, <a href="tab/el.2">el.2</a>, <a href="tab/dl.1">dl.1</a>, y <a href="tab/dl.2">dl.2</a>) así como la tabla <a href="tab/est.g.csv">est.g.csv</a> que contiene estadísticos globales para cada una de las redes. El script que se ejecuta con esta línea de código también genera las bases de datos <a href="dat/an.1">an.1</a>, <a href="dat/an.2">an.2</a>, <a href="dat/de.1">de.1</a>, <a href="dat/de.2">de.2</a>, <a href="dat/es.1">es.1</a> y <a href="dat/es.2">es.2</a> que contienen las puntuaciones de los ítems de las dimensiones del DASS-21 segmentadas por conglomerado.</p></li>
@@ -395,6 +392,7 @@ pre code {
 <li>cesqt.cu: subescala de culpa de la escala CESQT-PA.</li>
 <li>cesqt.de: subescala de desgaste psicológico de la escala CESQT-PA.</li>
 </ul></li>
+<li><p><a href="tab/oh.RData">oh.RData</a>: este archivo es una lista de R que contiene dos objetos (uno para los ítems de la escala DASS-21 y otro para los ítems del test CESQT) producidos por la función item.omega() del paquete misty <a href="https://CRAN.R-project.org/package=misty">(Yanagida, 2025)</a>.</p></li>
 <li><p><a href="tab/comp.csv">comp.csv</a>: esta tabla compara los conglomerados encontrados en las variables cuantitativas del estudio. El significado de sus columnas es el siguiente:</p>
 <ul>
 <li>m.1: media del cluster número 1.</li>

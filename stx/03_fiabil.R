@@ -1,9 +1,17 @@
 # 03_fiabil.R
 
 library(MBESS)
+library(misty)
 
 d21 <- read.csv("dat/d21.csv", sep=";")
 cesqt <- read.csv("dat/cesqt.csv", sep=";")
+
+# Fiabilidad global de la escala DASS-21 basada en omega jerárquico.
+set.seed(46)
+oh.d21 <- item.omega(d21[,-1], type = "hierarch")
+
+
+
 
 # Fiabilidad del DASS-21
 
@@ -42,6 +50,10 @@ cesqt$il2 <- 4-cesqt$il2
 cesqt$il3 <- 4-cesqt$il3
 cesqt$il4 <- 4-cesqt$il4
 cesqt$il5 <- 4-cesqt$il5
+
+# Fiabilidad global de la escala CESQT basada en omega jerárquico.
+set.seed(46)
+oh.cesqt <- item.omega(cesqt[,-1], type = "hierarch")
 
 set.seed(66)
 f.o.cesqt <- ci.reliability(cesqt[,-1], type = "omega", interval.type = "perc", B = 1000)
@@ -103,6 +115,7 @@ mt[9,] <- fval(f.o.cesqt.de, f.a.cesqt.de)
 write.table(mt, file = "tab/fiabil.csv", sep = ";", dec = ",", 
             row.names = T, col.names = NA)
 
+save(oh.cesqt, oh.d21, file = "tab/oh.RData")
 
 rm(list=ls())
 .rs.restartR()
