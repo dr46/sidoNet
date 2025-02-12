@@ -1,21 +1,7 @@
 # 01_muestra.R -- Cálculo del tamaño muestral necesario para el estudio
 
+
 # PRIMER CRITERIO DE REFERENCIA
-# Considerando el tamaño de personas incluidas en los conglomerados latentes en la población
-
-c2 <- power.anova.test(groups = 2, power = .8, sig.level = 0.05, between.var = 1, within.var = 6)
-c3 <- power.anova.test(groups = 3, power = .8, sig.level = 0.05, between.var = 1, within.var = 6)
-c4 <- power.anova.test(groups = 4, power = .8, sig.level = 0.05, between.var = 1, within.var = 6)
-c5 <- power.anova.test(groups = 5, power = .8, sig.level = 0.05, between.var = 1, within.var = 6)
-
-nn <- c(c2$n, c3$n, c4$n, c5$n)
-muestra.conglomerados <- data.frame(conglomerados.latentes = 2:5, 
-           tamanyo.conglomerado = nn, 
-           muestra.total.estimada = nn*2:5)
-
-write.csv(muestra.conglomerados, "tab/muestra.conglomerados.csv")
-
-# SEGUNDO CRITERIO DE REFERENCIA
 # Considerando un muestreo estratificado con afijación proporcional al cuerpo docente
 # y teniendo en cuenta el tamaño muestral por estratos.
 
@@ -43,6 +29,25 @@ me <- round(pp * n.max,0) # Tamaño muestral estimado para el estrato.
 muestra.estratificada <- cbind(ex.cuer, as, pp, me)
 
 write.csv(muestra.estratificada, "tab/muestra.estratificada.csv")
+
+
+# SEGUNDO (COMPLEMENTARIO) CRITERIO DE REFERENCIA
+# Considerando el tamaño de personas incluidas en los conglomerados latentes en la población
+
+c2 <- power.anova.test(groups = 2, power = .8, sig.level = 0.05, between.var = 1, within.var = 6)
+c3 <- power.anova.test(groups = 3, power = .8, sig.level = 0.05, between.var = 1, within.var = 6)
+c4 <- power.anova.test(groups = 4, power = .8, sig.level = 0.05, between.var = 1, within.var = 6)
+c5 <- power.anova.test(groups = 5, power = .8, sig.level = 0.05, between.var = 1, within.var = 6)
+
+nn <- c(c2$n, c3$n, c4$n, c5$n)
+muestra.conglomerados <- data.frame(conglomerados.latentes = 2:5, 
+           tamanyo.conglomerado = nn, 
+           muestra.total.estimada = nn*2:5)
+
+write.csv(muestra.conglomerados, "tab/muestra.conglomerados.csv")
+
+
+
 
 rm(list =ls())
 

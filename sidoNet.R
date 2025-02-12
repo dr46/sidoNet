@@ -4,6 +4,7 @@
 
 # Estimación de tamaño muestral por potencia estadística y estratos.
 source("stx/01_muestra.R")
+read.csv("tab/muestra.estratificada.csv")
 
 # Descripción sociodemográfica de la muestra.
 source("stx/02_demo.R", encoding = "UTF-8")

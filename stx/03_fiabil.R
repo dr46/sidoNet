@@ -10,9 +10,6 @@ cesqt <- read.csv("dat/cesqt.csv", sep=";")
 set.seed(46)
 oh.d21 <- item.omega(d21[,-1], type = "hierarch")
 
-
-
-
 # Fiabilidad del DASS-21
 
 set.seed(66)
